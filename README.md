@@ -1,6 +1,185 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
-<html b:version='2' class='v2' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'><meta content='Aleo&apos;s Tube adalah vlog harian anak rantau dari pedalaman Kalimantan. Berbagi keseharian, pengalaman kerja di perkebunan sawit, dan kisah inspiratif dari perantauan.' name='description'/>
+<html b:version='2' class='v2' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+  <head>
+    <!-- ============================================= -->
+<!-- 🌐 ALEO&#8217;S TUBE &#8212; SEO + ANALYTICS INTEGRATION -->
+<!-- ============================================= -->
+
+<meta charset='UTF-8'/>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'/>
+<meta content='Aleo’s Tube Daily Vlog Anak Rantau' name='title'/>
+<meta content='Aleo’s Tube Daily Vlog Anak Rantau — vlog keseharian anak rantau yang berbagi cerita, hiburan, dan peluang bisnis online melalui konten inspiratif dan promosi afiliasi.' name='description'/>
+<meta content='Aleo’s Tube' name='author'/>
+<meta content='Aleo’s Tube, vlog anak rantau, vlog harian, vlog Indonesia, promosi afiliasi, bisnis online, cerita perantauan, hiburan, daily vlog, blogger Indonesia' name='keywords'/>
+
+<!-- 🟦 Open Graph -->
+<meta content='website' property='og:type'/>
+<meta content='Aleo’s Tube Daily Vlog Anak Rantau' property='og:title'/>
+<meta content='Berbagi kisah anak rantau, hiburan ringan, dan peluang bisnis afiliasi yang inspiratif.' property='og:description'/>
+<meta content='https://aleos-tube-daily-vlog-anak-rantau.blogspot.com/' property='og:url'/>
+<meta content='https://your-image-link.jpg' property='og:image'/> <!-- ganti dengan thumbnail -->
+
+<!-- 🐦 Twitter Card -->
+<meta content='summary_large_image' name='twitter:card'/>
+<meta content='Aleo’s Tube Daily Vlog Anak Rantau' name='twitter:title'/>
+<meta content='Cerita dan hiburan anak rantau, serta peluang bisnis afiliasi online.' name='twitter:description'/>
+<meta content='https://your-image-link.jpg' name='twitter:image'/>
+
+<!-- 🔍 JSON-LD Schema -->
+<script type='application/ld+json'>
+{
+  &quot;@context&quot;: &quot;https://schema.org&quot;,
+  &quot;@type&quot;: &quot;Blog&quot;,
+  &quot;name&quot;: &quot;Aleo&#8217;s Tube Daily Vlog Anak Rantau&quot;,
+  &quot;url&quot;: &quot;https://aleos-tube-daily-vlog-anak-rantau.blogspot.com/&quot;,
+  &quot;author&quot;: {
+    &quot;@type&quot;: &quot;Person&quot;,
+    &quot;name&quot;: &quot;Aleo&#8217;s Tube&quot;
+  },
+  &quot;description&quot;: &quot;Vlog keseharian anak rantau yang berbagi cerita, hiburan, dan peluang bisnis afiliasi online.&quot;,
+  &quot;inLanguage&quot;: &quot;id-ID&quot;,
+  &quot;publisher&quot;: {
+    &quot;@type&quot;: &quot;Organization&quot;,
+    &quot;name&quot;: &quot;Aleo&#8217;s Tube&quot;,
+    &quot;logo&quot;: {
+      &quot;@type&quot;: &quot;ImageObject&quot;,
+      &quot;url&quot;: &quot;https://your-logo-link.png&quot;
+    }
+  }
+}
+</script>
+
+<!-- ============================================= -->
+<!-- 📊 GOOGLE ANALYTICS 4 -->
+<!-- ============================================= -->
+<script async='async' src='https://www.googletagmanager.com/gtag/js?id=G-71BR09BJ1R'/>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag(&#39;js&#39;, new Date());
+  gtag(&#39;config&#39;, &#39;G-71BR09BJ1R&#39;);
+</script>
+<!-- =========================================================
+🤖 ALEO'S TUBE SEO MAX v9.9 &#8212; AUTO DYNAMIC META BOOSTER (FIXED XML)
+========================================================= -->
+<b:if cond='data:blog.pageType == &quot;index&quot;'>
+  <!-- 🏠 Homepage Meta -->
+  <title><data:blog.title/></title>
+  <meta content='Selamat datang di Aleo’s Tube — vlog inspiratif anak rantau yang penuh semangat, kisah nyata, dan motivasi hidup setiap hari.' name='description'/>
+  <meta content='Aleo’s Tube — Daily Vlog Anak Rantau &amp; Inspirasi Hidup' property='og:title'/>
+  <meta content='Kisah perjuangan dan harapan anak rantau. Saksikan vlog terbaru dari Aleo’s Tube.' property='og:description'/>
+  <meta expr:content='data:blog.url' property='og:url'/>
+  <meta content='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-your-cover-image.webp' property='og:image'/>
+  <meta content='website' property='og:type'/>
+  <meta content='summary_large_image' name='twitter:card'/>
+  <meta content='Aleo’s Tube — Daily Vlog Anak Rantau &amp; Inspirasi Hidup' name='twitter:title'/>
+  <meta content='Kisah inspiratif anak rantau, motivasi, dan perjalanan hidup.' name='twitter:description'/>
+  <meta content='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-your-cover-image.webp' name='twitter:image'/>
+</b:if>
+
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+  <!-- 📄 Single Post Meta -->
+  <title><data:post.title/> &#8212; <data:blog.title/></title>
+  <meta expr:content='data:post.snippet' name='description'/>
+  <meta expr:content='data:post.author.name' name='author'/>
+  <meta content='article' property='og:type'/>
+  <meta expr:content='data:post.title' property='og:title'/>
+  <meta expr:content='data:post.snippet' property='og:description'/>
+  <meta expr:content='data:post.url' property='og:url'/>
+  <meta expr:content='data:post.featuredImage.url' property='og:image'/>
+  <meta content='summary_large_image' name='twitter:card'/>
+  <meta expr:content='data:post.title' name='twitter:title'/>
+  <meta expr:content='data:post.snippet' name='twitter:description'/>
+  <meta expr:content='data:post.featuredImage.url' name='twitter:image'/>
+
+  <!-- 📚 Schema.org JSON-LD Auto -->
+  <script type='application/ld+json'>
+  {
+    &quot;@context&quot;: &quot;https://schema.org&quot;,
+    &quot;@type&quot;: &quot;BlogPosting&quot;,
+    &quot;mainEntityOfPage&quot;: {
+      &quot;@type&quot;: &quot;WebPage&quot;,
+      &quot;@id&quot;: &quot;<data:post.url/>&quot;
+    },
+    &quot;headline&quot;: &quot;<data:post.title.escaped/>&quot;,
+    &quot;description&quot;: &quot;<data:post.snippet.escaped/>&quot;,
+    &quot;image&quot;: &quot;<data:post.featuredImage.url/>&quot;,
+    &quot;author&quot;: {
+      &quot;@type&quot;: &quot;Person&quot;,
+      &quot;name&quot;: &quot;<data:post.author.name/>&quot;
+    },
+    &quot;publisher&quot;: {
+      &quot;@type&quot;: &quot;Organization&quot;,
+      &quot;name&quot;: &quot;Aleo&#8217;s Tube&quot;,
+      &quot;logo&quot;: {
+        &quot;@type&quot;: &quot;ImageObject&quot;,
+        &quot;url&quot;: &quot;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-your-logo.webp&quot;
+      }
+    },
+    &quot;datePublished&quot;: &quot;<data:post.timestamp.iso8601/>&quot;,
+    &quot;dateModified&quot;: &quot;<data:post.lastUpdated.iso8601/>&quot;
+  }
+  </script>
+</b:if>
+
+<b:if cond='data:blog.pageType == &quot;static_page&quot;'>
+  <!-- 📜 Static Page Meta -->
+  <title><data:post.title/> &#8212; <data:blog.title/></title>
+  <meta expr:content='data:post.snippet' name='description'/>
+  <meta content='article' property='og:type'/>
+  <meta expr:content='data:post.title' property='og:title'/>
+  <meta expr:content='data:post.snippet' property='og:description'/>
+  <meta expr:content='data:post.url' property='og:url'/>
+  <meta content='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-your-cover-image.webp' property='og:image'/>
+</b:if>
+
+<b:if cond='data:blog.pageType == &quot;archive&quot;'>
+  <!-- 🗂&#65039; Archive / Label Page -->
+  <title>Arsip: <data:blog.pageTitle/> &#8212; <data:blog.title/></title>
+  <meta content='noindex,follow' name='robots'/>
+</b:if>
+
+<b:if cond='data:blog.pageType == &quot;error_page&quot;'>
+  <!-- 🚫 404 Error Page -->
+  <title>Halaman Tidak Ditemukan &#8212; <data:blog.title/></title>
+  <meta content='noindex,follow' name='robots'/>
+</b:if>
+
+<!-- =========================================================
+💡 Tips:
+- Simpan di dalam <head> sebelum </head>
+- Pastikan ganti URL logo & cover image sesuai gambar blog kamu.
+- Uji hasil di https://search.google.com/test/rich-results
+========================================================= -->
+
+<!-- ============================================= -->
+<!-- 🔵 META PIXEL CODE (SAFE FOR BLOGGER) -->
+<!-- ============================================= -->
+<b:if cond='data:blog.pageType != &quot;preview&quot;'>
+<script type='text/javascript'>
+//<![CDATA[
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '943661851197731');
+fbq('track', 'PageView');
+//]]>
+</script>
+<noscript>
+  <img height='1' src='https://www.facebook.com/tr?id=943661851197731&amp;ev=PageView&amp;noscript=1' style='display:none' width='1'/>
+</noscript>
+</b:if>
+<!-- ============================================= -->
+<!-- &#9989; END SEO + ANALYTICS INTEGRATION -->
+<!-- ============================================= -->
+
+  <meta content='Aleo&apos;s Tube adalah vlog harian anak rantau dari pedalaman Kalimantan. Berbagi keseharian, pengalaman kerja di perkebunan sawit, dan kisah inspiratif dari perantauan.' name='description'/>
 <!-- Google Tag Manager -->
 <script>
 (function(w,d,s,l,i){
@@ -31,13 +210,13 @@
 <!-- End Google Tag Manager -->
 <b:if cond='data:blog.isMobileRequest == &quot;false&quot;'>
   <!-- Google tag (gtag.js) -->
-  <script async='async' src='https://www.googletagmanager.com/gtag/js?id=G-F88C5N70PT'/>
+  <script async='async' src='https://www.googletagmanager.com/gtag/js?id=G-2F6SD6VRNM'/>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag(&#39;js&#39;, new Date());
 
-    gtag(&#39;config&#39;, &#39;G-F88C5N70PT&#39;);
+    gtag(&#39;config&#39;, &#39;G-2F6SD6VRNM&#39;);
   </script>
 </b:if>
 <!-- Google Tag Manager -->
@@ -47,8 +226,534 @@ j=d.createElement(s),dl=l!=&#39;dataLayer&#39;?&#39;&amp;l=&#39;+l:&#39;&#39;;j.
 &#39;https://www.googletagmanager.com/gtm.js?id=GTM-5M37D25X&#39;+dl;f.parentNode.insertBefore(j,f);
 })(window,document,&#39;script&#39;,&#39;dataLayer&#39;,&#39;GTM-WR546M4D&#39;);</script>
 <!-- End Google Tag Manager -->
+<script async='async' src='https://imgbb.com/upload.js'/><!-- Auto Lazy Load IMG & VIDEO for Blogger -->
+<style>
+  /* Efek blur sebelum gambar muncul */
+  img[data-src] {
+    filter: blur(8px);
+    transition: filter 0.3s ease-in-out;
+  }
+  img.lazyloaded {
+    filter: blur(0);
+  }
+
+  /* Responsive iframe (YouTube/Video) */
+  .video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+    overflow: hidden;
+  }
+  .video-container iframe,
+  .video-container video {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>
+
+<script>
+document.addEventListener(&quot;DOMContentLoaded&quot;, function() {
+  // === Auto Lazy Load untuk IMG ===
+  let imgs = document.querySelectorAll(&quot;img&quot;);
+  imgs.forEach(img =&gt; {
+    if (img.hasAttribute(&quot;src&quot;)) {
+      img.setAttribute(&quot;data-src&quot;, img.getAttribute(&quot;src&quot;));
+      img.removeAttribute(&quot;src&quot;);
+    }
+  });
+
+  let lazyImages = [].slice.call(document.querySelectorAll(&quot;img[data-src]&quot;));
+  if (&quot;IntersectionObserver&quot; in window) {
+    let lazyImageObserver = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          let lazyImage = entry.target;
+          lazyImage.src = lazyImage.dataset.src;
+          lazyImage.classList.add(&quot;lazyloaded&quot;);
+          lazyImageObserver.unobserve(lazyImage);
+        }
+      });
+    });
+    lazyImages.forEach(function(lazyImage) {
+      lazyImageObserver.observe(lazyImage);
+    });
+  }
+
+  // === Auto Lazy Load untuk iframe (YouTube / Video) ===
+  let iframes = document.querySelectorAll(&quot;iframe&quot;);
+  iframes.forEach(iframe =&gt; {
+    if (iframe.hasAttribute(&quot;src&quot;)) {
+      iframe.setAttribute(&quot;data-src&quot;, iframe.getAttribute(&quot;src&quot;));
+      iframe.removeAttribute(&quot;src&quot;);
+    }
+  });
+
+  const lazyIframes = document.querySelectorAll(&quot;iframe[data-src]&quot;);
+  if (&quot;IntersectionObserver&quot; in window) {
+    let iframeObserver = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          let lazyIframe = entry.target;
+          lazyIframe.src = lazyIframe.dataset.src;
+          iframeObserver.unobserve(lazyIframe);
+        }
+      });
+    });
+    lazyIframes.forEach(function(lazyIframe) {
+      iframeObserver.observe(lazyIframe);
+    });
+  }
+});
+</script>
+    <meta content='Akdxkd6UOpPuTJGNwRgYs8a-hO_77_YOJk4E46iEK9o' name='google-site-verification'/>
+    <script type='text/javascript'>
+//<![CDATA[
+   // <!-- 🌌✨ ALEO’S TUBE BLOG BOOSTER FINAL + INTERACTIVE MOUSE PARTICLES -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+html { scroll-behavior: smooth; }
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  transition: background 0.6s, color 0.6s;
+  overflow-x: hidden;
+}
+img, iframe { max-width: 100%; height: auto; display: block; border-radius: 10px; }
+
+/* Pesan sambutan */
+#welcome-message {
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255,255,255,0.9);
+  backdrop-filter: blur(10px);
+  padding: 20px 40px;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: center;
+  color: #333;
+  opacity: 0;
+  z-index: 9999;
+  animation: fadeInOut 8s ease-in-out forwards;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: translate(-50%, -60%); }
+  15% { opacity: 1; transform: translate(-50%, -50%); }
+  85% { opacity: 1; transform: translate(-50%, -50%); }
+  100% { opacity: 0; transform: translate(-50%, -40%); }
+}
+
+/* Mode siang/malam */
+:root { --bg: #fefefe; --text: #222; }
+body.dark-mode { --bg: #080d1a; --text: #f0f0f0; }
+body.dark-mode #welcome-message { background: rgba(20,20,30,0.8); color: #fafafa; }
+
+/* Canvas bintang (di belakang) */
+#starfield { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -3; background: transparent; }
+
+/* Canvas partikel (di atas bintang, namun di bawah konten) */
+#particle-canvas { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -2; pointer-events: none; }
+
+/* Tombol Musik */
+#music-control {
+  position: fixed; right: 14px; bottom: 14px;
+  width: 48px; height: 48px; border-radius: 12px;
+  background: rgba(0,0,0,0.6); color: #fff; display: grid; place-items: center;
+  z-index: 10000; box-shadow: 0 6px 18px rgba(0,0,0,0.25); cursor: pointer;
+  backdrop-filter: blur(6px); transition: transform .15s ease, opacity .2s; opacity: .9;
+}
+#music-control:hover { transform: scale(1.06); opacity: 1; }
+#music-control[data-state="off"] { background: rgba(0,0,0,0.45); }
+#music-control svg { width: 22px; height: 22px; pointer-events: none; }
+#music-control.hidden { display: none; }
+</style>
+
+<canvas id="starfield"></canvas>
+<canvas id="particle-canvas"></canvas>
+<div id="music-control" title="Musik Latar (klik untuk hidup/mati)">
+  <svg id="music-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M5 3v18l15-9L5 3z" />
+  </svg>
+</div>
+
+<!-- Google Translate (hidden) -->
+<div id="google_translate_element" style="display:none;"></div>
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<script>
+// ========== OPTIMASI KECEPATAN ==========
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll("img, iframe").forEach(el => { if(!el.loading) el.loading = "lazy"; });
+  setTimeout(() => {
+    document.querySelectorAll("script, link[rel='stylesheet']").forEach(el => {
+      if (el.src?.includes("ads") || el.href?.includes("ads") || el.href?.includes("tracking")) el.remove();
+    });
+  }, 3000);
+});
+
+// ========== GOOGLE TRANSLATE AUTO ==========
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({ pageLanguage: 'id', autoDisplay: false }, 'google_translate_element');
+}
+window.addEventListener('load', () => {
+  const userLang = (navigator.language || 'id').split('-')[0];
+  const setLang = () => {
+    const frame = document.querySelector('.goog-te-combo');
+    if (frame) { frame.value = userLang; frame.dispatchEvent(new Event('change')); }
+    else setTimeout(setLang, 500);
+  };
+  setTimeout(setLang, 1800);
+});
+
+// ========== DARK MODE OTOMATIS ==========
+(function(){ const hour = new Date().getHours(); if(hour >= 18 || hour < 6) document.body.classList.add("dark-mode"); })();
+</script>
+
+<script>
+// ========== STARFIELD (RINGAN) ==========
+const starCanvas = document.getElementById("starfield");
+const sCtx = starCanvas.getContext("2d");
+let sStars = [];
+function resizeStar() {
+  starCanvas.width = innerWidth; starCanvas.height = innerHeight;
+  const count = Math.min(140, Math.floor((innerWidth * innerHeight) / 7000)); // scale with screen
+  sStars = Array.from({length: count}, () => ({
+    x: Math.random()*starCanvas.width,
+    y: Math.random()*starCanvas.height,
+    r: Math.random()*1.8,
+    v: 0.15 + Math.random()*0.6
+  }));
+}
+function drawStarfield() {
+  sCtx.clearRect(0,0,starCanvas.width, starCanvas.height);
+  sCtx.fillStyle = "#fff";
+  sStars.forEach(s => {
+    sCtx.globalAlpha = 0.4 + Math.random()*0.6;
+    sCtx.beginPath(); sCtx.arc(s.x, s.y, s.r, 0, Math.PI*2); sCtx.fill();
+    s.y += s.v; if(s.y > starCanvas.height) s.y = 0;
+  });
+  requestAnimationFrame(drawStarfield);
+}
+resizeStar(); drawStarfield(); addEventListener("resize", resizeStar);
+</script>
+
+<script>
+// ========== INTERACTIVE PARTICLES FOLLOW MOUSE (LIGHTWEIGHT) ==========
+(function(){
+  const perf = navigator.deviceMemory ? navigator.deviceMemory : 4;
+  const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  // disable on low-memory or prefers-reduced-motion
+  if(perf <= 1.5 || reducedMotion) return;
+
+  const canvas = document.getElementById("particle-canvas");
+  const ctx = canvas.getContext("2d");
+  let W = canvas.width = innerWidth;
+  let H = canvas.height = innerHeight;
+  let particles = [];
+  const MAX = 60; // cap particle count
+
+  function resize() { W = canvas.width = innerWidth; H = canvas.height = innerHeight; }
+  addEventListener('resize', resize);
+
+  // particle prototype
+  function Particle(x,y){
+    this.x = x; this.y = y;
+    this.vx = (Math.random()-0.5)*0.6; this.vy = (Math.random()-0.5)*0.6;
+    this.life = 40 + Math.random()*40;
+    this.size = 0.8 + Math.random()*1.8;
+    this.hue = 200 + Math.random()*55; // bluish
+  }
+  Particle.prototype.update = function(){
+    this.x += this.vx; this.y += this.vy;
+    this.vx *= 0.98; this.vy *= 0.98;
+    this.life -= 1;
+  };
+  Particle.prototype.draw = function(){
+    ctx.beginPath();
+    ctx.globalAlpha = Math.max(0, this.life/80);
+    ctx.fillStyle = `hsla(${this.hue}, 80%, ${ (this.hue>230?65:55) }%, 1)`;
+    ctx.arc(this.x, this.y, this.size, 0, Math.PI*2);
+    ctx.fill();
+  };
+
+  // create burst near pointer
+  function spawn(x,y,amount=6){
+    for(let i=0;i<amount;i++){
+      if(particles.length >= MAX) break;
+      particles.push(new Particle(x + (Math.random()-0.5)*12, y + (Math.random()-0.5)*12));
+    }
+  }
+
+  // follow pointer with throttling
+  let last = 0;
+  addEventListener('pointermove', (e) => {
+    const now = performance.now();
+    if(now - last > 40){ // ~25fps spawn
+      spawn(e.clientX, e.clientY, 6);
+      last = now;
+    }
+  }, {passive:true});
+
+  // gentle trail on click/tap
+  addEventListener('pointerdown', (e) => spawn(e.clientX, e.clientY, 18), {passive:true});
+
+  // animation loop
+  function loop(){
+    ctx.clearRect(0,0,W,H);
+    for(let i=particles.length-1;i>=0;i--){
+      const p = particles[i];
+      p.update(); p.draw();
+      if(p.life <= 0) particles.splice(i,1);
+    }
+    // subtle connection lines (very lightweight and rare)
+    if(particles.length > 6){
+      ctx.beginPath();
+      for(let i=0;i<particles.length;i++){
+        const p = particles[i];
+        if(i % 6 === 0) ctx.moveTo(p.x, p.y);
+        else ctx.lineTo(p.x, p.y);
+      }
+      ctx.globalAlpha = 0.02;
+      ctx.strokeStyle = "white"; ctx.stroke();
+    }
+    requestAnimationFrame(loop);
+  }
+  loop();
+})();
+</script>
+
+<script>
+// ========== WELCOME VOICE + ANIMATED TEXT ==========
+window.addEventListener('load', () => {
+  const userLang = (navigator.language || 'id').split('-')[0];
+  const messages = {
+    id: "Selamat Datang Tuan-tuan,Nyonya dan nona-nona yang baik hati, jangan lupa ikuti blog saya ya trima kasiiih!.",
+    en: "Welcome kind gentlemen and ladies, please don't forget to follow my blog.",
+    es: "Bienvenidos amables damas y caballeros, no olviden seguir mi blog.",
+    fr: "Bienvenue chers dames et messieurs, n'oubliez pas de suivre mon blog.",
+    de: "Willkommen meine Damen und Herren, vergessen Sie nicht, meinem Blog zu folgen.",
+    ja: "ご親切な皆様、私のブログをフォローするのをお忘れなく。",
+    zh: "亲爱的先生女士们，欢迎光临，请记得关注我的博客。",
+    ko: "친절한 신사 숙녀 여러분, 제 블로그를 팔로우하는 것을 잊지 마세요."
+  };
+  const greeting = messages[userLang] || messages.id;
+
+  const msgBox = document.createElement("div");
+  msgBox.id = "welcome-message";
+  msgBox.innerText = greeting;
+  document.body.appendChild(msgBox);
+
+  // ding
+  try {
+    const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    const o = audioCtx.createOscillator(), g = audioCtx.createGain();
+    o.type = "sine"; o.frequency.setValueAtTime(880, audioCtx.currentTime);
+    g.gain.setValueAtTime(0.05, audioCtx.currentTime);
+    o.connect(g); g.connect(audioCtx.destination);
+    o.start(); o.stop(audioCtx.currentTime + 0.28);
+  } catch(e){ /* ignore audio failure */ }
+
+  // speak
+  setTimeout(() => {
+    try {
+      const synth = window.speechSynthesis;
+      const utter = new SpeechSynthesisUtterance(greeting);
+      utter.lang = userLang + "-" + userLang.toUpperCase();
+      utter.pitch = 1; utter.rate = 1; utter.volume = 1;
+      synth.speak(utter);
+    } catch(e){}
+  }, 2500);
+
+  // remove box after animation
+  setTimeout(()=> msgBox.remove(), 8000);
+});
+</script>
+
+<script>
+// ========== LIGHT AMBIENT MUSIC (WebAudio) + CONTROL ==========
+(function(){
+  const KEY = 'aleo_music_pref';
+  const control = document.getElementById('music-control');
+  const icon = document.getElementById('music-icon');
+  let audioCtx, masterGain, oscA, oscB, lpf;
+  let playing = false;
+
+  const createAudio = () => {
+    audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    masterGain = audioCtx.createGain(); masterGain.gain.value = 0.0001; masterGain.connect(audioCtx.destination);
+    lpf = audioCtx.createBiquadFilter(); lpf.type = 'lowpass'; lpf.frequency.value = 1200; lpf.connect(masterGain);
+    oscA = audioCtx.createOscillator(); oscB = audioCtx.createOscillator();
+    oscA.type = 'sine'; oscB.type = 'sine'; oscA.frequency.value = 220; oscB.frequency.value = 220; oscB.detune.value = 5;
+    const gA = audioCtx.createGain(), gB = audioCtx.createGain(); gA.gain.value = 0.5; gB.gain.value = 0.45;
+    oscA.connect(gA); oscB.connect(gB); gA.connect(lpf); gB.connect(lpf);
+    const lfo = audioCtx.createOscillator(), lfoGain = audioCtx.createGain();
+    lfo.type = 'sine'; lfo.frequency.value = 0.05; lfoGain.gain.value = 300;
+    lfo.connect(lfoGain); lfoGain.connect(lpf.frequency);
+    oscA.start(); oscB.start(); lfo.start();
+  };
+
+  const fadeTo = (target, time=1.8) => {
+    if(!masterGain) return;
+    const now = audioCtx.currentTime;
+    masterGain.gain.cancelScheduledValues(now);
+    masterGain.gain.setValueAtTime(masterGain.gain.value, now);
+    masterGain.gain.exponentialRampToValueAtTime(Math.max(target, 0.00001), now + time);
+  };
+
+  const setPlayIcon = (play) => {
+    icon.innerHTML = play
+      ? '<rect x="6" y="5" width="4" height="14" rx="1"></rect><rect x="14" y="5" width="4" height="14" rx="1"></rect>'
+      : '<path d="M5 3v18l15-9L5 3z" />';
+  };
+
+  const startMusic = () => {
+    if(playing) return;
+    try {
+      if(!audioCtx) createAudio();
+      audioCtx.resume().then(() => {
+        fadeTo(0.03, 2.5); playing = true; control.dataset.state = 'on'; setPlayIcon(true); localStorage.setItem(KEY,'on');
+      }).catch(()=> control.classList.remove('hidden'));
+    } catch(e){ control.classList.remove('hidden'); }
+  };
+
+  const stopMusic = () => {
+    if(!playing) return;
+    fadeTo(0.00001, 1.2);
+    setTimeout(()=> { try{ audioCtx.suspend(); }catch(e){} playing=false; control.dataset.state='off'; setPlayIcon(false); localStorage.setItem(KEY,'off'); }, 1400);
+  };
+
+  control.addEventListener('click', () => playing ? stopMusic() : startMusic());
+
+  window.addEventListener('load', () => {
+    const pref = localStorage.getItem(KEY);
+    control.classList.add('hidden');
+    if(pref === 'on' || pref === null) {
+      try {
+        createAudio();
+        audioCtx.resume().then(()=> { fadeTo(0.03,2.5); playing=true; control.classList.remove('hidden'); setPlayIcon(true); }).catch(()=> control.classList.remove('hidden'));
+      } catch(e){ control.classList.remove('hidden'); }
+    } else {
+      control.classList.remove('hidden'); setPlayIcon(false);
+    }
+  });
+
+  window.addEventListener('pagehide', ()=> { try{ audioCtx && audioCtx.close && audioCtx.close(); }catch(e){} });
+})();
+//]]>
+</script>
+    <!-- Meta Pixel Code (Safe for Blogger) -->
+<b:if cond='data:blog.pageType != &quot;preview&quot;'>
+<script type='text/javascript'>
+//<![CDATA[
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '943661851197731');
+fbq('track', 'PageView');
+//]]>
+</script>
+<noscript>
+  <img height='1' src='https://www.facebook.com/tr?id=943661851197731&amp;ev=PageView&amp;noscript=1' style='display:none' width='1'/>
+</noscript>
+</b:if>
+<!-- End Meta Pixel Code -->
+<!-- &#9989; Open Graph Meta for Facebook & Twitter (Valid XML for Blogger) -->
+<meta content='Aleo’s Tube Daily Vlog Anak Rantau' property='og:title'/>
+<meta content='Kisah dan pengalaman anak rantau setiap hari — vlog inspiratif, tips hidup mandiri, dan cerita seru dari Aleo’s Tube.' property='og:description'/>
+<meta content='https://down-tx-id.img.susercontent.com/id-11134207-81ztm-mfqec3kdf7da2d.webp' property='og:image'/>
+<meta content='https://aleos-tube-daily-vlog-anak-rantau.blogspot.com/' property='og:url'/>
+<meta content='website' property='og:type'/>
+
+<meta content='summary_large_image' name='twitter:card'/>
+<meta content='Aleo’s Tube Daily Vlog Anak Rantau' name='twitter:title'/>
+<meta content='Kisah seru dan inspiratif dari anak rantau — hanya di Aleo’s Tube.' name='twitter:description'/>
+<meta content='https://down-tx-id.img.susercontent.com/id-11134207-81ztm-mfqec3kdf7da2d.webp' name='twitter:image'/>
+<meta content='e6777fd20307132b5c000f195cb92b39' name='p:domain_verify'/>
+</head>
+<head>
+    <!-- 🔗 Open Graph / Facebook / Pinterest -->
+<meta content='article' property='og:type'/>
+<meta content='Terms of Service — Aleo’s Tube Daily Vlog Anak Rantau' property='og:title'/>
+<meta content='Baca Syarat dan Ketentuan penggunaan situs Aleo’s Tube Daily Vlog Anak Rantau sebelum menggunakan layanan kami.' property='og:description'/>
+<meta content='https://aleos-tube-daily-vlog-anak-rantau.blogspot.com/p/terms-of-service.html' property='og:url'/>
+<meta content='Aleo’s Tube Daily Vlog Anak Rantau' property='og:site_name'/>
+<meta content='https://aleos-tube-daily-vlog-anak-rantau.blogspot.com/favicon.ico' property='og:image'/>
+
+<!-- 🖼&#65039; Pinterest -->
+<meta content='true' name='pinterest-rich-pin'/>
+<meta content='https://www.pinterest.com/aleostube/' property='article:publisher'/>
+<meta content='600' property='og:image:width'/>
+<meta content='315' property='og:image:height'/>
+
+<!-- 🐦 Twitter Card -->
+<meta content='summary' name='twitter:card'/>
+<meta content='Terms of Service — Aleo’s Tube Daily Vlog Anak Rantau' name='twitter:title'/>
+<meta content='Ketahui hak dan kewajiban Anda saat menggunakan situs Aleo’s Tube Daily Vlog Anak Rantau.' name='twitter:description'/>
+<meta content='https://aleos-tube-daily-vlog-anak-rantau.blogspot.com/favicon.ico' name='twitter:image'/>
+<!-- 🔗 Open Graph / Facebook / Pinterest -->
+<meta content='article' property='og:type'/>
+<meta content='Privacy Policy — Aleo’s Tube Daily Vlog Anak Rantau' property='og:title'/>
+<meta content='Pelajari cara Aleo’s Tube mengelola data, cookie, dan kebijakan afiliasi untuk menjaga privasi pengguna.' property='og:description'/>
+<meta content='https://aleos-tube-daily-vlog-anak-rantau.blogspot.com/p/privacy-policy.html' property='og:url'/>
+<meta content='Aleo’s Tube Daily Vlog Anak Rantau' property='og:site_name'/>
+<meta content='https://aleos-tube-daily-vlog-anak-rantau.blogspot.com/favicon.ico' property='og:image'/>
+
+<!-- 🖼&#65039; Pinterest -->
+<meta content='true' name='pinterest-rich-pin'/>
+<meta content='https://www.pinterest.com/aleostube/' property='article:publisher'/>
+<meta content='600' property='og:image:width'/>
+<meta content='315' property='og:image:height'/>
+
+<!-- 🐦 Twitter Card -->
+<meta content='summary' name='twitter:card'/>
+<meta content='Privacy Policy — Aleo’s Tube Daily Vlog Anak Rantau' name='twitter:title'/>
+<meta content='Kebijakan privasi dan cookie di Aleo’s Tube Daily Vlog Anak Rantau untuk melindungi pengalaman pengguna.' name='twitter:description'/>
+<meta content='https://aleos-tube-daily-vlog-anak-rantau.blogspot.com/favicon.ico' name='twitter:image'/>
+  </head>
+  
+  <!-- Google Tag Manager -->
+<script>
+  (function(w,d,s,l,i){
+    w[l]=w[l]||[];
+    w[l].push({&#39;gtm.start&#39;: new Date().getTime(), event:&#39;gtm.js&#39;});
+    var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),
+        dl=l!=&#39;dataLayer&#39; ? &#39;&amp;l=&#39;+l : &#39;&#39;;
+    j.async=true;
+    j.src=&#39;https://www.googletagmanager.com/gtm.js?id=&#39;+i+dl+
+      &#39;&amp;gtm_auth=7_SAhutJuvX_5wv88hZpYg&amp;gtm_preview=env-10&amp;gtm_cookies_win=x&#39;;
+    f.parentNode.insertBefore(j,f);
+  })(window,document,&#39;script&#39;,&#39;dataLayer&#39;,&#39;GTM-WR546M4D&#39;);
+</script>
+<!-- End Google Tag Manager -->
 
   <head>
+        <!-- Meta Keywords SEO 5000 kata (dibagi 5 tag) -->
+<meta content='produk digital, afiliasi, vlog inspiratif, Aleo’s Tube Store, tutorial, tips, gadget, software, e-book, kursus online, bisnis digital, internet marketing, AI tools, video inspiratif, teknologi, online shop, dropshipping, cryptocurrency, investasi, tutorial online, affiliate marketing, digital product, blog inspiratif, pemasaran online, panduan bisnis, motivasi, kesehatan digital, financial tips, aplikasi mobile, review produk, video edukasi, platform digital, strategi bisnis, SEO, blogging, penghasilan online, marketing digital, content creator, kursus digital, e-learning, webinar, tools AI gratis, software kreatif, affiliate program, review software, bisnis internet, affiliate marketing 2025, digital marketing tools, online learning, gadget terbaru, strategi affiliate, tips blogging, tips monetisasi, inspirasi harian, investasi digital, e-book gratis, video motivasi, produktivitas, teknologi terbaru, kursus online gratis, tips teknologi, aplikasi produktivitas, software terbaru, bisnis kreatif, video tips, affiliate network, alat digital, penghasilan tambahan, tutorial software, e-commerce, strategi digital, marketing online, ide bisnis, kursus kreatif, digital trend, review gadget, vlogging tips, online business, passive income, tools kreatif, affiliate tips, strategi konten, bisnis afiliasi, AI tutorial, kursus AI, belajar digital marketing, digital tools, penghasilan online cepat, review digital product, tutorial teknologi, teknologi AI, blogging tips, inspirasi bisnis, gadget AI, e-learning platform, online income, kursus kreatif gratis, marketing affiliate, vlogger inspiratif, tools AI canggih, motivasi sukses, teknologi terbaru 2025, aplikasi terbaru' name='keywords'/>
+
+<meta content='video edukasi online, kursus internet marketing, tips kreatif, bisnis online sukses, gadget kreatif, video blogging, digital entrepreneurship, tips bisnis online, affiliate marketing tips, tutorial digital, vlogging online, software kreatif gratis, content marketing, strategi bisnis online, penghasilan digital, digital trend 2025, e-learning kreatif, ide penghasilan, tutorial internet marketing, kursus motivasi, teknologi kreatif, penghasilan internet, affiliate program terbaik, tutorial vlogging, video motivasi harian, kursus AI gratis, strategi content, gadget terbaru 2025, blogging kreatif, tips penghasilan online, tools digital gratis, review internet marketing, kursus digital marketing, video edukasi kreatif, tips affiliate, tutorial bisnis online, strategi AI, kursus online inspiratif, e-book kreatif, teknologi internet, blogging sukses, digital tools terbaru, penghasilan pasif, review e-book, tutorial kreatif, bisnis internet sukses, motivasi digital, tools kreatif gratis, strategi penghasilan online, kursus blogging, tips vlogger, video edukasi AI, affiliate sukses, tutorial AI, penghasilan kreatif, teknologi digital, kursus online AI, tips penghasilan digital, marketing kreatif, digital marketing 2025, ide konten, tutorial kreatif online, review software AI, inspirasi penghasilan, bisnis kreatif online, video inspiratif harian, affiliate kreatif, strategi digital marketing, aplikasi internet marketing, tips online business, kursus kreatif AI, blogging motivasi, penghasilan internet kreatif, teknologi kreatif 2025, video edukasi internet, tutorial digital kreatif, review digital tools, bisnis afiliasi sukses, inspirasi teknologi, tutorial internet kreatif, marketing digital kreatif, kursus online motivasi, penghasilan online kreatif' name='keywords'/>
+
+<meta content='tips blogging kreatif, AI tools internet, vlogger sukses, video edukasi motivasi, kursus kreatif internet, strategi affiliate online, e-book digital kreatif, tools internet marketing, penghasilan pasif kreatif, digital entrepreneurship kreatif, tutorial vlogging AI, blogging kreatif 2025, tips teknologi kreatif, video motivasi digital, kursus AI internet, bisnis online kreatif, review tools digital, tutorial marketing kreatif, video inspiratif internet, affiliate marketing kreatif, kursus online sukses, tips bisnis digital kreatif, teknologi AI kreatif, penghasilan digital kreatif, tutorial kreatif 2025, strategi konten kreatif, blogging motivasi digital, tools AI kreatif, video edukasi digital, kursus internet kreatif, inspirasi blogging, digital marketing kreatif, penghasilan online motivasi, tutorial software kreatif, tips vlogging kreatif, affiliate program kreatif, kursus digital kreatif, video motivasi kreatif, teknologi digital kreatif, review AI tools, bisnis kreatif digital, tutorial kreatif internet, strategi marketing kreatif, kursus online digital, penghasilan kreatif online' name='keywords'/>
+
+<meta content='tutorial kreatif internet, blogging kreatif AI, tips penghasilan digital, kursus online motivasi, video edukasi digital kreatif, strategi affiliate kreatif, kursus digital AI, penghasilan kreatif online, tools kreatif gratis, video inspiratif, affiliate sukses, tutorial AI kreatif, blogging motivasi digital, tips blogging kreatif, kursus kreatif internet, teknologi digital AI, video edukasi internet, marketing digital kreatif, penghasilan online kreatif, strategi konten digital, tutorial vlogging AI, blogging kreatif 2025, tools AI kreatif, video edukasi digital, kursus internet kreatif, inspirasi blogging, digital marketing kreatif, penghasilan online motivasi, tutorial software kreatif, tips vlogging kreatif, affiliate program kreatif, kursus digital kreatif, video motivasi kreatif, teknologi digital kreatif, review AI tools, bisnis kreatif digital, tutorial kreatif internet, strategi marketing kreatif, kursus online digital, penghasilan kreatif online' name='keywords'/>
+
+<meta content='tutorial motivasi kreatif, blogging AI, tips penghasilan online, kursus digital AI, video edukasi digital kreatif, strategi affiliate online, kursus online kreatif, penghasilan pasif online, tools kreatif, video inspiratif motivasi, affiliate marketing sukses, tutorial AI internet, blogging motivasi digital, tips blogging kreatif, kursus kreatif internet, teknologi digital AI, video edukasi internet, marketing digital kreatif, penghasilan online kreatif, strategi konten digital, tutorial vlogging AI, blogging kreatif 2025, tools AI kreatif, video edukasi digital, kursus internet kreatif, inspirasi blogging, digital marketing kreatif, penghasilan online motivasi' name='keywords'/>
+<!--End meta keywords SEO 5000 kata (dibagi 5 tag)-->
 <meta content='Aleo&apos;s Tube, vlog harian, anak rantau, pedalaman Kalimantan, kehidupan di perkebunan sawit, daily vlog sederhana, cerita anak perantauan, vlog Kalimantan, keseharian di sawit, kehidupan pedalaman, inspirasi rantau, vlog Indonesia, cerita perantauan, pengalaman kerja sawit' name='keywords'/>
 <!-- &#9989; Meta dasar -->
 <meta content='Sejarah asal-usul kelapa sawit: dari Afrika Barat hingga berkembang pesat di Indonesia. Fakta, perkembangan, dan dampaknya terhadap ekonomi, lingkungan, serta masyarakat.' name='description'/>
@@ -96,8 +801,37 @@ j=d.createElement(s),dl=l!=&#39;dataLayer&#39;?&#39;&amp;l=&#39;+l:&#39;&#39;;j.
   </b:if>
 </b:if>
 <!-- &#9989; Meta dasar -->
-<meta content='Sejarah asal-usul kelapa sawit: dari Afrika Barat hingga berkembang pesat di Indonesia. Fakta, perkembangan, dan dampaknya terhadap ekonomi, lingkungan, serta masyarakat.' name='description'/></head>
-  
+<meta content='Sejarah asal-usul kelapa sawit: dari Afrika Barat hingga berkembang pesat di Indonesia. Fakta, perkembangan, dan dampaknya terhadap ekonomi, lingkungan, serta masyarakat.' name='description'/>
+  </head>
+  <!-- Google Tag Manager -->
+<script>
+(function(w,d,s,l,i){
+  w[l]=w[l]||[];
+  w[l].push({&#39;gtm.start&#39;: new Date().getTime(), event:&#39;gtm.js&#39;});
+  var f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s),
+      dl = l!=&#39;dataLayer&#39; ? &#39;&amp;l=&#39;+l : &#39;&#39;;
+  j.async = true;
+  j.src = &#39;https://www.googletagmanager.com/gtm.js?id=&#39; + i + dl;
+  f.parentNode.insertBefore(j, f);
+})(window, document, &#39;script&#39;, &#39;dataLayer&#39;, &#39;GTM-MKB9TPDR&#39;);
+</script>
+<!-- End Google Tag Manager -->
+<!-- Google Tag Manager -->
+<script>
+(function(w,d,s,l,i){
+  w[l]=w[l]||[];
+  w[l].push({&#39;gtm.start&#39;: new Date().getTime(), event:&#39;gtm.js&#39;});
+  var f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s),
+      dl = l!=&#39;dataLayer&#39; ? &#39;&amp;l=&#39;+l : &#39;&#39;;
+  j.async = true;
+  j.src = &#39;https://www.googletagmanager.com/gtm.js?id=&#39; + i + dl;
+  f.parentNode.insertBefore(j, f);
+})(window, document, &#39;script&#39;, &#39;dataLayer&#39;, &#39;GTM-MKB9TPDR&#39;);
+</script>
+<!-- End Google Tag Manager -->
+
   <head>
     <meta expr:content='data:blog.isMobile         ? &quot;width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0&quot;         : &quot;width=1100&quot;' name='viewport'/>
     <b:include data='blog' name='all-head-content'/>
@@ -113,7 +847,7 @@ URL:      www.blogger.com
 
 /* Variable definitions
    ====================
-   <Variable name="keycolor" description="Main Color" type="color" default="#1a222a" value="#ff9900"/>
+   <Variable name="keycolor" description="Main Color" type="color" default="#1a222a" value="#f57c00"/>
    <Variable name="body.background" description="Body Background" type="background"
        color="$(body.background.color)" default="#111111 url(//themes.googleusercontent.com/image?id=1OACCYOE0-eoTRTfsBuX1NMN9nz599ufI1Jh0CggPFA_sK80AGkIr8pLtYRpNUKPmwtEa) repeat-x fixed top center" value="#fafafa url(//themes.googleusercontent.com/image?id=1iJBX-a-hBX2tKaDdERpElPUmvb4r5MDX9lEx06AA-UtZIQCYziZg3PFbmOyt-g2sH8Jo) repeat-x fixed top center"/>
 <script>
@@ -139,39 +873,39 @@ URL:      www.blogger.com
 
    <Group description="Page Text" selector="body">
      <Variable name="body.font" description="Font" type="font"
-         default="normal normal 15px Arial, Tahoma, Helvetica, FreeSans, sans-serif" value="normal normal 15px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
-     <Variable name="body.text.color" description="Text Color" type="color" default="#333333" value="#cccccc"/>
+         default="normal normal 15px Arial, Tahoma, Helvetica, FreeSans, sans-serif" value="normal normal 17px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+     <Variable name="body.text.color" description="Text Color" type="color" default="#333333" value="#5f5f5f"/>
    </Group>
 
    <Group description="Backgrounds" selector=".body-fauxcolumns-outer">
-     <Variable name="body.background.color" description="Outer Background" type="color" default="#296695" value="#336699"/>
-     <Variable name="header.background.color" description="Header Background" type="color" default="transparent" value="transparent"/>
-     <Variable name="post.background.color" description="Post Background" type="color" default="#ffffff" value="#1c1c1c"/>
+     <Variable name="body.background.color" description="Outer Background" type="color" default="#296695" value="#b76d32"/>
+     <Variable name="header.background.color" description="Header Background" type="color" default="transparent" value="rgba(90,90,90,0)"/>
+     <Variable name="post.background.color" description="Post Background" type="color" default="#ffffff" value="#ffffff"/>
    </Group>
 
    <Group description="Links" selector=".main-outer">
-     <Variable name="link.color" description="Link Color" type="color" default="#336699" value="#ff9900"/>
-     <Variable name="link.visited.color" description="Visited Color" type="color" default="#6699cc" value="#dd7700"/>
-     <Variable name="link.hover.color" description="Hover Color" type="color" default="#33aaff" value="#ffaa00"/>
+     <Variable name="link.color" description="Link Color" type="color" default="#336699" value="#b67a3d"/>
+     <Variable name="link.visited.color" description="Visited Color" type="color" default="#6699cc" value="#d1a375"/>
+     <Variable name="link.hover.color" description="Hover Color" type="color" default="#33aaff" value="#ff9446"/>
    </Group>
 
    <Group description="Blog Title" selector=".header h1">
      <Variable name="header.font" description="Title Font" type="font"
-         default="normal normal 36px Arial, Tahoma, Helvetica, FreeSans, sans-serif" value="normal normal 48px Georgia, Utopia, &#39;Palatino Linotype&#39;, Palatino, serif"/>
-     <Variable name="header.text.color" description="Text Color" type="color" default="#ffffff"  value="#ffffff"/>
+         default="normal normal 36px Arial, Tahoma, Helvetica, FreeSans, sans-serif" value="normal normal 48px &#39;Times New Roman&#39;, Times, FreeSerif, serif"/>
+     <Variable name="header.text.color" description="Text Color" type="color" default="#ffffff"  value="#a3a3a3"/>
    </Group>
 
    <Group description="Tabs Text" selector=".tabs-inner .widget li a">
      <Variable name="tabs.font" description="Font" type="font"
          default="normal normal 15px Arial, Tahoma, Helvetica, FreeSans, sans-serif" value="normal normal 15px Georgia, Utopia, &#39;Palatino Linotype&#39;, Palatino, serif"/>
-     <Variable name="tabs.text.color" description="Text Color" type="color" default="#ffffff" value="#ff9900"/>
+     <Variable name="tabs.text.color" description="Text Color" type="color" default="#ffffff" value="#327bb7"/>
      <Variable name="tabs.selected.text.color" description="Selected Color" type="color" default="$(link.color)" value="#ffffff"/>
    </Group>
 
    <Group description="Tabs Background" selector=".tabs-outer .PageList">
-     <Variable name="tabs.background.color" description="Background Color" type="color" default="transparent" value="#1c1c1c"/>
-     <Variable name="tabs.selected.background.color" description="Selected Color" type="color" default="transparent" value="#dd7700"/>
-     <Variable name="tabs.separator.color" description="Separator Color" type="color" default="transparent" value="#000000"/>
+     <Variable name="tabs.background.color" description="Background Color" type="color" default="transparent" value="transparent"/>
+     <Variable name="tabs.selected.background.color" description="Selected Color" type="color" default="transparent" value="rgba(90,90,90,0)"/>
+     <Variable name="tabs.separator.color" description="Separator Color" type="color" default="transparent" value="transparent"/>
    </Group>
 
    <Group description="Post Title" selector="h3.post-title, .comments h4">
@@ -184,25 +918,25 @@ URL:      www.blogger.com
    </Group>
 
    <Group description="Post" selector=".post">
-     <Variable name="post.footer.text.color" description="Footer Text Color" type="color" default="#999999" value="#999999"/>
-     <Variable name="post.border.color" description="Border Color" type="color" default="#dddddd" value="transparent"/>
+     <Variable name="post.footer.text.color" description="Footer Text Color" type="color" default="#999999" value="#a3a3a3"/>
+     <Variable name="post.border.color" description="Border Color" type="color" default="#dddddd" value="#e2e2e2"/>
    </Group>
 
    <Group description="Gadgets" selector="h2">
      <Variable name="widget.title.font" description="Title Font" type="font"
         default="bold normal 13px Arial, Tahoma, Helvetica, FreeSans, sans-serif" value="normal normal 18px Georgia, Utopia, &#39;Palatino Linotype&#39;, Palatino, serif"/>
-     <Variable name="widget.title.text.color" description="Title Color" type="color" default="#888888" value="#ffffff"/>
+     <Variable name="widget.title.text.color" description="Title Color" type="color" default="#888888" value="#949494"/>
    </Group>
 
    <Group description="Footer" selector=".footer-outer">
-     <Variable name="footer.text.color" description="Text Color" type="color" default="#cccccc" value="#cccccc"/>
-     <Variable name="footer.widget.title.text.color" description="Gadget Title Color" type="color" default="#aaaaaa" value="#ffffff"/>
+     <Variable name="footer.text.color" description="Text Color" type="color" default="#cccccc" value="#d2d2d2"/>
+     <Variable name="footer.widget.title.text.color" description="Gadget Title Color" type="color" default="#aaaaaa" value="#b2b2b2"/>
    </Group>
 
    <Group description="Footer Links" selector=".footer-outer">
-     <Variable name="footer.link.color" description="Link Color" type="color" default="#99ccee" value="#ff9900"/>
-     <Variable name="footer.link.visited.color" description="Visited Color" type="color" default="#77aaee" value="#dd7700"/>
-     <Variable name="footer.link.hover.color" description="Hover Color" type="color" default="#33aaff" value="#ffaa00"/>
+     <Variable name="footer.link.color" description="Link Color" type="color" default="#99ccee" value="#f0c2a4"/>
+     <Variable name="footer.link.visited.color" description="Visited Color" type="color" default="#77aaee" value="#f0c284"/>
+     <Variable name="footer.link.hover.color" description="Hover Color" type="color" default="#33aaff" value="#ff9446"/>
    </Group>
 
    <Variable name="content.margin" description="Content Margin Top" type="length" default="20px" min="0" max="100px" value="0"/>
@@ -684,9 +1418,9 @@ html .mobile .mobile-date-outer, html .mobile .blog-pager {
  ]]></b:skin>
 
     <b:template-skin>
-      <b:variable default='960px' name='content.width' type='length'/>
-      <b:variable default='0' name='main.column.left.width' type='length'/>
-      <b:variable default='310px' name='main.column.right.width' type='length'/>
+      <b:variable default='960px' name='content.width' type='length' value='700px'/>
+      <b:variable default='100%' name='main.column.left.width' type='length' value='0px'/>
+      <b:variable default='310px' name='main.column.right.width' type='length' value='0px'/>
 
       <![CDATA[
       body {
@@ -915,32 +1649,33 @@ updateClockFooter();
   }
 </style>
 
-<!-- Footer mungil -->
-<footer class='mini-footer'>
-  &#169; 2025 Aleo&#39;s Tube
-</footer>
-
 <!-- Navbar mungil -->
 <div class='mini-nav'>
   <a href='/'><i class='fas fa-home'/>Home</a>
   <a href='/p/about.html'><i class='fas fa-user'/>About</a>
-  <a href='https://www.youtube.com/@Aleostube_Daylivlog_Anakrantau' target='_blank'><i class='fab fa-youtube'/>YT</a>
+  <a href='https://www.youtube.com/@Daily_vlog_anak_rantau' target='_blank'><i class='fab fa-youtube'/>YT</a>
   <a href='/p/contact.html'><i class='fas fa-envelope'/>Kontak</a>
 </div>
-
-<!-- Tombol Subscribe mungil -->
-<a class='mini-subscribe' href='https://www.youtube.com/@Aleostube_Daylivlog_Anakrantau?sub_confirmation=1' target='_blank'>
-  <i class='fab fa-youtube'/> Sub
-</a>
 
 <!-- Google Tag Manager (noscript) -->
 <noscript>
   <iframe height='0' src='https://www.googletagmanager.com/ns.html?id=GTM-T5PTHLRB' style='display:none;visibility:hidden' width='0'/>
+  </noscript>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript>
+  <iframe height='0' src='https://www.googletagmanager.com/ns.html?id=GTM-MKB9TPDR' style='display:none;visibility:hidden' width='0'/>
 </noscript>
 <!-- End Google Tag Manager (noscript) -->
+    <!-- Google Tag Manager (noscript) -->
+<noscript>
+  <iframe height='0' src='https://www.googletagmanager.com/ns.html?id=GTM-WR546M4D&amp;gtm_auth=7_SAhutJuvX_5wv88hZpYg&amp;gtm_preview=env-10&amp;gtm_cookies_win=x' style='display:none;visibility:hidden' width='0'/>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+</body>
   <body expr:class='&quot;loading&quot; + data:blog.mobileClass'>
   <b:section class='navbar' id='navbar' maxwidgets='1' name='Navbar' showaddelement='no'>
-    <b:widget id='Navbar1' locked='true' title='Navbar' type='Navbar'>
+    <b:widget id='Navbar1' locked='false' title='Navbar' type='Navbar'>
       <b:includable id='main'>&lt;script type=&quot;text/javascript&quot;&gt;
     function setAttributeOnload(object, attribute, val) {
       if(window.addEventListener) {
@@ -1031,146 +1766,8 @@ head.appendChild(script);
   <div class='fauxborder-left content-fauxborder-left'>
   <div class='fauxborder-right content-fauxborder-right'/>
   <div class='content-inner'>
-
-    <header>
-    <div class='header-outer'>
-    <div class='header-cap-top cap-top'>
-      <div class='cap-left'/>
-      <div class='cap-right'/>
-    </div>
-    <div class='fauxborder-left header-fauxborder-left'>
-    <div class='fauxborder-right header-fauxborder-right'/>
-    <div class='region-inner header-inner'>
-      <b:section class='header' id='header' maxwidgets='1' name='Header' showaddelement='no'>
-        <b:widget id='Header1' locked='true' title='Aleo&apos;s Tube Dayli Vlog Anak Rantau Indonesia (Header)' type='Header'>
-          <b:widget-settings>
-            <b:widget-setting name='displayUrl'/>
-            <b:widget-setting name='displayHeight'>0</b:widget-setting>
-            <b:widget-setting name='sectionWidth'>752</b:widget-setting>
-            <b:widget-setting name='useImage'>false</b:widget-setting>
-            <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
-            <b:widget-setting name='imagePlacement'>BEHIND</b:widget-setting>
-            <b:widget-setting name='displayWidth'>0</b:widget-setting>
-          </b:widget-settings>
-          <b:includable id='main'>
-
-  <b:if cond='data:useImage'>
-    <b:if cond='data:imagePlacement == &quot;BEHIND&quot;'>
-      <!--
-      Show image as background to text. You can't really calculate the width
-      reliably in JS because margins are not taken into account by any of
-      clientWidth, offsetWidth or scrollWidth, so we don't force a minimum
-      width if the user is using shrink to fit.
-      This results in a margin-width's worth of pixels being cropped. If the
-      user is not using shrink to fit then we expand the header.
-      -->
-      <b:if cond='data:mobile'>
-        <div id='header-inner'>
-          <div class='titlewrapper' style='background: transparent'>
-            <h1 class='title' style='background: transparent; border-width: 0px'>
-              <b:include name='title'/>
-            </h1>
-          </div>
-          <b:include name='description'/>
-        </div>
-      <b:else/>
-        <div expr:style='&quot;background-image: url(\&quot;&quot; + data:sourceUrl + &quot;\&quot;); &quot;                      + &quot;background-position: &quot;                      + data:backgroundPositionStyleStr + &quot;; &quot;                      + data:widthStyleStr                      + &quot;min-height: &quot; + data:height                      + &quot;_height: &quot; + data:height                      + &quot;background-repeat: no-repeat; &quot;' id='header-inner'>
-          <div class='titlewrapper' style='background: transparent'>
-            <h1 class='title' style='background: transparent; border-width: 0px'>
-              <b:include name='title'/>
-            </h1>
-          </div>
-          <b:include name='description'/>
-        </div>
-      </b:if>
-    <b:else/>
-      <!--Show the image only-->
-      <div id='header-inner'>
-        <a expr:href='data:blog.homepageUrl' style='display: block'>
-          <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_headerimg&quot;' expr:src='data:sourceUrl' expr:width='data:width' style='display: block'/>
-        </a>
-        <!--Show the description-->
-        <b:if cond='data:imagePlacement == &quot;BEFORE_DESCRIPTION&quot;'>
-          <b:include name='description'/>
-        </b:if>
-      </div>
-    </b:if>
-  <b:else/>
-    <!--No header image -->
-    <div id='header-inner'>
-      <div class='titlewrapper'>
-        <h1 class='title'>
-          <b:include name='title'/>
-        </h1>
-      </div>
-      <b:include name='description'/>
-    </div>
-  </b:if>
-</b:includable>
-          <b:includable id='description'>
-  <div class='descriptionwrapper'>
-    <p class='description'><span><data:description/></span></p>
-  </div>
-</b:includable>
-          <b:includable id='title'>
-  <b:tag cond='data:blog.url != data:blog.homepageUrl' expr:href='data:blog.homepageUrl' name='a'>
-    <data:title/>
-  </b:tag>
-</b:includable>
-        </b:widget>
-      </b:section>
-    </div>
-    </div>
-    <div class='header-cap-bottom cap-bottom'>
-      <div class='cap-left'/>
-      <div class='cap-right'/>
-    </div>
-    </div>
-    </header>
-
-    <div class='tabs-outer'>
-    <div class='tabs-cap-top cap-top'>
-      <div class='cap-left'/>
-      <div class='cap-right'/>
-    </div>
-    <div class='fauxborder-left tabs-fauxborder-left'>
-    <div class='fauxborder-right tabs-fauxborder-right'/>
-    <div class='region-inner tabs-inner'>
-      <b:section class='tabs' id='crosscol' maxwidgets='1' name='Cross-Column' showaddelement='yes'>
-        <b:widget id='HTML2' locked='false' title='https://x.com/aleostube' type='HTML'>
-          <b:widget-settings>
-            <b:widget-setting name='content'><![CDATA[<!-- Linktree Horizontal Oval dengan Avatar Efek Api + Spark -->
-<div class="linktree-mini">
-  <div class="avatar-fire">
-    <img src="https://ugc.production.linktr.ee/6594230f-65d4-4070-9815-dba010c4b2b9_Aleos-Tube.png?io=true&size=avatar-v3_0" alt="Aleo's Tube" id="avatar" />
-    <div class="flame flame1"></div>
-    <div class="flame flame2"></div>
-    <div class="flame flame3"></div>
-
-   <!-- Sparks -->
-    <span class="spark"></span>
-    <span class="spark"></span>
-    <span class="spark"></span>
-    <span class="spark"></span>
-    <span class="spark"></span>
-  </div>
-
-    <a 
-href="https://wa.me/6281241132129" class="btn btn-wa"><i class="fab fa-whatsap"></i> WA </a>
-    <a href="https://youtube.com/@Aleostube_Daylivlog_Anakrantau" class="btn btn-yt"><i class="fab fa-youtube"></i> YT</a>
-    <a href="https://instagram.com/aleostube_daylivlog_anakrantau" class="btn btn-ig"><i class="fab fa-instagram"></i> IG</a>
-    <a 
-href="https://facebook.com/aleostube" class="btn btn-fb"><i class="fab fa-facebook"></i> FB</a>
-    <a 
-href="https://pinterest.com/aleostube" class="btn btn-pin"><i class="fab fa-pinterest"></i> Pin</a>
-    <a href="https://www.threads.com/@aleostube_daylivlog_anakrantau" class="btn btn-th"><i class="fab fa-threads"></i> 3D</a>
-   <a 
-href="https://x.com/aleostube" class="btn btn-th"><i class="fab fa-x"></i> XT</a>
-  <div class="btn-row">
-</div></div>
-  
-<!-- CSS + Icons -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <header><!-- CSS + Icons -->
+<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css' rel='stylesheet'/>
 <style>
   .linktree-mini {
     text-align: center;
@@ -1266,7 +1863,7 @@ href="https://x.com/aleostube" class="btn btn-th"><i class="fab fa-x"></i> XT</a
     z-index: 1;
   }
   .btn::before {
-    content: "";
+    content: &quot;&quot;;
     position: absolute;
     inset: -2px;
     border-radius: 30px;
@@ -1276,7 +1873,7 @@ href="https://x.com/aleostube" class="btn btn-th"><i class="fab fa-x"></i> XT</a
     z-index: -2;
   }
   .btn::after {
-    content: "";
+    content: &quot;&quot;;
     position: absolute;
     inset: 2px;
     border-radius: 25px;
@@ -1295,7 +1892,646 @@ href="https://x.com/aleostube" class="btn btn-th"><i class="fab fa-x"></i> XT</a
     0% { background-position: 0% 50%; }
     100% { background-position: 100% 50%; }
   }
-</style>]]></b:widget-setting>
+</style>
+<!-- Monyet Sawit Widget - Dengan Pesan Motivasi -->
+<style>
+.aleo-monkey-widget {
+  position: fixed; bottom: 12px; right: 12px; width: 78px; height: 84px;
+  z-index: 99999; cursor: pointer; transition: transform 0.3s;
+}
+.aleo-monkey-widget:hover {transform: scale(1.18) rotate(-10deg);}
+.monkey-body {
+  position: absolute; bottom: 5px; left: 15px; width: 50px; height: 45px;
+  background: #d35400; border-radius: 50% 50% 30% 30% / 60% 60% 40% 40%;
+  border: 3px solid #a0522d; animation: monkeyDance 2s infinite;
+}
+@keyframes monkeyDance {
+  0%,100%{transform:rotate(-3deg) scale(1);}
+  25%{transform:rotate(3deg) scale(1.03);}
+  75%{transform:rotate(-5deg) scale(0.97);}
+}
+.monkey-head {
+  position: absolute; top: 5px; left: 20px; width: 45px; height: 47px;
+  background: #d35400; border-radius: 50% 50% 40% 40% / 65% 65% 35% 35%;
+  border: 3px solid #a0522d; display: flex; align-items: center; justify-content: center;
+  font-size: 25px; animation: headBob 1.5s infinite;
+}
+@keyframes headBob {0%,100%{transform:translateY(0);}50%{transform:translateY(-7px);}}
+.monkey-arms {position: absolute; top: 26px; left: 4px; display: flex; gap: 50px;}
+.monkey-arms .arm {
+  width: 18px; height: 25px; background: #d35400; border: 2px solid #a0522d;
+  border-radius: 50px; transform-origin: top center;
+}
+.monkey-arms .arm.left {animation: armSwing 1.2s infinite;}
+.monkey-arms .arm.right {animation: armSwing 1.2s infinite reverse;}
+@keyframes armSwing {0%,100%{transform:rotate(-20deg);}50%{transform:rotate(25deg);}}
+.coconut {
+  position: absolute; top: -5px; right: 5px; font-size: 15px;
+  animation: coconutSpin 2.5s infinite; color: #8b4513;
+}
+@keyframes coconutSpin {0%,100%{transform:rotate(0deg);}100%{transform:rotate(360deg);}}
+.monkey-speech {
+  position: absolute; right: 85px; bottom: 35px; background: #e74c3c;
+  color: white; border-radius: 20px; font-size: 10px; padding: 7px 12px;
+  font-family: Arial, sans-serif; white-space: nowrap; opacity: 0;
+  transition: opacity 0.4s; box-shadow: 0 3px 15px rgba(231,76,60,0.4);
+  animation: speechWiggle 3s infinite;
+  pointer-events: none;
+}
+@keyframes speechWiggle {0%,100%{transform:rotate(0);}25%{transform:rotate(-2deg);}75%{transform:rotate(2deg);}}
+.monkey-speech:after {
+  content: &#39;&#39;; position: absolute; left: 100%; top: 50%;
+  transform: translateY(-50%); border: 5px solid transparent; border-left-color: #e74c3c;
+}
+.aleo-monkey-widget:hover .monkey-speech {opacity: 1;}
+</style>
+<div class='aleo-monkey-widget' onclick='window.open(&apos;https://www.youtube.com/@Daily_vlog_anak_rantau?sub_confirmation=1&apos;,&apos;_blank&apos;)'>
+  <div class='monkey-body'/>
+  <div class='monkey-head'>🐵</div>
+  <div class='monkey-arms'>
+    <div class='arm left'/>
+    <div class='arm right'/>
+  </div>
+  <div class='banana'>🍌</div>
+  <div class='monkey-speech' id='monkeySpeech'>Ayo nonton vlog aku dong!</div>
+</div>
+<script>
+const monkeyPhrases = {
+  id: [
+    &#39;Ayo nonton vlog aku dong!&#39;,
+    &#39;Subscribe dong!&#39;,
+    &#39;Ikuti petualangan saya di sawit!&#39;,
+    &#39;Jangan lupa like ya Tuan!&#39;,
+    &#39;Tolong bantu aku jadi orang sukses 🙏&#39;
+  ],
+  en: [
+    &#39;Watch my vlogs!&#39;,
+    &#39;Please subscribe!&#39;,
+    &#39;Follow my palm oil adventures!&#39;,
+    &#39;Don\&#39;t forget to like!&#39;,
+    &#39;Please help me become successful 🙏&#39;
+  ],
+  ms: [
+    &#39;Tengok vlog saya!&#39;,
+    &#39;Subscribe lah!&#39;,
+    &#39;Ikut adventure sawit!&#39;,
+    &#39;Jangan lupa like!&#39;,
+    &#39;Tolong bantu saya jadi orang berjaya 🙏&#39;
+  ]
+};
+let phraseIndex = 0;
+const lang = (navigator.language||&#39;id&#39;).split(&#39;-&#39;)[0];
+const phrases = monkeyPhrases[lang] || monkeyPhrases[&#39;id&#39;];
+setInterval(() =&gt; {
+  document.getElementById(&#39;monkeySpeech&#39;).textContent = phrases[phraseIndex];
+  phraseIndex = (phraseIndex + 1) % phrases.length;
+}, 3000);
+</script>
+    </header>
+    <header>
+    <div class='header-outer'>
+    <div class='header-cap-top cap-top'>
+      <div class='cap-left'/>
+      <div class='cap-right'/>
+    </div>
+    <div class='fauxborder-left header-fauxborder-left'>
+    <div class='fauxborder-right header-fauxborder-right'/>
+    <div class='region-inner header-inner'>
+      <b:section class='header' id='header' maxwidgets='1' name='Header' showaddelement='no'>
+        <b:widget id='Header1' locked='false' title='𝔸𝕝𝕖𝕠&apos;𝕤 𝕋𝕦𝕓𝕖 𝔻𝕒𝕚𝕝𝕪 𝕍𝕝𝕠𝕘 𝔸𝕟𝕒𝕜 ℝ𝕒𝕟𝕥𝕒𝕦 𝕀𝕟𝕕𝕠𝕟𝕖𝕤𝕚𝕒 (Header)' type='Header'>
+          <b:widget-settings>
+            <b:widget-setting name='displayUrl'><![CDATA[https://scontent.fbpn1-1.fna.fbcdn.net/v/t39.30808-6/559105231_122149167692730597_2061348022516593216_n.png?stp=dst-png_s960x960&_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeEy9lZiG09qzS9ld147DjQZj1hVJ7TV-tuPWFUntNX62-Yogge5vo12THhfaEURlVNd8Fk3HClOcOXI-LxikJlV&_nc_ohc=YvboTByhQ_sQ7kNvwEct62w&_nc_oc=AdlcNgcJA2o3tgWl6kxEezxgQrRox16dunY7tiwvR75lLeyZS6Qr3n0xoBW9gunoRqI&_nc_zt=23&_nc_ht=scontent.fbpn1-1.fna&_nc_gid=MBu_OsNjXfeTp27pSL4qmQ&oh=00_AfdGtX0ew2G_QtePmVfadgDC2-rY7eyet3yPe7mtyyPlQg&oe=68F4FC15]]></b:widget-setting>
+            <b:widget-setting name='displayHeight'>423</b:widget-setting>
+            <b:widget-setting name='sectionWidth'>752</b:widget-setting>
+            <b:widget-setting name='useImage'>true</b:widget-setting>
+            <b:widget-setting name='shrinkToFit'>true</b:widget-setting>
+            <b:widget-setting name='imagePlacement'>BEFORE_DESCRIPTION</b:widget-setting>
+            <b:widget-setting name='displayWidth'>752</b:widget-setting>
+          </b:widget-settings>
+          <b:includable id='main'>
+
+  <b:if cond='data:useImage'>
+    <b:if cond='data:imagePlacement == &quot;BEHIND&quot;'>
+      <!--
+      Show image as background to text. You can't really calculate the width
+      reliably in JS because margins are not taken into account by any of
+      clientWidth, offsetWidth or scrollWidth, so we don't force a minimum
+      width if the user is using shrink to fit.
+      This results in a margin-width's worth of pixels being cropped. If the
+      user is not using shrink to fit then we expand the header.
+      -->
+      <b:if cond='data:mobile'>
+        <div id='header-inner'>
+          <div class='titlewrapper' style='background: transparent'>
+            <h1 class='title' style='background: transparent; border-width: 0px'>
+              <b:include name='title'/>
+            </h1>
+          </div>
+          <b:include name='description'/>
+        </div>
+      <b:else/>
+        <div expr:style='&quot;background-image: url(\&quot;&quot; + data:sourceUrl + &quot;\&quot;); &quot;                      + &quot;background-position: &quot;                      + data:backgroundPositionStyleStr + &quot;; &quot;                      + data:widthStyleStr                      + &quot;min-height: &quot; + data:height                      + &quot;_height: &quot; + data:height                      + &quot;background-repeat: no-repeat; &quot;' id='header-inner'>
+          <div class='titlewrapper' style='background: transparent'>
+            <h1 class='title' style='background: transparent; border-width: 0px'>
+              <b:include name='title'/>
+            </h1>
+          </div>
+          <b:include name='description'/>
+        </div>
+      </b:if>
+    <b:else/>
+      <!--Show the image only-->
+      <div id='header-inner'>
+        <a expr:href='data:blog.homepageUrl' style='display: block'>
+          <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_headerimg&quot;' expr:src='data:sourceUrl' expr:width='data:width' style='display: block'/>
+        </a>
+        <!--Show the description-->
+        <b:if cond='data:imagePlacement == &quot;BEFORE_DESCRIPTION&quot;'>
+          <b:include name='description'/>
+        </b:if>
+      </div>
+    </b:if>
+  <b:else/>
+    <!--No header image -->
+    <div id='header-inner'>
+      <div class='titlewrapper'>
+        <h1 class='title'>
+          <b:include name='title'/>
+        </h1>
+      </div>
+      <b:include name='description'/>
+    </div>
+  </b:if>
+</b:includable>
+          <b:includable id='description'>
+  <div class='descriptionwrapper'>
+    <p class='description'><span><data:description/></span></p>
+  </div>
+</b:includable>
+          <b:includable id='title'>
+  <b:tag cond='data:blog.url != data:blog.homepageUrl' expr:href='data:blog.homepageUrl' name='a'>
+    <data:title/>
+  </b:tag>
+</b:includable>
+        </b:widget>
+      </b:section>
+    </div>
+    </div>
+    <div class='header-cap-bottom cap-bottom'>
+      <div class='cap-left'/>
+      <div class='cap-right'/>
+    </div>
+    </div>
+    </header>
+
+    <div class='tabs-outer'>
+    <div class='tabs-cap-top cap-top'>
+      <div class='cap-left'/>
+      <div class='cap-right'/>
+    </div>
+    <div class='fauxborder-left tabs-fauxborder-left'>
+    <div class='fauxborder-right tabs-fauxborder-right'/>
+    <div class='region-inner tabs-inner'>
+      <b:section class='tabs' id='crosscol' maxwidgets='1' name='Cross-Column' showaddelement='yes'>
+        <b:widget id='HTML2' locked='false' title='' type='HTML'>
+          <b:widget-settings>
+            <b:widget-setting name='content'><![CDATA[<!-- ===============================
+🏠 HOMEPAGE ALEO’S TUBE
+================================ -->
+<b:if cond='data:blog.pageType == "index"'>
+  Aleo’s Tube — Daily Vlog Anak Rantau
+  
+  
+  
+  <!-- Hero section -->
+  <div class="hero">
+    <h1>🌏 Aleo’s Tube Daily Vlog Anak Rantau</h1>
+    <p>Gabungan cerita kehidupan, tutorial blogger, dan tools otomatis buatan Aleo.</p>
+  </div>
+</b:if>
+<!-- Linktree Horizontal Oval dengan Avatar Efek Api + Spark -->
+<div class="linktree-mini">
+  <div class="avatar-fire">
+    <img src="https://ugc.production.linktr.ee/6594230f-65d4-4070-9815-dba010c4b2b9_Aleos-Tube.png?io=true&size=avatar-v3_0" alt="Aleo's Tube" id="avatar" />
+    <div class="flame flame1"></div>
+    <div class="flame flame2"></div>
+    <div class="flame flame3"></div>
+
+   <!-- Sparks -->
+    <span class="spark"></span>
+    <span class="spark"></span>
+    <span class="spark"></span>
+    <span class="spark"></span>
+    <span class="spark"></span>
+  </div>O
+    <a href="https://youtube.com/UCTHGlP7T12oHv2QHDuw0C3g" class="btn btn-yt"><i class="fab fa-youtube"></i> YT</a>
+    <a href="https://www.instagram.com/daily_vlog_anak_rantau" class="btn btn-ig"><i class="fab fa-instagram"></i> IG</a>
+    <a 
+href="https://facebook.com/aleostube" class="btn btn-fb"><i class="fab fa-facebook"></i> FB</a>
+    <a 
+href="https://pinterest.com/aleostube" class="btn btn-pin"><i class="fab fa-pinterest"></i> Pin</a>
+    <a 
+href="https://x.com/aleostube" class="btn btn-th"><i class="fab fa-x"></i> XT</a>
+  <div class="btn-row">
+</div>
+</div>
+
+<!-- =================== ALEO’S TUBE BLOG LIGHT INTERACTIVE =================== -->
+<style type="text/css">
+#welcome-message {
+  position: fixed;
+  top: 20%; left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255,255,255,0.9);
+  padding: 15px 30px;
+  border-radius: 15px;
+  font-family: Poppins,sans-serif;
+  font-size: 1.1rem;
+  color: #222;
+  text-align: center;
+  opacity: 0;
+  z-index: 9999;
+  animation: fadeInOut 6s ease-in-out forwards;
+  box-shadow:0 3px 10px rgba(0,0,0,0.15);
+}
+@keyframes fadeInOut {
+  0% {opacity:0; transform:translate(-50%,-10%);}
+  15% {opacity:1; transform:translate(-50%,0);}
+  85% {opacity:1; transform:translate(-50%,0);}
+  100% {opacity:0; transform:translate(-50%,10%);}
+}
+body.dark-mode #welcome-message { background: rgba(20,20,30,0.85); color:#fafafa; }
+</style>
+
+<script type="text/javascript">
+//<![CDATA[
+window.addEventListener('load', () => {
+  // Dark mode otomatis
+  const hour = new Date().getHours();
+  if(hour >= 18 || hour < 6) document.body.classList.add("dark-mode");
+
+  // Multi-bahasa
+  const userLang = (navigator.language || 'id').split('-')[0];
+  const messages = {
+    id: ["Selamat Datang di blog saya!","Halo! Terima kasih sudah mampir!"],
+    en: ["Welcome to my blog!","Hello! Thanks for visiting!"],
+    es: ["¡Bienvenidos a mi blog!","Hola! Gracias por visitar!"],
+    fr: ["Bienvenue sur mon blog!","Salut! Merci pour votre visite!"],
+    de: ["Willkommen auf meinem Blog!","Hallo! Danke für den Besuch!"],
+    ja: ["私のブログへようこそ！","こんにちは! ご訪問ありがとうございます。"],
+    zh: ["欢迎来到我的博客！","你好! 感谢访问!"],
+    ko: ["제 블로그에 오신 것을 환영합니다!","안녕하세요! 방문해 주셔서 감사합니다!"],
+    tet: ["Bondia senhór no senhóra sira!","Hola! Favor fahi blog hau!"]
+  };
+
+  const greetArray = messages[userLang] || messages.id;
+  const greeting = greetArray[Math.floor(Math.random() * greetArray.length)];
+
+  // tampilkan pesan
+  const msgBox = document.createElement("div");
+  msgBox.id = "welcome-message";
+  msgBox.innerText = greeting;
+  document.body.appendChild(msgBox);
+
+  // suara otomatis
+  setTimeout(()=>{
+    try{
+      const synth = window.speechSynthesis;
+      const utter = new SpeechSynthesisUtterance(greeting);
+      const langMap = { tet:'pt-PT' };
+      utter.lang = langMap[userLang] || (userLang+'-'+userLang.toUpperCase());
+      utter.pitch=1; utter.rate=1; utter.volume=1;
+      synth.speak(utter);
+    }catch(e){}
+  },500);
+
+  // hapus pesan setelah animasi
+  setTimeout(()=> msgBox.remove(),6000);
+});
+//]]]]><![CDATA[>
+</script>
+
+<!-- 🌍 ALEO'S TUBE - Auto SEO Fixer + Stylish Affiliate Buttons -->
+<style>
+/* 🎨 Gaya Tombol Profesional */
+.btn {
+  display: inline-block;
+  margin: 8px;
+  padding: 12px 22px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 12px;
+  transition: all 0.25s ease-in-out;
+  background: linear-gradient(135deg, #007bff, #00bfff);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, #0056b3, #0099cc);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.25);
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+
+@media (max-width: 600px) {
+  .btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+}
+</style>
+
+<!-- 🚀 Auto SEO Fixer untuk Tombol Afiliasi -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const links = document.querySelectorAll("a[href='javascript:void(0);'][onclick*='trackAffiliate']");
+  
+  links.forEach(a => {
+    const onclickAttr = a.getAttribute("onclick");
+    const match = onclickAttr.match(/trackAffiliate\(['"]([^'"]+)['"],['"]([^'"]+)['"]\)/);
+    
+    if (match) {
+      const productName = match[1];
+      const targetUrl = match[2];
+      
+      // Ubah jadi SEO-friendly link
+      a.setAttribute("href", targetUrl);
+      a.setAttribute("onclick", `trackAffiliate('${productName}', this.href); return false;`);
+      a.setAttribute("rel", "nofollow noopener noreferrer");
+      
+      // Tambah kelas tombol (kalau belum ada)
+      if (!a.classList.contains("btn")) a.classList.add("btn");
+      
+      console.log("✅ Diperbaiki:", productName, "→", targetUrl);
+    }
+  });
+});
+</script>
+
+<!-- 📊 Fungsi Tracking -->
+<script>
+function trackAffiliate(productName, url) {
+  console.log("📈 Tracking:", productName);
+  // kamu bisa tambahkan pelacakan custom di sini (<!-- 🔹 Google Analytics 4 (Aleo’s Tube) -->
+<script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-71BR09BJ1R"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-71BR09BJ1R');
+</script>
+, <!-- Meta Pixel Code (Safe for Blogger) -->
+<b:if cond='data:blog.pageType != &quot;preview&quot;'>
+<script type='text/javascript'>
+//<![CDATA[
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '943661851197731');
+fbq('track', 'PageView');
+//]]]]><![CDATA[>
+</script>
+<noscript>
+  <img height='1' width='1' style='display:none'
+       src='https://www.facebook.com/tr?id=943661851197731&amp;ev=PageView&amp;noscript=1'/>
+</noscript>
+</b:if>
+<!-- End Meta Pixel Code -->
+, dll)
+  window.location.href = url; // redirect ke link tujuan
+}
+<!-- 💎 ALEO’S TUBE — AUTO PAGESPEED SCORE v2.5 ANIMATED -->
+<div id="aleos-pageSpeed" style="font-family:'Poppins',sans-serif;text-align:center;padding:20px;border:2px solid #00bfa5;border-radius:16px;box-shadow:0 0 10px rgba(0,0,0,0.1);max-width:380px;margin:auto;">
+  <h3 style="margin-bottom:10px;">🚀 Skor Kecepatan Blog</h3>
+  <div style="margin-bottom:15px;">
+    <div style="font-weight:bold;">Mobile</div>
+    <div class="progress-bar" id="mobileBar" style="height:14px;width:100%;background:#ddd;border-radius:8px;overflow:hidden;">
+      <div id="mobileFill" style="height:100%;width:0;background:#00bfa5;transition:width 2s ease;"></div>
+    </div>
+    <div id="mobileScore" style="margin-top:5px;">Memuat...</div>
+  </div>
+
+  <div>
+    <div style="font-weight:bold;">Desktop</div>
+    <div class="progress-bar" id="desktopBar" style="height:14px;width:100%;background:#ddd;border-radius:8px;overflow:hidden;">
+      <div id="desktopFill" style="height:100%;width:0;background:#00bfa5;transition:width 2s ease;"></div>
+    </div>
+    <div id="desktopScore" style="margin-top:5px;">Memuat...</div>
+  </div>
+
+  <small style="display:block;margin-top:15px;">
+    🔗 <a href="https://pagespeed.web.dev/analysis/https-aleos-tube-daily-vlog-anak-rantau-blogspot-com" target="_blank">Lihat detail di PageSpeed Insights</a>
+  </small>
+</div>
+
+<script>
+(async function(){
+  const blogUrl = 'https://aleos-tube-daily-vlog-anak-rantau.blogspot.com';
+
+  async function fetchScore(strategy){
+    const api = `https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=${blogUrl}&strategy=${strategy}`;
+    const res = await fetch(api);
+    const data = await res.json();
+    return Math.round(data.lighthouseResult.categories.performance.score * 100);
+  }
+
+  function colorFor(score){
+    if(score >= 90) return '#00c853'; // Hijau
+    if(score >= 50) return '#ffb300'; // Oranye
+    return '#d50000'; // Merah
+  }
+
+  async function updateUI(device){
+    const score = await fetchScore(device);
+    const fill = document.getElementById(device + 'Fill');
+    const bar = document.getElementById(device + 'Bar');
+    const text = document.getElementById(device + 'Score');
+    fill.style.width = score + '%';
+    fill.style.background = colorFor(score);
+    text.innerHTML = `<b>${score}/100</b> (${device})`;
+    text.style.color = colorFor(score);
+  }
+
+  updateUI('mobile');
+  updateUI('desktop');
+})();
+</script>
+
+<!-- 💎 ALEO’S TUBE — AUTO PAGESPEED SCORE v2.5 ANIMATED -->
+<div id="aleos-pageSpeed" style="font-family:'Poppins',sans-serif;text-align:center;padding:20px;border:2px solid #00bfa5;border-radius:16px;box-shadow:0 0 10px rgba(0,0,0,0.1);max-width:380px;margin:auto;">
+  <h3 style="margin-bottom:10px;">🚀 Skor Kecepatan Blog</h3>
+  <div style="margin-bottom:15px;">
+    <div style="font-weight:bold;">Mobile</div>
+    <div class="progress-bar" id="mobileBar" style="height:14px;width:100%;background:#ddd;border-radius:8px;overflow:hidden;">
+      <div id="mobileFill" style="height:100%;width:0;background:#00bfa5;transition:width 2s ease;"></div>
+    </div>
+    <div id="mobileScore" style="margin-top:5px;">Memuat...</div>
+  </div>
+
+  <div>
+    <div style="font-weight:bold;">Desktop</div>
+    <div class="progress-bar" id="desktopBar" style="height:14px;width:100%;background:#ddd;border-radius:8px;overflow:hidden;">
+      <div id="desktopFill" style="height:100%;width:0;background:#00bfa5;transition:width 2s ease;"></div>
+    </div>
+    <div id="desktopScore" style="margin-top:5px;">Memuat...</div>
+  </div>
+
+  <small style="display:block;margin-top:15px;">
+    🔗 <a href="https://pagespeed.web.dev/analysis/https-aleos-tube-daily-vlog-anak-rantau-blogspot-com" target="_blank">Lihat detail di PageSpeed Insights</a>
+  </small>
+</div>
+
+<script>
+(async function(){
+  const blogUrl = 'https://aleos-tube-daily-vlog-anak-rantau.blogspot.com';
+
+  async function fetchScore(strategy){
+    const api = `https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=${blogUrl}&strategy=${strategy}`;
+    const res = await fetch(api);
+    const data = await res.json();
+    return Math.round(data.lighthouseResult.categories.performance.score * 100);
+  }
+
+  function colorFor(score){
+    if(score >= 90) return '#00c853'; // Hijau
+    if(score >= 50) return '#ffb300'; // Oranye
+    return '#d50000'; // Merah
+  }
+
+  async function updateUI(device){
+    const score = await fetchScore(device);
+    const fill = document.getElementById(device + 'Fill');
+    const bar = document.getElementById(device + 'Bar');
+    const text = document.getElementById(device + 'Score');
+    fill.style.width = score + '%';
+    fill.style.background = colorFor(score);
+    text.innerHTML = `<b>${score}/100</b> (${device})`;
+    text.style.color = colorFor(score);
+  }
+
+  updateUI('mobile');
+  updateUI('desktop');
+})();
+</script>
+<!-- SEO STATUS DASHBOARD for Aleo's Tube -->
+<!doctype html>
+
+
+  
+  
+  SEO Status — Aleo's Tube
+  <style>
+    body{font-family:Segoe UI, Roboto, Arial; background:#f6f8fb; color:#0b1220; padding:28px;}
+    .card{background:white;border-radius:12px;padding:18px;box-shadow:0 8px 28px rgba(13,41,77,0.06);max-width:920px;margin:0 auto;}
+    h1{margin:0 0 12px;font-size:20px}
+    .row{display:flex;gap:12px;align-items:center;margin-top:10px;flex-wrap:wrap}
+    .badge{padding:8px 12px;border-radius:10px;background:linear-gradient(90deg,#ff6b00,#0077ff);color:#fff;font-weight:700}
+    button{padding:8px 12px;border-radius:10px;border:none;background:#0077ff;color:#fff;cursor:pointer;font-weight:700}
+    .muted{color:#5b6782;font-size:13px}
+    pre{background:#0b1220;color:#dff4ff;padding:12px;border-radius:8px;overflow:auto}
+  </style>
+
+
+  <div class="card">
+    <h1>SEO Status — Aleo's Tube</h1>
+    <div class="muted">Halaman ini menampilkan status ping sitemap &amp; consent lokal. Semua tindakan bersifat client-side dan tidak memerlukan akses server.</div>
+
+    <div class="row" style="margin-top:18px">
+      <div>
+        <div class="muted">Consent analytics</div>
+        <div id="consentStatus" class="badge">—</div>
+      </div>
+
+      <div>
+        <div class="muted">Last auto-ping</div>
+        <div id="lastPing" style="padding:8px 12px;border-radius:8px;background:#f1f5f9;color:#0b1220;font-weight:700">—</div>
+      </div>
+
+      <div style="margin-left:auto; display:flex; gap:8px;">
+        <button id="manualPing">Ping Sekarang</button>
+        <button id="clearPing" style="background:#ff4d4f">Reset</button>
+      </div>
+    </div>
+
+    <section style="margin-top:18px;">
+      <h3 style="margin:8px 0">Log Ringkas</h3>
+      <div class="muted">Log di bawah hanya untuk debugging &amp; tersimpan sementara di sessionStorage.</div>
+      <pre id="logArea" style="height:160px">—</pre>
+    </section>
+
+    <section style="margin-top:16px;">
+      <small class="muted">Catatan: Ping dilakukan via <code>fetch</code> ke endpoint publik (Google/Bing) dengan mode <code>no-cors</code>. Browser tidak menampilkan respons yang bisa dibaca — operasi bersifat "fire-and-forget".</small>
+    </section>
+  </div>
+
+  <script>
+    (function(){
+      var pingKey = 'gt_ping_v10_1';
+      var consentKey = 'gt_accept_v10_1';
+      var logArea = document.getElementById('logArea');
+
+      function appendLog(msg){
+        try {
+          var now = new Date().toLocaleString();
+          var prev = sessionStorage.getItem('aleos_seo_log') || '';
+          var line = '['+ now +'] ' + msg + '\\n';
+          prev = line + prev;
+          sessionStorage.setItem('aleos_seo_log', prev.slice(0, 5000));
+          logArea.textContent = prev || '—';
+        } catch(e){ console.warn(e); }
+      }
+
+      function updateUI(){
+        var last = localStorage.getItem(pingKey);
+        document.getElementById('lastPing').textContent = last ? new Date(parseInt(last,10)).toLocaleString() : 'Belum pernah';
+        document.getElementById('consentStatus').textContent = localStorage.getItem(consentKey) ? 'Diterima' : 'Belum';
+      }
+
+      function pingNow(){
+        try {
+          var sitemap = location.origin + '/sitemap.xml';
+          appendLog('Mencoba ping Google & Bing untuk: ' + sitemap);
+          // Google
+          fetch('https://www.google.com/ping?sitemap=' + encodeURIComponent(sitemap), {mode:'no-cors'}).then(function(){ appendLog('Ping Google dikirim'); }).catch(function(e){ appendLog('Ping Google gagal'); });
+          // Bing
+          fetch('https://www.bing.com/ping?sitemap=' + encodeURIComponent(sitemap), {mode:'no-cors'}).then(function(){ appendLog('Ping Bing dikirim'); }).catch(function(e){ appendLog('Ping Bing gagal'); });
+          localStorage.setItem(pingKey, String(Date.now()));
+          updateUI();
+        } catch(e){
+          appendLog('Error ping: ' + (e && e.message ? e.message : e));
+        }
+      }
+
+      document.getElementById('manualPing').addEventListener('click', function(){ pingNow(); }, {passive:true});
+      document.getElementById('clearPing').addEventListener('click', function(){
+        localStorage.removeItem(pingKey);
+        sessionStorage.removeItem('aleos_seo_log');
+        logArea.textContent = '—';
+        updateUI();
+      }, {passive:true});
+
+      // init
+      try {
+        logArea.textContent = sessionStorage.getItem('aleos_seo_log') || '—';
+        updateUI();
+        appendLog('Dashboard dibuka');
+      } catch(e){ console.warn(e); }
+    })();
+  </script>
+
+</!doctype>]]></b:widget-setting>
           </b:widget-settings>
           <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -1385,11 +2621,11 @@ href="https://x.com/aleostube" class="btn btn-th"><i class="fab fa-x"></i> XT</a
         <div class='column-center-outer'>
         <div class='column-center-inner'>
           <b:section class='main' id='main' name='Main' showaddelement='no'>
-            <b:widget id='Blog1' locked='true' title='Postingan Blog' type='Blog' version='1'>
+            <b:widget id='Blog1' locked='false' title='Postingan Blog' type='Blog' version='1'>
               <b:widget-settings>
                 <b:widget-setting name='commentLabel'>comments</b:widget-setting>
                 <b:widget-setting name='showShareButtons'>true</b:widget-setting>
-                <b:widget-setting name='authorLabel'>By Aleo/King Syukri</b:widget-setting>
+                <b:widget-setting name='authorLabel'>By Aleo</b:widget-setting>
                 <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
                 <b:widget-setting name='timestampLabel'>at</b:widget-setting>
                 <b:widget-setting name='reactionsLabel'/>
@@ -1407,8 +2643,8 @@ href="https://x.com/aleostube" class="btn btn-th"><i class="fab fa-x"></i> XT</a
                 <b:widget-setting name='showAuthor'>true</b:widget-setting>
                 <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
                 <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
-                <b:widget-setting name='showLabels'>true</b:widget-setting>
-                <b:widget-setting name='postLabelsLabel'><![CDATA[Labels: Aleo's Tube Dayli Vlog Anak Rantau,]]></b:widget-setting>
+                <b:widget-setting name='showLabels'>false</b:widget-setting>
+                <b:widget-setting name='postLabelsLabel'>Labels: Daily Vlog Anak Rantau Indonesia,</b:widget-setting>
                 <b:widget-setting name='showBacklinks'>false</b:widget-setting>
                 <b:widget-setting name='showInlineAds'>false</b:widget-setting>
                 <b:widget-setting name='showReactions'>false</b:widget-setting>
@@ -1761,17 +2997,7 @@ href="https://x.com/aleostube" class="btn btn-th"><i class="fab fa-x"></i> XT</a
           <div class='post-body entry-content' expr:id='&quot;post-body-&quot; + data:post.id' itemprop='articleBody'>
             <data:post.body/>
             <div style='clear: both;'/> <!-- clear for photos floats -->
-          </div> 
-          
-          <!-- Jam Analog Aleo's Tube -->
-<div class='analog-clock'>
-  <div class='dial'/>
-  <div class='hand hour'/>
-  <div class='hand minute'/>
-  <div class='hand second'/>
-  <div class='center-dot'/>
-</div>
-<!-- Akhir Jam Analog -->
+          </div>            
 
           <div class='post-footer'>
             <div class='post-footer-line post-footer-line-1'>
@@ -2243,7 +3469,8 @@ href="https://x.com/aleostube" class="btn btn-th"><i class="fab fa-x"></i> XT</a
             <b:widget id='FeaturedPost1' locked='false' title='' type='FeaturedPost'>
               <b:widget-settings>
                 <b:widget-setting name='showSnippet'>true</b:widget-setting>
-                <b:widget-setting name='showPostTitle'>true</b:widget-setting>
+                <b:widget-setting name='showPostTitle'>false</b:widget-setting>
+                <b:widget-setting name='postId'>0</b:widget-setting>
                 <b:widget-setting name='showFirstImage'>true</b:widget-setting>
                 <b:widget-setting name='useMostRecentPost'>true</b:widget-setting>
               </b:widget-settings>
@@ -2280,8 +3507,8 @@ href="https://x.com/aleostube" class="btn btn-th"><i class="fab fa-x"></i> XT</a
             </b:widget>
             <b:widget id='PopularPosts1' locked='false' title='' type='PopularPosts'>
               <b:widget-settings>
-                <b:widget-setting name='numItemsToShow'>3</b:widget-setting>
-                <b:widget-setting name='showThumbnails'>true</b:widget-setting>
+                <b:widget-setting name='numItemsToShow'>5</b:widget-setting>
+                <b:widget-setting name='showThumbnails'>false</b:widget-setting>
                 <b:widget-setting name='showSnippets'>true</b:widget-setting>
                 <b:widget-setting name='timeRange'>ALL_TIME</b:widget-setting>
               </b:widget-settings>
@@ -2334,7 +3561,7 @@ href="https://x.com/aleostube" class="btn btn-th"><i class="fab fa-x"></i> XT</a
         <div class='column-left-inner'>
           <aside>
           <macro:include id='main-column-left-sections' name='sections'>
-            <macro:param default='0' name='num'/>
+            <macro:param default='0' name='num' value='0'/>
             <macro:param default='sidebar-left' name='idPrefix'/>
             <macro:param default='sidebar' name='class'/>
             <macro:param default='true' name='includeBottom'/>
@@ -2347,7 +3574,7 @@ href="https://x.com/aleostube" class="btn btn-th"><i class="fab fa-x"></i> XT</a
         <div class='column-right-inner'>
           <aside>
           <macro:include id='main-column-right-sections' name='sections'>
-            <macro:param default='2' name='num'/>
+            <macro:param default='2' name='num' value='0'/>
             <macro:param default='sidebar-right' name='idPrefix'/>
             <macro:param default='sidebar' name='class'/>
             <macro:param default='true' name='includeBottom'/>
@@ -2381,14 +3608,14 @@ href="https://x.com/aleostube" class="btn btn-th"><i class="fab fa-x"></i> XT</a
     <div class='fauxborder-right footer-fauxborder-right'/>
     <div class='region-inner footer-inner'>
       <macro:include id='footer-sections' name='sections'>
-        <macro:param default='2' name='num'/>
+        <macro:param default='2' name='num' value='3'/>
         <macro:param default='footer' name='idPrefix'/>
         <macro:param default='foot' name='class'/>
         <macro:param default='false' name='includeBottom'/>
       </macro:include>
       <!-- outside of the include in order to lock Attribution widget -->
       <b:section class='foot' id='footer-3' name='Footer' showaddelement='no'>
-        <b:widget id='Attribution1' locked='true' title='' type='Attribution'>
+        <b:widget id='Attribution1' locked='false' title='' type='Attribution'>
           <b:widget-settings>
             <b:widget-setting name='copyright'><![CDATA[© 2025 Aleo&#39;s Tube. All Rights Reserved.]]></b:widget-setting>
           </b:widget-settings>
@@ -2434,6 +3661,603 @@ href="https://x.com/aleostube" class="btn btn-th"><i class="fab fa-x"></i> XT</a
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe height='0' src='https://www.googletagmanager.com/ns.html?id=GTM-WR546M4D' style='display:none;visibility:hidden' width='0'/></noscript>
 <!-- End Google Tag Manager (noscript) -->
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+  <iframe height='0' src='https://www.googletagmanager.com/ns.html?id=GTM-MKB9TPDR' style='display:none;visibility:hidden' width='0'/>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- =================================================== -->
+<!-- 🤖 ALEO&#8217;S TUBE SEO MAX v10.3 Ultimate (No-ID ProFix) -->
+<!-- =================================================== -->
+<b:if cond='data:blog.pageType'>
+  <![CDATA[
+
+  <!-- Google Analytics -->
+  <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-2F6SD6VRNM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config','G-2F6SD6VRNM');
+  </script>
+
+  <!-- Consent + Auto Ping -->
+  <script>
+  (function(){
+    const consentKey='gt_accept_v10_3';
+    const pingKey='gt_ping_v10_3';
+    const sitemap=location.origin+'/sitemap.xml';
+
+    function runPing(){
+      try{
+        const now=Date.now();
+        const last=localStorage.getItem(pingKey);
+        if(!last||(now-parseInt(last,10)>86400000)){
+          fetch('https://www.google.com/ping?sitemap='+encodeURIComponent(sitemap),{mode:'no-cors'});
+          fetch('https://www.bing.com/ping?sitemap='+encodeURIComponent(sitemap),{mode:'no-cors'});
+          localStorage.setItem(pingKey,String(now));
+          console.log('[SEO MAX v10.3] Ping sent.');
+        }
+      }catch(e){console.warn('Ping error',e);}
+    }
+
+    if(!localStorage.getItem(consentKey)){
+      const box=document.createElement('div');
+      box.id='seoConsent';
+      box.innerHTML='<div style="position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:rgba(0,0,0,.9);color:#fff;padding:18px 26px;border-radius:18px;box-shadow:0 0 24px rgba(0,170,255,.6);font-family:Segoe UI,Roboto,sans-serif;z-index:9999;text-align:center;backdrop-filter:blur(8px)"><b>Aktifkan SEO MAX v10.3</b><br><small>Izinkan analytics &amp; ping otomatis</small><br><button id="seoAccept" style="margin-top:10px;padding:6px 14px;border:none;border-radius:8px;background:linear-gradient(90deg,#ff6b00,#0077ff);color:#fff;font-weight:700;cursor:pointer">Terima</button></div>';
+      document.body.appendChild(box);
+      document.getElementById('seoAccept').addEventListener('click',()=>{
+        localStorage.setItem(consentKey,'1');
+        document.getElementById('seoConsent').remove();
+        runPing();
+      });
+    }else{ runPing(); }
+  })();
+  </script>
+
+  <!-- Schema JSON-LD (Website + Organization) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://aleos-tube-daily-vlog-anak-rantau.blogspot.com/#website",
+        "url": "https://aleos-tube-daily-vlog-anak-rantau.blogspot.com/",
+        "name": "Aleo’s Tube Daily Vlog Anak Rantau",
+        "description": "Kisah, pengalaman, dan keseharian anak rantau – Aleo’s Tube Daily Vlog.",
+        "publisher": { "@id": "#organization" },
+        "inLanguage": "id-ID",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://aleos-tube-daily-vlog-anak-rantau.blogspot.com/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "Organization",
+        "@id": "#organization",
+        "name": "Aleo’s Tube",
+        "url": "https://aleos-tube-daily-vlog-anak-rantau.blogspot.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://blogger.googleusercontent.com/img/b/logo.png",
+          "width": 512,
+          "height": 512
+        },
+        "sameAs": [
+          "https://www.youtube.com/channel/UCTHGlP7T12oHv2QHDuw0C3g",
+          "https://www.instagram.com/aleos_tube/",
+          "https://www.facebook.com/aleostube"
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <!-- Schema JSON-LD untuk BlogPosting -->
+  <b:if cond='data:blog.pageType == &quot;item&quot;'>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "<data:post.url/>"
+      },
+      "headline": "<data:post.title.escaped/>",
+      "description": "<data:post.snippet/>",
+      "image": {
+        "@type": "ImageObject",
+        "url": "<data:post.firstImageUrl/>"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "<data:post.author/>",
+        "url": "https://aleos-tube-daily-vlog-anak-rantau.blogspot.com/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Aleo’s Tube",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://blogger.googleusercontent.com/img/b/logo.png"
+        }
+      },
+      "datePublished": "<data:post.date.iso8601/>",
+      "dateModified": "<data:post.dateLastUpdated.iso8601/>",
+      "inLanguage": "id-ID"
+    }
+    </script>
+  </b:if>
+
+  <style>
+    @media(prefers-color-scheme:dark){
+      body{background:#0b0d12;color:#eee;}
+    }
+  </style>
+
+  ]]>
+</b:if>
+<!-- =================================================== -->
+<!-- &#9989; END SEO MAX v10.3 Ultimate (No-ID ProFix) -->
+<!-- =================================================== -->
+<!-- 💎 ALEO&#8217;S TUBE &#8212; SMART AUTO-LABEL SCROLLER v10.0 LUXE FADE EDITION -->
+<div id='aleos-grid-aff'/>
+
+<script type='text/javascript'>
+//<![CDATA[
+(async function(){
+  const BLOG_URL = 'https://aleos-tube-daily-vlog-anak-rantau.blogspot.com';
+
+  // 🧭 Deteksi label dari URL
+  let currentLabel = (location.pathname.match(/\/label\/([^/?#]+)/i)||[])[1];
+  if(currentLabel) currentLabel = decodeURIComponent(currentLabel);
+  const LABEL = currentLabel || 'Afiliasi';
+  const FEED_URL = `${BLOG_URL}/feeds/posts/default/-/${LABEL}?alt=json-in-script&max-results=50`;
+
+  // 🎨 Ikon & warna label
+  const STYLEMAP = {
+    'afiliasi': {icon:'💰', grad:'linear-gradient(135deg,#ffedd5,#fff7ed)'},
+    'bisnis': {icon:'💼', grad:'linear-gradient(135deg,#dbeafe,#eff6ff)'},
+    'vlog': {icon:'🎥', grad:'linear-gradient(135deg,#fee2e2,#fef2f2)'},
+    'hiburan': {icon:'🎬', grad:'linear-gradient(135deg,#dcfce7,#f0fdf4)'},
+    'rantau': {icon:'✈️', grad:'linear-gradient(135deg,#cffafe,#ecfeff)'},
+    'produk': {icon:'🛒', grad:'linear-gradient(135deg,#fef9c3,#fefce8)'},
+    'inspirasi': {icon:'🌟', grad:'linear-gradient(135deg,#ede9fe,#f5f3ff)'},
+    'default': {icon:'🔥', grad:'linear-gradient(135deg,#f3f4f6,#f9fafb)'}
+  };
+
+  const THEME = STYLEMAP[LABEL.toLowerCase()] || STYLEMAP['default'];
+
+  // 🧩 Struktur utama
+  const wrap = document.getElementById('aleos-grid-aff');
+  wrap.innerHTML = `
+  <style>
+    #aleos-grid-aff {
+      font-family: Inter, system-ui;
+      background: ${THEME.grad};
+      padding: 16px;
+      border-radius: 18px;
+      margin: 18px 0;
+      box-shadow: 0 4px 14px rgba(0,0,0,.08);
+      overflow: hidden;
+      color: #0f172a;
+      opacity: 0;
+      transform: translateY(10px);
+      animation: fadeInUp .9s ease-out forwards;
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (prefers-color-scheme: dark) {
+      #aleos-grid-aff {
+        background: linear-gradient(135deg,#0b1325,#111b2f);
+        color: #e6eef8;
+      }
+    }
+
+    #aleos-grid-aff h3 {
+      margin: 0 0 10px;
+      font-size: 1.05rem;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .scroll-box {
+      display: flex;
+      overflow-x: auto;
+      gap: 14px;
+      padding-bottom: 6px;
+      scroll-behavior: smooth;
+      scrollbar-width: thin;
+      animation: fadeIn .8s ease-out forwards;
+    }
+
+    @keyframes fadeIn { from { opacity: 0 } to { opacity: 1 } }
+
+    .scroll-box::-webkit-scrollbar { height: 6px; }
+    .scroll-box::-webkit-scrollbar-thumb {
+      background: rgba(0,0,0,.2);
+      border-radius: 4px;
+    }
+
+    .ao-item {
+      flex: 0 0 180px;
+      background: #fff;
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,.06);
+      transition: transform .25s ease, box-shadow .25s;
+      opacity: 0;
+      animation: fadeInCard .6s ease forwards;
+    }
+
+    @keyframes fadeInCard {
+      from { opacity: 0; transform: scale(.97); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    .ao-item:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 14px rgba(0,0,0,.1);
+    }
+
+    .ao-thumb {
+      width: 100%;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+      display: block;
+    }
+
+    .ao-title {
+      font-size: 13px;
+      font-weight: 600;
+      margin: 8px 10px;
+      color: #111827;
+      line-height: 1.3;
+      min-height: 36px;
+    }
+
+    .ao-cta {
+      margin: 0 10px 12px;
+      padding: 7px;
+      text-align: center;
+      border-radius: 8px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 700;
+      display: block;
+      transition: opacity .2s;
+    }
+    .ao-cta:hover { opacity: 0.85; }
+
+    .blue { background: #2563eb; }
+    .orange { background: #f97316; }
+    .red { background: #ef4444; }
+
+    @media (max-width: 480px) {
+      .ao-item { flex: 0 0 150px; }
+      h3 { font-size: .95rem; }
+    }
+  </style>
+
+  <h3 id="labelTitle">${THEME.icon} Memuat...</h3>
+  <div class="scroll-box" id="scroll-box"></div>
+  `;
+
+  const grid = document.getElementById('scroll-box');
+  const titleEl = document.getElementById('labelTitle');
+  titleEl.textContent = `${THEME.icon} ${LABEL} Terbaru dari Aleo’s Tube`;
+
+  const FALLBACK = [
+    {title:"Aleo's Tube — Premium Business Program", img:"https://www.digistore24-app.com/pb/img/merchant_371937/image/product/UOW66CMM.jpg", href:"https://www.digistore24.com/redir/472943/Aleostube/"},
+    {title:"InGenius Wave — Audio Focus", img:"https://www.digistore24-app.com/pb/img/merchant_3646207/image/product/A6KAKV3T.png", href:"https://ingeniuswave.com/DSvsl/#aff=Aleostube"},
+    {title:"Pineal10X — Mindset", img:"https://www.digistore24-app.com/pb/img/merchant_1632947/image/product/CWSY9T6E.png", href:"https://pineal10x.com/pnl10-index.php#aff=Aleostube"},
+    {title:"Superhuman At 70 — Supplement", img:"https://www.digistore24-app.com/pb/img/merchant_2005677/image/product/H4VEJAAT.gif", href:"https://www.advancedbionutritionals.com/DS24/Nitric-Oxide-Supplements/Superhuman-At-70/HD.htm#aff=Aleostube"},
+    {title:"Meridian Acupressure Mat", img:"https://www.digistore24-app.com/pb/img/merchant_771978/image/product/2WY9BT3X.png", href:"https://andbalanced.com/pages/meridian-acupressure-mat-and-pillow-set-dg#aff=Aleostube"}
+  ];
+
+  function makeNode(item,i){
+    const color=['blue','orange','red'][i%3];
+    const el=document.createElement('div');
+    el.className='ao-item';
+    el.innerHTML=`
+      <img class="ao-thumb" loading="lazy" src="${item.img}" alt="${item.title}">
+      <div class="ao-title">${item.title}</div>
+      <a class="ao-cta ${color}" href="${item.href}" target="_blank" rel="nofollow noopener">Lihat</a>
+    `;
+    el.style.animationDelay = (i * 0.12) + 's';
+    return el;
+  }
+
+  async function loadData(){
+    grid.innerHTML='';
+    try{
+      const res=await fetch(FEED_URL,{cache:'no-store'});
+      const txt=await res.text();
+      const json=JSON.parse(txt.slice(txt.indexOf('{'),txt.lastIndexOf('}')+1));
+      const entries=json.feed.entry||[];
+      if(entries.length){
+        entries.forEach((p,i)=>{
+          const title=p.title?.$t||"Tanpa Judul";
+          const href=(p.link?.find(l=>l.rel==="alternate")||{}).href||BLOG_URL;
+          let img=p.media$thumbnail?.url;
+          if(!img&&p.content?.$t){
+            const m=p.content.$t.match(/<img[^>]+src="([^">]+)/i);
+            if(m) img=m[1];
+          }
+          img=img||"https://via.placeholder.com/400x400?text=Aleo+Offer";
+          grid.appendChild(makeNode({title,img,href},i));
+        });
+      } else FALLBACK.forEach((f,i)=>grid.appendChild(makeNode(f,i)));
+    }catch(e){
+      FALLBACK.forEach((f,i)=>grid.appendChild(makeNode(f,i)));
+    }
+  }
+
+  // 🌈 Auto-scroll lembut
+  function autoScroll(el){
+    let speed = 0.5;
+    let pause = false;
+    function step(){
+      if(!pause){
+        el.scrollLeft += speed;
+        if(el.scrollLeft >= el.scrollWidth - el.clientWidth){ el.scrollLeft = 0; }
+      }
+      requestAnimationFrame(step);
+    }
+    el.addEventListener('mouseenter', ()=>pause = true);
+    el.addEventListener('mouseleave', ()=>pause = false);
+    step();
+  }
+
+  await loadData();
+  autoScroll(grid);
+  setInterval(loadData, 60000);
+})();
+//]]>
+</script>
+<!-- 🧩 END SMART AUTO-LABEL SCROLLER v10.0 LUXE FADE EDITION -->
+<!-- 🌸 Smart Accessibility Widget v10.2 &#8211; Baby Voice Blogger Safe -->
+<style>
+  :root {
+    --widget-bg: #ffffff;
+    --widget-text: #000000;
+    --widget-accent: #ff66cc;
+    --widget-shadow: rgba(0,0,0,0.3);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --widget-bg: #121212;
+      --widget-text: #ffffff;
+      --widget-accent: #ff99dd;
+      --widget-shadow: rgba(255,255,255,0.2);
+    }
+  }
+
+  #virtualsign-widget {
+    position: fixed;
+    bottom: 100px;
+    right: 200px;
+    z-index: 9999;
+    width: 320px;
+    height: 240px;
+    box-shadow: 0 0 12px var(--widget-shadow);
+    border-radius: 15px;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease;
+    background: var(--widget-bg);
+  }
+  #virtualsign-widget.show {opacity: 1; visibility: visible;}
+
+  .access-btn {
+    position: fixed;
+    bottom: 30px;
+    z-index: 10000;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 28px;
+    cursor: pointer;
+    color: #fff;
+    box-shadow: 0 0 10px var(--widget-shadow);
+    transition: transform 0.3s ease, background 0.3s ease;
+  }
+  .access-btn:hover {transform: scale(1.1);}
+  #toggle-sign { right: 200px; background: var(--widget-accent); }
+  #toggle-voice { right: 275px; background: #00cc99; }
+
+  #sign-label {
+    position: fixed;
+    bottom: 95px;
+    right: 200px;
+    background: rgba(0,0,0,0.8);
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 10001;
+    transition: opacity 0.4s ease;
+  }
+  #sign-label.show {opacity: 1; visibility: visible;}
+
+  #voice-select {
+    position: fixed;
+    bottom: 100px;
+    right: 340px;
+    z-index: 10002;
+    background: var(--widget-bg);
+    color: var(--widget-text);
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    padding: 6px 10px;
+    display: none;
+  }
+  #voice-select.show {display: block;}
+
+  @media (max-width: 768px) {
+    #virtualsign-widget { width: 260px; height: 200px; bottom: 90px; left: 20px; right: auto; }
+    #toggle-sign { left: 20px; right: auto; }
+    #toggle-voice { left: 95px; right: auto; }
+    #sign-label { left: 20px; right: auto; }
+    #voice-select { left: 160px; right: auto; }
+  }
+</style>
+
+<div id='virtualsign-widget'>
+  <iframe allowfullscreen='true' frameborder='0' height='100%' id='sign-iframe' src='https://www.virtualsign.net/embed' title='Virtual Sign Language Widget' width='100%'/>
+</div>
+
+<div id='sign-label'>Bahasa Isyarat Aktif 🤟</div>
+<button class='access-btn' id='toggle-sign' title='Bahasa Isyarat'>🤟</button>
+<button class='access-btn' id='toggle-voice' title='Dengar Suara'>🍼</button>
+<select id='voice-select' title='Pilih Bahasa Suara'>
+  <option value='id-ID'>🇮🇩 Indonesia</option>
+  <option value='en-US'>🇬🇧 English</option>
+  <option value='es-ES'>🇪🇸 Español</option>
+  <option value='ja-JP'>🇯🇵 日本語</option>
+  <option value='ar-SA'>🇸🇦 العربية</option>
+</select>
+
+<script type='text/javascript'>
+//<![CDATA[
+(function(){
+  var synth = window.speechSynthesis;
+  var widget = document.getElementById('virtualsign-widget');
+  var toggleSign = document.getElementById('toggle-sign');
+  var toggleVoice = document.getElementById('toggle-voice');
+  var label = document.getElementById('sign-label');
+  var iframe = document.getElementById('sign-iframe');
+  var voiceSelect = document.getElementById('voice-select');
+  var visible = false;
+  var currentLang = navigator.language || 'id-ID';
+
+  var greetings = {
+    'id': "Haii~ aku asisten kecilmu 🍼 aku siap bantu kamu baca atau aku bacain yaa~!",
+    'en': "Hewwo~ I'm your tiny helper! 🍼 I can read for you or help you listen~",
+    'es': "¡Hola pequeñito! 🍼 Soy tu ayudante y puedo leer o hablar contigo~",
+    'ja': "やっほ〜！🍼 ぼくはあなたのちっちゃなアシスタントだよ！読むのも聞くのもお手伝いするね〜！",
+    'ar': "مرحبًا يا صديقي الصغير 🍼 أنا مساعدك الصغير، أقرأ لك أو أتكلم معك بلطف~"
+  };
+
+  function speakText(text, lang){
+    if('speechSynthesis' in window){
+      synth.cancel();
+      var utter = new SpeechSynthesisUtterance(text);
+      utter.lang = lang;
+      utter.rate = 1.1;
+      utter.pitch = 1.6;
+      synth.speak(utter);
+    }
+  }
+
+  window.addEventListener('load', function(){
+    var langCode = currentLang.split('-')[0];
+    var greeting = greetings[langCode] || greetings['en'];
+    setTimeout(function(){ speakText(greeting, currentLang); }, 1200);
+  });
+
+  toggleSign.addEventListener('click', function(){
+    visible = !visible;
+    widget.classList.toggle('show', visible);
+    label.classList.toggle('show', visible);
+    voiceSelect.classList.toggle('show', visible);
+  });
+
+  voiceSelect.addEventListener('change', function(){
+    currentLang = this.value;
+  });
+
+  toggleVoice.addEventListener('click', function(){
+    var selectedText = window.getSelection().toString().trim();
+    if(selectedText.length < 2){
+      speakText("Ehh... kamu lupa pilih teksnya dulu~ 🍼", currentLang);
+      return;
+    }
+    speakText(selectedText, currentLang);
+  });
+
+  document.addEventListener('mouseup', function(){
+    var selectedText = window.getSelection().toString().trim();
+    if(selectedText.length > 2){
+      visible = true;
+      widget.classList.add('show');
+      label.classList.add('show');
+      voiceSelect.classList.add('show');
+      iframe.src = 'https://www.virtualsign.net/embed?text=' + encodeURIComponent(selectedText);
+      speakText(selectedText, currentLang);
+    }
+  });
+})();
+//]]>
+</script>
+<!-- 🌸 End Smart Accessibility Widget v10.2 -->
+
+<!-- =========================================================
+🚀 ALEO&#8217;S TUBE SEO MAX v10.1 PRO
+SMART PING PROTECTOR + AUTO INDEXNOW KEY GENERATOR
+========================================================= -->
+<script>
+(function(){
+  const blogURL = &quot;https://aleos-tube-daily-vlog-anak-rantau.blogspot.com&quot;;
+  const canonical = document.querySelector(&#39;link[rel=&quot;canonical&quot;]&#39;);
+  const pageURL = canonical ? canonical.href : window.location.href;
+  const isPostPage = /\/20\d{2}\//.test(pageURL);
+
+  // 🔑 Key generator (gunakan nilai acak sebagai key sementara)
+  const defaultKey = &quot;aleostube-&quot; + Math.random().toString(36).substring(2,10);
+
+  // Simpan tanggal terakhir ping
+  const today = new Date().toISOString().split(&quot;T&quot;)[0];
+  const lastPingKey = &quot;AleoPing_&quot; + pageURL;
+  const lastPingDate = localStorage.getItem(lastPingKey);
+
+  if (isPostPage &amp; lastPingDate !== today) {
+    const pingURLs = [
+      &quot;https://www.google.com/ping?sitemap=&quot; + encodeURIComponent(blogURL + &quot;/sitemap.xml&quot;),
+      &quot;https://www.bing.com/ping?sitemap=&quot; + encodeURIComponent(blogURL + &quot;/sitemap.xml&quot;),
+      &quot;https://yandex.com/ping?sitemap=&quot; + encodeURIComponent(blogURL + &quot;/sitemap.xml&quot;),
+      &quot;https://api.indexnow.org/indexnow?url=&quot; + encodeURIComponent(pageURL) + &quot;&amp;key=&quot; + defaultKey,
+      &quot;https://duckduckgo.com/ping?sitemap=&quot; + encodeURIComponent(blogURL + &quot;/sitemap.xml&quot;)
+    ];
+
+    console.groupCollapsed(&quot;🌐 ALEO&#8217;S TUBE SEO MAX v10.1 PRO &#8212; Auto Ping Log&quot;);
+    pingURLs.forEach(url=&gt;{
+      fetch(url,{method:&quot;GET&quot;,mode:&quot;no-cors&quot;})
+        .then(()=&gt;console.log(&quot;&#9989; Ping terkirim ke:&quot;,url))
+        .catch(err=&gt;console.warn(&quot;&#9888;&#65039; Gagal ping:&quot;,url,err));
+    });
+    console.groupEnd();
+
+    localStorage.setItem(lastPingKey, today);
+  } else {
+    console.log(&quot;🛡&#65039; Ping sudah dilakukan hari ini untuk:&quot;, pageURL);
+  }
+})();
+</script>
+
+<!-- =========================================================
+💡 PETUNJUK:
+1&#65039;&#8419; Tempel di bawah </body> template Blogger.
+2&#65039;&#8419; Pastikan robots.txt & meta SEO v9.9 aktif.
+3&#65039;&#8419; Ping otomatis 1&#215; per artikel per hari (anti-spam).
+4&#65039;&#8419; Uji di console browser (Ctrl+Shift+I &#8594; Console).
+5&#65039;&#8419; Bisa ubah 'defaultKey' ke key resmi IndexNow milikmu:
+    👉 https://www.bing.com/indexnow/getstarted
+========================================================= -->
 
 </body>
 
@@ -2476,112 +4300,156 @@ href="https://x.com/aleostube" class="btn btn-th"><i class="fab fa-x"></i> XT</a
   </macro:if>
 </macro:includable>
 
-<b:section-contents id='sidebar-right-1'>
-  <b:widget id='HTML6' locked='false' title='' type='HTML'>
+<b:section-contents id='footer-1'>
+  <b:widget id='HTML18' locked='false' title='' type='HTML'>
     <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<!-- Ultra Mini Floating Playlist (Ukuran Tombol Subscribe) -->
-<div class="yt-floating-mini">
-  <iframe 
-    src="https://www.youtube.com/embed/videoseries?list=PLSBXhP3KAxsDygkrgu8roI7YsOeUEUA4w&autoplay=1&mute=1&controls=0" 
-    frameborder="0" 
-    allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-  </iframe>
-</div>
-
+      <b:widget-setting name='content'><![CDATA[<!-- 💠 ALEOSTUBE FLEX HEADER v10 — Premium Responsive Edition -->
 <style>
-.yt-floating-mini {
-  position: fixed;
-  bottom: 15px;      /* jarak dari bawah layar */
-  right: 15px;       /* jarak dari kanan layar */
-  width: 130px;      /* mirip tombol subscribe */
-  border-radius: 30px;
-  padding: 2px;
-  background: linear-gradient(90deg, red, orange, yellow, green, cyan, blue, violet, red);
-  background-size: 400% 400%;
-  animation: rainbow 6s linear infinite, glow 2s ease-in-out infinite alternate;
-  z-index: 9999;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.35);
-}
+/* ============================================================
+   💠 ALEOTUBE FLEX HEADER v10 — RESPONSIVE PREMIUM EDITION
+   ============================================================ */
 
-.yt-floating-mini iframe {
+.header-outer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 100%;
-  height: 40px;   /* tinggi kecil seperti tombol */
-  border: none;
-  border-radius: 30px;
-  display: block;
+  box-sizing: border-box;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(10px);
+  border-bottom: 2px solid rgba(255,255,255,0.1);
+  padding: 1.5rem 1rem;
+}
+.header-outer::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg,
+    rgba(255,140,0,0.3) 0%,
+    rgba(0,123,255,0.25) 35%,
+    rgba(255,0,0,0.25) 70%,
+    rgba(255,255,255,0.1) 100%);
+  z-index: 0;
+}
+.Header img {
+  position: relative;
+  z-index: 1;
+  max-width: 180px;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 0.5rem;
+  transition: transform 0.4s ease;
+}
+.Header img:hover { transform: scale(1.05); }
+.Header h1 {
+  position: relative;
+  z-index: 1;
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  color: #fff;
+  text-shadow: 1px 1px 8px rgba(0,0,0,0.4);
+  margin: 0.3rem 0;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.Header .description {
+  position: relative;
+  z-index: 1;
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  color: rgba(255,255,255,0.85);
+  margin-top: 0.2rem;
+  font-weight: 400;
 }
 
-@keyframes rainbow {
-  0% {background-position: 0% 50%;}
-  50% {background-position: 100% 50%;}
-  100% {background-position: 0% 50%;}
+/* Tabs / Menu */
+.tabs-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 8px;
+  margin: 1rem auto 0.5rem;
+  padding: 0.5rem 0;
+  position: relative;
+  z-index: 2;
+}
+.tabs-inner ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 6px;
+}
+.tabs-inner li a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  background: rgba(255,255,255,0.15);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255,255,255,0.15);
+}
+.tabs-inner li a:hover,
+.tabs-inner li.active a {
+  background: linear-gradient(90deg, #ff7b00, #007bff, #ff003c);
+  background-size: 200% 200%;
+  animation: gradientMove 2s ease infinite;
+  color: #fff;
+  transform: translateY(-2px);
+  border-color: transparent;
+}
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
-@keyframes glow {
-  0% {box-shadow: 0 0 4px rgba(255,255,255,0.3);}
-  100% {box-shadow: 0 0 15px rgba(255,255,255,0.9);}
+/* Responsive */
+@media (max-width: 768px) {
+  .Header img { max-width: 150px; }
+  .Header h1 { font-size: 1.9rem; }
+  .Header .description { font-size: 1rem; }
+  .tabs-inner li a { padding: 0.45rem 0.9rem; font-size: 0.9rem; }
 }
-</style>]]></b:widget-setting>
-    </b:widget-settings>
-    <b:includable id='main'>
-  <!-- only display title if it's non-empty -->
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
-  <div class='widget-content'>
-    <data:content/>
+@media (max-width: 480px) {
+  .header-outer { padding: 1rem 0.5rem; }
+  .Header img { max-width: 130px; }
+  .Header h1 { font-size: 1.6rem; }
+  .tabs-inner { flex-direction: column; gap: 5px; }
+  .tabs-inner li a { width: 100%; text-align: center; }
+}
+</style>
+
+<!-- ===========================
+     HEADER STRUCTURE
+     =========================== -->
+<div class="header-outer">
+  <div class="Header">
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_LOGO-SAMPLE.png" alt="Aleo's Tube Logo" />
+    <h1>Aleo’s Tube Daily Vlog Anak Rantau</h1>
+    <p class="description">Berbagi kisah, pengalaman, dan keseharian penuh warna 🌏</p>
   </div>
 
-  <b:include name='quickedit'/>
-</b:includable>
-  </b:widget>
-  <b:widget id='HTML1' locked='false' title='' type='HTML'>
-    <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<!-- Ultra Mini Floating Playlist (Ukuran Tombol Subscribe) -->
-<div class="yt-floating-mini">
-  <iframe 
-    src="https://www.youtube.com/embed/videoseries?list=PLSBXhP3KAxsAvG8okm74EkxCvwbuP7O3e&autoplay=1&mute=1&controls=0" 
-    frameborder="0" 
-    allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-  </iframe>
-</div>
-
-<style>
-.yt-floating-mini {
-  position: fixed;
-  bottom: 15px;      /* jarak dari bawah layar */
-  right: 15px;       /* jarak dari kanan layar */
-  width: 130px;      /* mirip tombol subscribe */
-  border-radius: 30px;
-  padding: 2px;
-  background: linear-gradient(90deg, red, orange, yellow, green, cyan, blue, violet, red);
-  background-size: 400% 400%;
-  animation: rainbow 6s linear infinite, glow 2s ease-in-out infinite alternate;
-  z-index: 9999;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.35);
-}
-
-.yt-floating-mini iframe {
-  width: 100%;
-  height: 40px;   /* tinggi kecil seperti tombol */
-  border: none;
-  border-radius: 30px;
-  display: block;
-}
-
-@keyframes rainbow {
-  0% {background-position: 0% 50%;}
-  50% {background-position: 100% 50%;}
-  100% {background-position: 0% 50%;}
-}
-
-@keyframes glow {
-  0% {box-shadow: 0 0 4px rgba(255,255,255,0.3);}
-  100% {box-shadow: 0 0 15px rgba(255,255,255,0.9);}
-}
-</style>]]></b:widget-setting>
+  <div class="tabs-inner">
+    <ul>
+      <li class="active"><a href="/">Beranda</a></li>
+      <li><a href="/p/about.html">Tentang</a></li>
+      <li><a href="/p/afiliasi.html">Afiliasi</a></li>
+      <li><a href="/p/kontak.html">Kontak</a></li>
+      <li><a href="/search/label/Vlog">Vlog</a></li>
+    </ul>
+  </div>
+</div>]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -2597,50 +4465,64 @@ href="https://x.com/aleostube" class="btn btn-th"><i class="fab fa-x"></i> XT</a
   </b:widget>
   <b:widget id='HTML5' locked='false' title='' type='HTML'>
     <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<!-- Ultra Mini Floating Playlist (Ukuran Tombol Subscribe) -->
-<div class="yt-floating-mini">
-  <iframe 
-    src="https://www.youtube.com/embed/videoseries?list=PLSBXhP3KAxsC92WXS5obUdKGrJGOw2NOA&autoplay=1&mute=1&controls=0" 
-    frameborder="0" 
-    allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-  </iframe>
-</div>
+      <b:widget-setting name='content'><![CDATA[<!-- 🌍 Multilingual Sitemap Generator - Aleo's Tube -->
+<script>
+(function() {
+  const base = "https://aleos-tube-daily-vlog-anak-rantau.blogspot.com/";
+  const langs = ['id','en','tet','pt','es','fr','de','ja','zh','ko','tl','ms','vi','th','ar','ru'];
+  const pages = [
+    '', 'about', 'contact', 'produk', 'travel', 'vlog', 'inspirasi', 'tips-hidup-mandiri', 'promo', 'review'
+  ];
 
-<style>
-.yt-floating-mini {
-  position: fixed;
-  bottom: 15px;      /* jarak dari bawah layar */
-  right: 15px;       /* jarak dari kanan layar */
-  width: 100px;      /* mirip tombol subscribe */
-  border-radius: 30px;
-  padding: 2px;
-  background: linear-gradient(90deg, red, orange, yellow, green, cyan, blue, violet, red);
-  background-size: 400% 400%;
-  animation: rainbow 6s linear infinite, glow 2s ease-in-out infinite alternate;
-  z-index: 9999;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.35);
-}
+  // Buat sitemap XML
+  let xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset>xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
+  langs.forEach(lang => {
+    pages.forEach(page => {
+      xml += `  <url>\n`;
+      xml += `    <loc>${base}${lang === 'id' ? '' : lang + '/'}${page}</loc>\n`;
+      xml += `    <changefreq>weekly</changefreq>\n`;
+      xml += `    <priority>0.8</priority>\n`;
+      xml += `  </url>\n`;
+    });
+  });
+  xml += '</urlset>';
 
-.yt-floating-mini iframe {
-  width: 100%;
-  height: 40px;   /* tinggi kecil seperti tombol */
-  border: none;
-  border-radius: 30px;
-  display: block;
-}
+  // Buat sitemap JSON
+  const json = {
+    site: base,
+    updated: new Date().toISOString(),
+    languages: langs,
+    urls: langs.map(lang => ({
+      lang,
+      pages: pages.map(p => base + (lang === 'id' ? '' : lang + '/') + p)
+    }))
+  };
 
-@keyframes rainbow {
-  0% {background-position: 0% 50%;}
-  50% {background-position: 100% 50%;}
-  100% {background-position: 0% 50%;}
-}
-
-@keyframes glow {
-  0% {box-shadow: 0 0 4px rgba(255,255,255,0.3);}
-  100% {box-shadow: 0 0 15px rgba(255,255,255,0.9);}
-}
-</style>]]></b:widget-setting>
+  // Deteksi bot (Google, Bing, Yandex)
+  const agent = navigator.userAgent.toLowerCase();
+  if (agent.includes('googlebot') || agent.includes('bingbot') || agent.includes('yandex')) {
+    // Buat tampilan XML untuk bot
+    const blob = new Blob([xml], { type: 'application/xml' });
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.download = 'sitemap.xml';
+    document.body.appendChild(link);
+  } else {
+    // Buat sitemap viewer kecil untuk manusia
+    const box = document.createElement('div');
+    box.style = "font-family:Arial;padding:15px;margin:15px;background:#fff;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,0.2);";
+    box.innerHTML = `
+      <h3>🌍 Aleo's Tube Multilingual Sitemap</h3>
+      <p>Diperbarui otomatis: ${new Date().toLocaleString()}</p>
+      <details>
+        <summary>Lihat Sitemap JSON</summary>
+        <pre>${JSON.stringify(json, null, 2)}</pre>
+      </details>
+    `;
+    document.body.appendChild(box);
+  }
+})();
+</script>]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -2654,289 +4536,6 @@ href="https://x.com/aleostube" class="btn btn-th"><i class="fab fa-x"></i> XT</a
   <b:include name='quickedit'/>
 </b:includable>
   </b:widget>
-  <b:widget id='HTML4' locked='false' title='' type='HTML'>
-    <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<style>
-.mini-subscribe {
-  position: fixed;
-  right: 20px;
-  bottom: 90px;
-  background: red;
-  color: #fff;
-  font-size: 14px;
-  padding: 6px 14px;
-  border-radius: 30px;
-  text-decoration: none;
-  font-weight: bold;
-  z-index: 9999;
-  display: inline-block !important;
-}
-</style>
-
-<a class="mini-subscribe" 
-   href="https://www.youtube.com/@Aleostube_Daylivlog_Anakrantau?sub_confirmation=1" 
-   target="_blank">
-   Subscribe
-</a>]]></b:widget-setting>
-    </b:widget-settings>
-    <b:includable id='main'>
-  <!-- only display title if it's non-empty -->
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
-  <div class='widget-content'>
-    <data:content/>
-  </div>
-
-  <b:include name='quickedit'/>
-</b:includable>
-  </b:widget>
-  <b:widget id='BlogSearch1' locked='false' title='Cari Blog Ini' type='BlogSearch'>
-    <b:includable id='main'>
-    <!-- only display title if it's non-empty -->
-    <b:if cond='data:title != &quot;&quot;'>
-      <h2 class='title'><data:title/></h2>
-    </b:if>
-
-    <div class='widget-content'>
-      <div expr:id='data:widget.instanceId + &quot;_form&quot;'>
-        <form class='gsc-search-box' expr:action='data:blog.searchUrl'>
-          <b:attr cond='not data:view.isPreview' name='target' value='_top'/>
-          <table cellpadding='0' cellspacing='0' class='gsc-search-box'>
-            <tbody>
-              <tr>
-                <td class='gsc-input'>
-                  <input autocomplete='off' class='gsc-input' expr:value='data:view.isSearch ? data:view.search.query.escaped : &quot;&quot;' name='q' size='10' title='search' type='text'/>
-                </td>
-                <td class='gsc-search-button'>
-                  <input class='gsc-search-button' expr:value='data:messages.search' title='search' type='submit'/>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </form>
-      </div>
-    </div>
-
-    <b:include name='quickedit'/>
-  </b:includable>
-  </b:widget>
-  <b:widget id='PageList1' locked='false' title='' type='PageList'>
-    <b:widget-settings>
-      <b:widget-setting name='pageListJson'><![CDATA[{"link0":{"href":"http://aleos-tube-dayli-vlog-anak-rantau.blogspot.com/","position":0,"title":"Beranda"},"944015611032219360":{"href":"https://aleos-tube-dayli-vlog-anak-rantau.blogspot.com/p/fb-aleos-tube.html","position":2,"title":"Fb | Aleo's Tube"},"1869758767843312883":{"href":"https://aleos-tube-dayli-vlog-anak-rantau.blogspot.com/p/aleos-tube-dayli-vlog-anak-rantau.html","position":1,"title":"Youtube | Aleo's Tube"}}]]></b:widget-setting>
-      <b:widget-setting name='homeTitle'>Beranda</b:widget-setting>
-    </b:widget-settings>
-    <b:includable id='main'>
-  <b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
-  <div class='widget-content'>
-    <b:if cond='data:mobile'>
-      <select expr:id='data:widget.instanceId + &quot;_select&quot;'>
-        <b:if cond='data:showPlaceholder'>
-          <option disabled='disabled' hidden='hidden' value=''>
-            <b:attr cond='!data:hasCurrentPage' name='selected' value='selected'/>
-            <b:message name='messages.moveToPage'/>
-          </option>
-        </b:if>
-        <b:loop values='data:links' var='link'>
-          <option expr:value='data:link.href'>
-            <b:attr cond='data:link.isCurrentPage' name='selected' value='selected'/>
-            <data:link.title/>
-          </option>
-        </b:loop>
-      </select>
-      <span class='pagelist-arrow'>&amp;#9660;</span>
-    <b:else/>
-      <ul>
-        <b:loop values='data:links' var='link'>
-          <li>
-            <b:class cond='data:link.isCurrentPage' name='selected'/>
-            <a expr:href='data:link.href'><data:link.title/></a>
-          </li>
-        </b:loop>
-      </ul>
-    </b:if>
-    <b:include name='quickedit'/>
-  </div>
-</b:includable>
-  </b:widget>
-  <b:widget id='Profile1' locked='false' title='Mengenai Saya' type='Profile'>
-    <b:widget-settings>
-      <b:widget-setting name='showaboutme'>true</b:widget-setting>
-      <b:widget-setting name='showlocation'>false</b:widget-setting>
-    </b:widget-settings>
-    <b:includable id='main'>
-    <b:if cond='data:title != &quot;&quot;'>
-      <h2><data:title/></h2>
-    </b:if>
-    <div class='widget-content'>
-    <b:if cond='data:team'> <!-- team blog profile -->
-      <ul>
-        <b:loop values='data:authors' var='i'>
-          <li><a class='profile-name-link g-profile' expr:href='data:i.userUrl' expr:style='&quot;background-image: url(&quot; + data:i.profileLogo + &quot;);&quot;'><data:i.display-name/></a></li>
-        </b:loop>
-      </ul>
-
-    <b:else/> <!-- normal blog profile -->
-
-      <b:if cond='data:photo.url != &quot;&quot;'>
-        <a expr:href='data:userUrl'><img class='profile-img' expr:alt='data:messages.myPhoto' expr:height='data:photo.height' expr:src='data:photo.url' expr:width='data:photo.width'/></a>
-      </b:if>
-
-      <dl class='profile-datablock'>
-        <dt class='profile-data'>
-          <a class='profile-name-link g-profile' expr:href='data:userUrl' expr:style='&quot;background-image: url(&quot; + data:profileLogo + &quot;);&quot;' rel='author'>
-            <data:displayname/>
-          </a>
-        </dt>
-
-        <b:if cond='data:showlocation'>
-          <dd class='profile-data'><data:location/></dd>
-        </b:if>
-
-        <b:if cond='data:aboutme != &quot;&quot;'><dd class='profile-textblock'><data:aboutme/></dd></b:if>
-      </dl>
-      <a class='profile-link' expr:href='data:userUrl' rel='author'><data:viewProfileMsg/></a>
-    </b:if>
-
-     <b:include name='quickedit'/>
-    </div>
-  </b:includable>
-  </b:widget>
-</b:section-contents><b:section-contents id='sidebar-right-2-1'>
-  <b:widget id='ReportAbuse1' locked='false' title='' type='ReportAbuse'>
-    <b:includable id='main'>
-  <b:include name='reportAbuse'/>
-</b:includable>
-  </b:widget>
-</b:section-contents><b:section-contents id='sidebar-right-2-2'>
-  <b:widget id='Label1' locked='false' title='Label' type='Label'>
-    <b:widget-settings>
-      <b:widget-setting name='sorting'>FREQUENCY</b:widget-setting>
-      <b:widget-setting name='display'>CLOUD</b:widget-setting>
-      <b:widget-setting name='selectedLabelsList'/>
-      <b:widget-setting name='showType'>ALL</b:widget-setting>
-      <b:widget-setting name='showFreqNumbers'>true</b:widget-setting>
-    </b:widget-settings>
-    <b:includable id='main'>
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2><data:title/></h2>
-  </b:if>
-  <div expr:class='&quot;widget-content &quot; + data:display + &quot;-label-widget-content&quot;'>
-    <b:if cond='data:display == &quot;list&quot;'>
-      <ul>
-        <b:loop values='data:labels' var='label'>
-          <li>
-            <b:if cond='data:blog.url == data:label.url'>
-              <span expr:dir='data:blog.languageDirection'><data:label.name/></span>
-            <b:else/>
-              <a expr:dir='data:blog.languageDirection' expr:href='data:label.url'><data:label.name/></a>
-            </b:if>
-            <b:if cond='data:showFreqNumbers'>
-              <span dir='ltr'>(<data:label.count/>)</span>
-            </b:if>
-          </li>
-        </b:loop>
-      </ul>
-    <b:else/>
-      <b:loop values='data:labels' var='label'>
-        <span expr:class='&quot;label-size label-size-&quot; + data:label.cssSize'>
-          <b:if cond='data:blog.url == data:label.url'>
-            <span expr:dir='data:blog.languageDirection'><data:label.name/></span>
-          <b:else/>
-            <a expr:dir='data:blog.languageDirection' expr:href='data:label.url'><data:label.name/></a>
-          </b:if>
-          <b:if cond='data:showFreqNumbers'>
-            <span class='label-count' dir='ltr'>(<data:label.count/>)</span>
-          </b:if>
-        </span>
-      </b:loop>
-    </b:if>
-    <b:include name='quickedit'/>
-  </div>
-</b:includable>
-  </b:widget>
-</b:section-contents><b:section-contents id='sidebar-right-3'>
-  <b:widget id='BlogArchive1' locked='false' title='Arsip Blog' type='BlogArchive'>
-    <b:widget-settings>
-      <b:widget-setting name='showStyle'>MENU</b:widget-setting>
-      <b:widget-setting name='yearPattern'>yyyy</b:widget-setting>
-      <b:widget-setting name='showWeekEnd'>true</b:widget-setting>
-      <b:widget-setting name='monthPattern'>MMMM yyyy</b:widget-setting>
-      <b:widget-setting name='dayPattern'>MMM dd</b:widget-setting>
-      <b:widget-setting name='weekPattern'>MM/dd</b:widget-setting>
-      <b:widget-setting name='chronological'>true</b:widget-setting>
-      <b:widget-setting name='showPosts'>false</b:widget-setting>
-      <b:widget-setting name='frequency'>DAILY</b:widget-setting>
-    </b:widget-settings>
-    <b:includable id='main'>
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2><data:title/></h2>
-  </b:if>
-  <div class='widget-content'>
-  <div id='ArchiveList'>
-  <div expr:id='data:widget.instanceId + &quot;_ArchiveList&quot;'>
-    <b:include cond='data:style == &quot;HIERARCHY&quot;' data='data' name='interval'/>
-    <b:include cond='data:style == &quot;FLAT&quot;' data='data' name='flat'/>
-    <b:include cond='data:style == &quot;MENU&quot;' data='data' name='menu'/>
-  </div>
-  </div>
-  <b:include name='quickedit'/>
-  </div>
-</b:includable>
-    <b:includable id='flat' var='data'>
-  <ul class='flat'>
-    <b:loop values='data:data' var='i'>
-      <li class='archivedate'>
-        <a expr:href='data:i.url'><data:i.name/></a> (<data:i.post-count/>)
-      </li>
-    </b:loop>
-  </ul>
-</b:includable>
-    <b:includable id='interval' var='intervalData'>
-  <b:loop values='data:intervalData' var='interval'>
-    <ul class='hierarchy'>
-      <li expr:class='&quot;archivedate &quot; + data:interval.expclass'>
-        <b:include cond='data:interval.toggleId' data='interval' name='toggle'/>
-        <a class='post-count-link' expr:href='data:interval.url'>
-          <data:interval.name/>
-        </a>
-        <span class='post-count' dir='ltr'>(<data:interval.post-count/>)</span>
-        <b:include cond='data:interval.data' data='interval.data' name='interval'/>
-        <b:include cond='data:interval.posts' data='interval.posts' name='posts'/>
-      </li>
-    </ul>
-  </b:loop>
-</b:includable>
-    <b:includable id='menu' var='data'>
-  <select expr:id='data:widget.instanceId + &quot;_ArchiveMenu&quot;'>
-    <option value=''><data:title/></option>
-    <b:loop values='data:data' var='i'>
-      <option expr:value='data:i.url'><data:i.name/> (<data:i.post-count/>)</option>
-    </b:loop>
-  </select>
-</b:includable>
-    <b:includable id='posts' var='posts'>
-  <ul class='posts'>
-    <b:loop values='data:posts' var='post'>
-      <li><a expr:href='data:post.url'><data:post.title/></a></li>
-    </b:loop>
-  </ul>
-</b:includable>
-    <b:includable id='toggle' var='interval'>
-  <a class='toggle' href='javascript:void(0)'>
-    <span expr:class='&quot;zippy&quot; + (data:interval.expclass == &quot;expanded&quot; ? &quot; toggle-open&quot; : &quot;&quot;)'>
-      <b:if cond='data:interval.expclass == &quot;expanded&quot;'>
-        &#9660;&#160;
-      <b:elseif cond='data:blog.languageDirection == &quot;rtl&quot;'/>
-        &#9668;&#160;
-      <b:else/>
-        &#9658;&#160;
-      </b:if>
-    </span>
-  </a>
-</b:includable>
-  </b:widget>
-</b:section-contents><b:section-contents id='footer-1'>
   <b:widget id='HTML3' locked='false' title='' type='HTML'>
     <b:widget-settings>
       <b:widget-setting name='content'><![CDATA[<!-- Linktree Horizontal Oval dengan Avatar Efek Api + Spark -->
@@ -2956,15 +4555,13 @@ href="https://x.com/aleostube" class="btn btn-th"><i class="fab fa-x"></i> XT</a
   </div>
 
     <a 
-href="https://wa.me/6281241132129" class="btn btn-wa"><i class="fab fa-whatsap"></i> WA </a>
-    <a href="https://youtube.com/@Aleostube_Daylivlog_Anakrantau" class="btn btn-yt"><i class="fab fa-youtube"></i> YT</a>
-    <a href="https://instagram.com/aleostube_daylivlog_anakrantau" class="btn btn-ig"><i class="fab fa-instagram"></i> IG</a>
+href="https://youtube.com/UCTHGlP7T12oHv2QHDuw0C3g" class="btn btn-yt"><i class="fab fa-youtube"></i> YT</a>
+    <a href="https://instagram.com/daily_vlog_anak_rantau" class="btn btn-ig"><i class="fab fa-instagram"></i> IG</a>
     <a 
 href="https://facebook.com/aleostube" class="btn btn-fb"><i class="fab fa-facebook"></i> FB</a>
     <a 
 href="https://pinterest.com/aleostube" class="btn btn-pin"><i class="fab fa-pinterest"></i> Pin</a>
-    <a href="https://www.threads.com/@aleostube_daylivlog_anakrantau" class="btn btn-th"><i class="fab fa-threads"></i> 3D</a>
-   <a 
+    <a 
 href="https://x.com/aleostube" class="btn btn-th"><i class="fab fa-x"></i> XT</a>
   <div class="btn-row">
 </div></div>
@@ -3109,10 +4706,902 @@ href="https://x.com/aleostube" class="btn btn-th"><i class="fab fa-x"></i> XT</a
   <b:include name='quickedit'/>
 </b:includable>
   </b:widget>
+  <b:widget id='ReportAbuse1' locked='false' title='' type='ReportAbuse'>
+    <b:includable id='main'>
+  <b:include name='reportAbuse'/>
+</b:includable>
+  </b:widget>
+  <b:widget id='Label1' locked='false' title='Label' type='Label'>
+    <b:widget-settings>
+      <b:widget-setting name='sorting'>FREQUENCY</b:widget-setting>
+      <b:widget-setting name='display'>CLOUD</b:widget-setting>
+      <b:widget-setting name='selectedLabelsList'/>
+      <b:widget-setting name='showType'>ALL</b:widget-setting>
+      <b:widget-setting name='showFreqNumbers'>true</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2><data:title/></h2>
+  </b:if>
+  <div expr:class='&quot;widget-content &quot; + data:display + &quot;-label-widget-content&quot;'>
+    <b:if cond='data:display == &quot;list&quot;'>
+      <ul>
+        <b:loop values='data:labels' var='label'>
+          <li>
+            <b:if cond='data:blog.url == data:label.url'>
+              <span expr:dir='data:blog.languageDirection'><data:label.name/></span>
+            <b:else/>
+              <a expr:dir='data:blog.languageDirection' expr:href='data:label.url'><data:label.name/></a>
+            </b:if>
+            <b:if cond='data:showFreqNumbers'>
+              <span dir='ltr'>(<data:label.count/>)</span>
+            </b:if>
+          </li>
+        </b:loop>
+      </ul>
+    <b:else/>
+      <b:loop values='data:labels' var='label'>
+        <span expr:class='&quot;label-size label-size-&quot; + data:label.cssSize'>
+          <b:if cond='data:blog.url == data:label.url'>
+            <span expr:dir='data:blog.languageDirection'><data:label.name/></span>
+          <b:else/>
+            <a expr:dir='data:blog.languageDirection' expr:href='data:label.url'><data:label.name/></a>
+          </b:if>
+          <b:if cond='data:showFreqNumbers'>
+            <span class='label-count' dir='ltr'>(<data:label.count/>)</span>
+          </b:if>
+        </span>
+      </b:loop>
+    </b:if>
+    <b:include name='quickedit'/>
+  </div>
+</b:includable>
+  </b:widget>
+  <b:widget id='BlogArchive1' locked='false' title='Arsip Blog' type='BlogArchive'>
+    <b:widget-settings>
+      <b:widget-setting name='showStyle'>MENU</b:widget-setting>
+      <b:widget-setting name='yearPattern'>yyyy</b:widget-setting>
+      <b:widget-setting name='showWeekEnd'>true</b:widget-setting>
+      <b:widget-setting name='monthPattern'>MMMM yyyy</b:widget-setting>
+      <b:widget-setting name='dayPattern'>MMM dd</b:widget-setting>
+      <b:widget-setting name='weekPattern'>MM/dd</b:widget-setting>
+      <b:widget-setting name='chronological'>true</b:widget-setting>
+      <b:widget-setting name='showPosts'>false</b:widget-setting>
+      <b:widget-setting name='frequency'>DAILY</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+  <div id='ArchiveList'>
+  <div expr:id='data:widget.instanceId + &quot;_ArchiveList&quot;'>
+    <b:include cond='data:style == &quot;HIERARCHY&quot;' data='data' name='interval'/>
+    <b:include cond='data:style == &quot;FLAT&quot;' data='data' name='flat'/>
+    <b:include cond='data:style == &quot;MENU&quot;' data='data' name='menu'/>
+  </div>
+  </div>
+  <b:include name='quickedit'/>
+  </div>
+</b:includable>
+    <b:includable id='flat' var='data'>
+  <ul class='flat'>
+    <b:loop values='data:data' var='i'>
+      <li class='archivedate'>
+        <a expr:href='data:i.url'><data:i.name/></a> (<data:i.post-count/>)
+      </li>
+    </b:loop>
+  </ul>
+</b:includable>
+    <b:includable id='interval' var='intervalData'>
+  <b:loop values='data:intervalData' var='interval'>
+    <ul class='hierarchy'>
+      <li expr:class='&quot;archivedate &quot; + data:interval.expclass'>
+        <b:include cond='data:interval.toggleId' data='interval' name='toggle'/>
+        <a class='post-count-link' expr:href='data:interval.url'>
+          <data:interval.name/>
+        </a>
+        <span class='post-count' dir='ltr'>(<data:interval.post-count/>)</span>
+        <b:include cond='data:interval.data' data='interval.data' name='interval'/>
+        <b:include cond='data:interval.posts' data='interval.posts' name='posts'/>
+      </li>
+    </ul>
+  </b:loop>
+</b:includable>
+    <b:includable id='menu' var='data'>
+  <select expr:id='data:widget.instanceId + &quot;_ArchiveMenu&quot;'>
+    <option value=''><data:title/></option>
+    <b:loop values='data:data' var='i'>
+      <option expr:value='data:i.url'><data:i.name/> (<data:i.post-count/>)</option>
+    </b:loop>
+  </select>
+</b:includable>
+    <b:includable id='posts' var='posts'>
+  <ul class='posts'>
+    <b:loop values='data:posts' var='post'>
+      <li><a expr:href='data:post.url'><data:post.title/></a></li>
+    </b:loop>
+  </ul>
+</b:includable>
+    <b:includable id='toggle' var='interval'>
+  <a class='toggle' href='javascript:void(0)'>
+    <span expr:class='&quot;zippy&quot; + (data:interval.expclass == &quot;expanded&quot; ? &quot; toggle-open&quot; : &quot;&quot;)'>
+      <b:if cond='data:interval.expclass == &quot;expanded&quot;'>
+        &#9660;&#160;
+      <b:elseif cond='data:blog.languageDirection == &quot;rtl&quot;'/>
+        &#9668;&#160;
+      <b:else/>
+        &#9658;&#160;
+      </b:if>
+    </span>
+  </a>
+</b:includable>
+  </b:widget>
+  <b:widget id='Profile1' locked='false' title='Mengenai Saya' type='Profile'>
+    <b:widget-settings>
+      <b:widget-setting name='showaboutme'>true</b:widget-setting>
+      <b:widget-setting name='showlocation'>true</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+    <b:if cond='data:title != &quot;&quot;'>
+      <h2><data:title/></h2>
+    </b:if>
+    <div class='widget-content'>
+    <b:if cond='data:team'> <!-- team blog profile -->
+      <ul>
+        <b:loop values='data:authors' var='i'>
+          <li><a class='profile-name-link g-profile' expr:href='data:i.userUrl' expr:style='&quot;background-image: url(&quot; + data:i.profileLogo + &quot;);&quot;'><data:i.display-name/></a></li>
+        </b:loop>
+      </ul>
+
+    <b:else/> <!-- normal blog profile -->
+
+      <b:if cond='data:photo.url != &quot;&quot;'>
+        <a expr:href='data:userUrl'><img class='profile-img' expr:alt='data:messages.myPhoto' expr:height='data:photo.height' expr:src='data:photo.url' expr:width='data:photo.width'/></a>
+      </b:if>
+
+      <dl class='profile-datablock'>
+        <dt class='profile-data'>
+          <a class='profile-name-link g-profile' expr:href='data:userUrl' expr:style='&quot;background-image: url(&quot; + data:profileLogo + &quot;);&quot;' rel='author'>
+            <data:displayname/>
+          </a>
+        </dt>
+
+        <b:if cond='data:showlocation'>
+          <dd class='profile-data'><data:location/></dd>
+        </b:if>
+
+        <b:if cond='data:aboutme != &quot;&quot;'><dd class='profile-textblock'><data:aboutme/></dd></b:if>
+      </dl>
+      <a class='profile-link' expr:href='data:userUrl' rel='author'><data:viewProfileMsg/></a>
+    </b:if>
+
+     <b:include name='quickedit'/>
+    </div>
+  </b:includable>
+  </b:widget>
+  <b:widget id='BlogSearch1' locked='false' title='Cari Blog Ini' type='BlogSearch'>
+    <b:includable id='main'>
+    <!-- only display title if it's non-empty -->
+    <b:if cond='data:title != &quot;&quot;'>
+      <h2 class='title'><data:title/></h2>
+    </b:if>
+
+    <div class='widget-content'>
+      <div expr:id='data:widget.instanceId + &quot;_form&quot;'>
+        <form class='gsc-search-box' expr:action='data:blog.searchUrl'>
+          <b:attr cond='not data:view.isPreview' name='target' value='_top'/>
+          <table cellpadding='0' cellspacing='0' class='gsc-search-box'>
+            <tbody>
+              <tr>
+                <td class='gsc-input'>
+                  <input autocomplete='off' class='gsc-input' expr:value='data:view.isSearch ? data:view.search.query.escaped : &quot;&quot;' name='q' size='10' title='search' type='text'/>
+                </td>
+                <td class='gsc-search-button'>
+                  <input class='gsc-search-button' expr:value='data:messages.search' title='search' type='submit'/>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
+      </div>
+    </div>
+
+    <b:include name='quickedit'/>
+  </b:includable>
+  </b:widget>
+  <b:widget id='PageList1' locked='false' title='' type='PageList'>
+    <b:widget-settings>
+      <b:widget-setting name='pageListJson'><![CDATA[{"link1":{"href":"https://aleos-tube-daily-vlog-anak-rantau.blogspot.com/p/aleos-tube-daily-vlog-anak-rantau.html","position":1,"title":"Youtube | Aleo's Tube"},"link0":{"href":"http://aleos-tube-daily-vlog-anak-rantau.blogspot.com","position":0,"title":"Beranda"},"944015611032219360":{"href":"https://aleos-tube-daily-vlog-anak-rantau.blogspot.com/p/fb-aleos-tube.html","position":2,"title":"Fb | Aleo's Tube"}}]]></b:widget-setting>
+      <b:widget-setting name='homeTitle'>Beranda</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
+  <div class='widget-content'>
+    <b:if cond='data:mobile'>
+      <select expr:id='data:widget.instanceId + &quot;_select&quot;'>
+        <b:if cond='data:showPlaceholder'>
+          <option disabled='disabled' hidden='hidden' value=''>
+            <b:attr cond='!data:hasCurrentPage' name='selected' value='selected'/>
+            <b:message name='messages.moveToPage'/>
+          </option>
+        </b:if>
+        <b:loop values='data:links' var='link'>
+          <option expr:value='data:link.href'>
+            <b:attr cond='data:link.isCurrentPage' name='selected' value='selected'/>
+            <data:link.title/>
+          </option>
+        </b:loop>
+      </select>
+      <span class='pagelist-arrow'>&amp;#9660;</span>
+    <b:else/>
+      <ul>
+        <b:loop values='data:links' var='link'>
+          <li>
+            <b:class cond='data:link.isCurrentPage' name='selected'/>
+            <a expr:href='data:link.href'><data:link.title/></a>
+          </li>
+        </b:loop>
+      </ul>
+    </b:if>
+    <b:include name='quickedit'/>
+  </div>
+</b:includable>
+  </b:widget>
+  <b:widget id='HTML1' locked='false' title='' type='HTML'>
+    <b:widget-settings>
+      <b:widget-setting name='content'><![CDATA[<!-- 🌍 Auto Translate + Widget Bahasa (Kiri Bawah) -->
+<div id="google_translate_element" style="display:none;"></div>
+
+<!-- Widget Bahasa Pengunjung -->
+<div id="lang-widget"
+     style="position:fixed;bottom:20px;left:20px;
+            background:var(--widget-bg,#ffffffd9);
+            color:var(--widget-text,#111);
+            font-family:'Segoe UI',sans-serif;
+            padding:10px 14px;
+            border-radius:14px;
+            box-shadow:0 4px 14px rgba(0,0,0,0.15);
+            font-size:14px;
+            z-index:9999;
+            display:flex;
+            align-items:center;
+            gap:8px;
+            backdrop-filter:blur(6px);
+            opacity:0;
+            transform:translateY(20px);
+            transition:all 0.8s ease;">
+  <span id="flag" style="font-size:18px;">🌍</span>
+  Bahasa: <span id="detected-lang">Mendeteksi...</span>
+</div>
+
+<script type="text/javascript">
+/* 🌐 Google Auto Translate */
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'id', // Ganti sesuai bahasa utama blog
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+    autoDisplay: true
+  }, 'google_translate_element');
+}
+
+// Load Google Translate Script
+(function() {
+  const gt = document.createElement('script');
+  gt.type = 'text/javascript';
+  gt.async = true;
+  gt.src = '//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+  const s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(gt, s);
+})();
+
+/* 🌏 Deteksi bahasa + tampilkan nama & bendera */
+const langToFlag = {
+  id: "🇮🇩", en: "🇺🇸", tet: "🇹🇱", pt: "🇵🇹", es: "🇪🇸",
+  fr: "🇫🇷", de: "🇩🇪", ja: "🇯🇵", zh: "🇨🇳", ko: "🇰🇷",
+  ar: "🇸🇦", ru: "🇷🇺", it: "🇮🇹", tl: "🇵🇭", my: "🇲🇲",
+  th: "🇹🇭", vi: "🇻🇳", ms: "🇲🇾", hi: "🇮🇳", nl: "🇳🇱",
+  tr: "🇹🇷", fa: "🇮🇷", pl: "🇵🇱", uk: "🇺🇦", sv: "🇸🇪",
+  fi: "🇫🇮", no: "🇳🇴", da: "🇩🇰", ro: "🇷🇴", el: "🇬🇷",
+  he: "🇮🇱", hu: "🇭🇺", cs: "🇨🇿", sk: "🇸🇰", sr: "🇷🇸",
+  bg: "🇧🇬", hr: "🇭🇷", sl: "🇸🇮", sq: "🇦🇱", lt: "🇱🇹",
+  lv: "🇱🇻", et: "🇪🇪", sw: "🇰🇪", af: "🇿🇦", ne: "🇳🇵",
+  ur: "🇵🇰", ps: "🇦🇫", km: "🇰🇭", lo: "🇱🇦", mn: "🇲🇳",
+  ta: "🇮🇳", te: "🇮🇳", si: "🇱🇰", bn: "🇧🇩", kn: "🇮🇳"
+  ang:"🇦🇴",
+};
+
+const userLang = (navigator.language || navigator.userLanguage).split('-')[0];
+const langNames = new Intl.DisplayNames(['id'], { type: 'language' });
+const detectedLangName = langNames.of(userLang) || userLang;
+
+// Isi widget
+document.getElementById('detected-lang').textContent = detectedLangName;
+document.getElementById('flag').textContent = langToFlag[userLang] || "🌍";
+
+// Animasi muncul lembut
+const widget = document.getElementById('lang-widget');
+setTimeout(() => {
+  widget.style.opacity = '1';
+  widget.style.transform = 'translateY(0)';
+}, 800);
+
+// 🌗 Tema Otomatis
+const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+if (prefersDark) {
+  widget.style.setProperty('--widget-bg', '#1e1e1ed9');
+  widget.style.setProperty('--widget-text', '#fff');
+} else {
+  widget.style.setProperty('--widget-bg', '#ffffffd9');
+  widget.style.setProperty('--widget-text', '#111');
+}
+
+// Hover animasi lembut
+widget.addEventListener('mouseenter', () => {
+  widget.style.transform = 'scale(1.05)';
+});
+widget.addEventListener('mouseleave', () => {
+  widget.style.transform = 'scale(1)';
+});
+</script>
+<!-- 🌍 Auto Translate + Widget Bahasa (Kiri Bawah) -->
+<div id="google_translate_element" style="display:none;"></div>
+
+<!-- Widget Bahasa Pengunjung -->
+<div id="lang-widget"
+     style="position:fixed;bottom:20px;left:20px;
+            background:var(--widget-bg,#ffffffd9);
+            color:var(--widget-text,#111);
+            font-family:'Segoe UI',sans-serif;
+            padding:10px 14px;
+            border-radius:14px;
+            box-shadow:0 4px 14px rgba(0,0,0,0.15);
+            font-size:14px;
+            z-index:9999;
+            display:flex;
+            align-items:center;
+            gap:8px;
+            backdrop-filter:blur(6px);
+            opacity:0;
+            transform:translateY(20px);
+            transition:all 0.8s ease;">
+  <span id="flag" style="font-size:18px;">🌍</span>
+  Bahasa: <span id="detected-lang">Mendeteksi...</span>
+</div>
+
+<script type="text/javascript">
+/* 🌐 Google Auto Translate */
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'id', // Ganti sesuai bahasa utama blog
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+    autoDisplay: true
+  }, 'google_translate_element');
+}
+
+// Load Google Translate Script
+(function() {
+  const gt = document.createElement('script');
+  gt.type = 'text/javascript';
+  gt.async = true;
+  gt.src = '//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+  const s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(gt, s);
+})();
+
+/* 🌏 Deteksi bahasa + tampilkan nama & bendera */
+const langToFlag = {
+  id: "🇮🇩", en: "🇺🇸", tet: "🇹🇱", pt: "🇵🇹", es: "🇪🇸",
+  fr: "🇫🇷", de: "🇩🇪", ja: "🇯🇵", zh: "🇨🇳", ko: "🇰🇷",
+  ar: "🇸🇦", ru: "🇷🇺", it: "🇮🇹", tl: "🇵🇭", my: "🇲🇲",
+  th: "🇹🇭", vi: "🇻🇳", ms: "🇲🇾", hi: "🇮🇳", nl: "🇳🇱",
+  tr: "🇹🇷", fa: "🇮🇷", pl: "🇵🇱", uk: "🇺🇦", sv: "🇸🇪",
+  fi: "🇫🇮", no: "🇳🇴", da: "🇩🇰", ro: "🇷🇴", el: "🇬🇷",
+  he: "🇮🇱", hu: "🇭🇺", cs: "🇨🇿", sk: "🇸🇰", sr: "🇷🇸",
+  bg: "🇧🇬", hr: "🇭🇷", sl: "🇸🇮", sq: "🇦🇱", lt: "🇱🇹",
+  lv: "🇱🇻", et: "🇪🇪", sw: "🇰🇪", af: "🇿🇦", ne: "🇳🇵",
+  ur: "🇵🇰", ps: "🇦🇫", km: "🇰🇭", lo: "🇱🇦", mn: "🇲🇳",
+  ta: "🇮🇳", te: "🇮🇳", si: "🇱🇰", bn: "🇧🇩", kn: "🇮🇳"
+  ang:"🇦🇴",
+};
+
+const userLang = (navigator.language || navigator.userLanguage).split('-')[0];
+const langNames = new Intl.DisplayNames(['id'], { type: 'language' });
+const detectedLangName = langNames.of(userLang) || userLang;
+
+// Isi widget
+document.getElementById('detected-lang').textContent = detectedLangName;
+document.getElementById('flag').textContent = langToFlag[userLang] || "🌍";
+
+// Animasi muncul lembut
+const widget = document.getElementById('lang-widget');
+setTimeout(() => {
+  widget.style.opacity = '1';
+  widget.style.transform = 'translateY(0)';
+}, 800);
+
+// 🌗 Tema Otomatis
+const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+if (prefersDark) {
+  widget.style.setProperty('--widget-bg', '#1e1e1ed9');
+  widget.style.setProperty('--widget-text', '#fff');
+} else {
+  widget.style.setProperty('--widget-bg', '#ffffffd9');
+  widget.style.setProperty('--widget-text', '#111');
+}
+
+// Hover animasi lembut
+widget.addEventListener('mouseenter', () => {
+  widget.style.transform = 'scale(1.05)';
+});
+widget.addEventListener('mouseleave', () => {
+  widget.style.transform = 'scale(1)';
+});
+</script>]]></b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+  </b:widget>
+  <b:widget id='HTML13' locked='false' title='' type='HTML'>
+    <b:widget-settings>
+      <b:widget-setting name='content'><![CDATA[# Creating a single-file HTML for "Premium v8.3 Pulse Edition" (Page Mode) with:
+# - Auto affiliate scanning (digistore24, shopee, tokopedia)
+# - Sitemap HTML + XML generator
+# - Auto-translate (Google Translate widget hidden + auto-select)
+# - Subscribe popup linking to provided YouTube channel
+# - Dark mode auto by visitor time + prefers-color-scheme fallback
+html = """<!doctype html>
+
+Pulse Edition v8.3 — Promo & Sitemap (Page Mode)
+<style>
+:root{
+  --pulse-orange:#ff7a18; --pulse-blue:#1e90ff; --pulse-red:#ff3b30;
+  --bg-dark:#0f1115; --bg-light:#f6f7fb; --card-radius:12px; --maxw:1100px;
+  --shadow: 0 8px 30px rgba(2,6,23,0.18);
+  --font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;font-family:var(--font);-webkit-font-smoothing:antialiased}
+.container{max-width:var(--maxw);margin:18px auto;padding:18px}
+.page-card{border-radius:var(--card-radius);padding:18px;box-shadow:var(--shadow);overflow:hidden;border:1px solid rgba(255,255,255,0.04)}
+.header{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.title{font-size:20px;font-weight:800;margin:0;color:var(--pulse-orange)}
+.subtitle{font-size:13px;color:rgba(255,255,255,0.75)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:14px}
+.card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:12px;overflow:hidden;border:1px solid rgba(255,255,255,0.03)}
+.thumb{width:100%;height:140px;object-fit:cover;background:#111;display:block}
+.meta{padding:12px}
+.title-sm{font-weight:700;font-size:14px;margin:0 0 6px}
+.desc{font-size:13px;color:rgba(255,255,255,0.8);margin:0 0 10px}
+.btn{display:inline-block;padding:8px 12px;border-radius:10px;background:linear-gradient(135deg,var(--pulse-orange),var(--pulse-blue));color:#fff;text-decoration:none;font-weight:700}
+.small{font-size:12px;color:rgba(255,255,255,0.7)}
+.controls{display:flex;gap:10px;align-items:center;margin-top:12px;flex-wrap:wrap}
+
+/* sitemap */
+.sitemap-list{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:6px}
+.sitemap-list a{text-decoration:none;padding:8px;border-radius:8px;color:var(--pulse-blue);display:block}
+
+/* modal subscribe */
+.modal{position:fixed;inset:0;background:rgba(2,6,23,0.55);display:flex;align-items:center;justify-content:center;z-index:9999;padding:18px}
+.modal-inner{width:100%;max-width:420px;background:linear-gradient(180deg,#0b0c0f,#0f1115);padding:18px;border-radius:12px;position:relative;box-shadow:0 12px 40px rgba(2,6,23,0.5);text-align:center}
+.modal-close{position:absolute;right:10px;top:8px;border:0;background:transparent;color:#fff;font-size:18px;cursor:pointer}
+.subscribe-btn{display:inline-block;padding:10px 14px;border-radius:10px;background:var(--pulse-red);color:#fff;text-decoration:none;font-weight:800;margin-top:12px}
+
+/* hidden utility */
+.hidden{display:none !important}
+
+/* LIGHT THEME */
+.light body, .light .page-card{background:var(--bg-light);color:#111}
+.light .page-card{border:1px solid rgba(2,6,23,0.06)}
+.light .subtitle{color:rgba(0,0,0,0.6)}
+.light .desc{color:rgba(0,0,0,0.7)}
+
+/* accessibility */
+@media (prefers-reduced-motion: no-preference){
+  .card{transition:transform .28s cubic-bezier(.22,.9,.24,1)}
+  .card:hover{transform:translateY(-6px)}
+}
+
+/* hide Google Translate UI when it loads */
+.goog-te-banner-frame.skiptranslate{display:none !important}
+.goog-te-gadget-icon{display:none !important}
+#google_translate_element{display:none}
+</style>
+
+
+<div class="container">
+  <div id="pageCard" class="page-card">
+    <div class="header">
+      <div>
+        <h1 class="title">Pulse Edition v8.3 — Promo & Sitemap</h1>
+        <div class="subtitle small">Auto-affiliate, HTML & XML sitemap, auto-translate, dan ajakan subscribe Aleo's Tube.</div>
+      </div>
+      <div class="small">Warna: orange · biru · merah · transparan</div>
+    </div>
+
+    <div class="controls">
+      <button id="openSitemapBtn" class="btn" style="background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--pulse-blue)">Tampilkan Sitemap</button>
+      <button id="generateXmlBtn" class="btn">Generate XML Sitemap</button>
+      <span class="small">Widget otomatis memindai posting untuk link afiliasi (digistore24, shopee, tokopedia).</span>
+    </div>
+
+    <div id="cardGrid" class="grid" aria-live="polite" style="margin-top:14px">
+      <!-- cards injected -->
+    </div>
+
+    <div id="sitemapSection" class="hidden" style="margin-top:16px">
+      <h3 style="margin:0 0 8px">HTML Sitemap</h3>
+      <div id="sitemapOut" class="small sitemap-list">Sedang memuat…</div>
+    </div>
+  </div>
+</div>
+
+<!-- subscribe modal (hidden by default) -->
+<div id="subscribeModal" class="modal hidden" role="dialog" aria-modal="true">
+  <div class="modal-inner">
+    <button class="modal-close" id="closeSubscribe">✕</button>
+    <h3 style="margin-top:0">Dukung Aleo's Tube ❤️</h3>
+    <p class="small">Jika suka konten, klik subscribe ke channel YouTube Aleo's Tube untuk update video terbaru.</p>
+    <a id="subscribeLink" class="subscribe-btn" href="#" target="_blank" rel="noopener">Subscribe</a>
+    <div style="margin-top:10px" class="small">Tidak ingin melihat lagi? Kamu bisa menutup popup ini.</div>
+  </div>
+</div>
+
+<!-- hidden element for Google Translate initialisation -->
+<div id="google_translate_element" class="hidden"></div>
+
+<script>
+(async function(){
+  'use strict';
+  // CONFIG
+  const AFF_DOMAINS = ['digistore24.com','shopee.co.id','shopee.com','tokopedia.com'];
+  const MAX_ITEMS = 9999;
+  const BLOG_FEED = location.origin + '/feeds/posts/default?alt=json&max-results=9999';
+  const YT_SUBSCRIBE = 'https://www.youtube.com/channel/UCTHGlP7T12oHv2QHDuw0C3g'; // from user
+  const pageCard = document.getElementById('pageCard');
+  const grid = document.getElementById('cardGrid');
+  const sitemapOut = document.getElementById('sitemapOut');
+  const sitemapSection = document.getElementById('sitemapSection');
+  const openSitemapBtn = document.getElementById('openSitemapBtn');
+  const generateXmlBtn = document.getElementById('generateXmlBtn');
+  const subscribeModal = document.getElementById('subscribeModal');
+  const subscribeLink = document.getElementById('subscribeLink');
+  const closeSubscribe = document.getElementById('closeSubscribe');
+
+  subscribeLink.href = YT_SUBSCRIBE;
+
+  // small util
+  const strip = s => (s||'').replace(/<[^>]+>/g,'').trim();
+
+  // fetch blog feed
+  async function fetchFeed(){
+    try {
+      const r = await fetch(BLOG_FEED, {cache: 'no-cache'});
+      const j = await r.json();
+      return j.feed && j.feed.entry ? j.feed.entry : [];
+    } catch(e){
+      console.warn('feed error', e);
+      return [];
+    }
+  }
+
+  function extractImage(entry){
+    if(entry.media$thumbnail && entry.media$thumbnail.url) return entry.media$thumbnail.url.replace(/\\/s72-c\\//,'/s640/');
+    const content = entry.content && entry.content.$t || entry.summary && entry.summary.$t || '';
+    const m = content.match(/<img[^>]+src=['"]([^'"]+)['"]/i);
+    if(m) return m[1];
+    return null;
+  }
+
+  function findAffiliates(entry){
+    const html = (entry.content && entry.content.$t) || (entry.summary && entry.summary.$t) || '';
+    const urls = [];
+    const re = /<a[^>]+href=['"]([^'"]+)['"]/g;
+    let m;
+    while((m=re.exec(html))!==null){
+      try {
+        const u = new URL(m[1], location.origin).href;
+        for(const d of AFF_DOMAINS){
+          if(u.includes(d)) urls.push(u);
+        }
+      } catch(e){}
+    }
+    return Array.from(new Set(urls));
+  }
+
+  function makeCard({title,desc,img,link}){
+    const el = document.createElement('div');
+    el.className = 'card';
+    el.innerHTML = `<a href="${link}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none;display:block">
+      ${ img ? `<img class="thumb" loading="lazy" src="${img}" alt="${title}">` : `<div class="thumb" style="display:flex;align-items:center;justify-content:center;color:#fff"><svg width="120" height="80" xmlns="http://www.w3.org/2000/svg"><rect width="100%" height="100%" fill="#111"/></svg></div>` }
+      <div class="meta">
+        <div class="title-sm">${title}</div>
+        <div class="desc">${desc}</div>
+        <div style="margin-top:8px"><span class="btn">Beli / Lihat</span></div>
+      </div>
+    </a>`;
+    return el;
+  }
+
+  // render UI
+  async function render(){
+    const entries = await fetchFeed();
+    const found = [];
+    const sitemapItems = [];
+    for(const e of entries){
+      const links = findAffiliates(e);
+      const title = (e.title && e.title.$t) || 'Untitled';
+      const url = (e.link || []).find(l=>l.rel==='alternate')?.href || '';
+      sitemapItems.push({title,url,updated: e.published ? e.published.$t : (e.updated && e.updated.$t) || ''});
+      if(links.length){
+        found.push({
+          title: strip(title),
+          desc: strip((e.summary && e.summary.$t) || '').slice(0,140) || 'Produk afiliasi dari posting terkait',
+          img: extractImage(e) || '',
+          link: links[0]
+        });
+      }
+    }
+
+    // populate grid
+    grid.innerHTML = '';
+    if(found.length === 0){
+      grid.innerHTML = '<div class="card" style="padding:18px">Belum ada link afiliasi terdeteksi pada posting. Pastikan link afiliasi muncul di konten posting dan domain terdaftar.</div>';
+    } else {
+      found.forEach(f=>grid.appendChild(makeCard(f)));
+    }
+
+    // sitemap out
+    sitemapOut.innerHTML = sitemapItems.map(i=>`<a href="\${i.url}" target="_blank" rel="noopener">\${i.title||i.url}</a>`).join('');
+
+    // attach to global for XML
+    window.__pulse_sitemap = sitemapItems;
+  }
+
+  // generate XML
+  function generateXML(items){
+    const xmlItems = items.map(i=>{
+      const loc = i.url;
+      const lastmod = (i.updated) ? new Date(i.updated).toISOString() : new Date().toISOString();
+      return `<url><loc>\${loc}</loc><lastmod>\${lastmod}</lastmod><changefreq>weekly</changefreq></url>`;
+    }).join('');
+    const xml = `<?xml version="1.0" encoding="UTF-8"?>\\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\\n\${xmlItems}\\n</urlset>`;
+    const w = window.open();
+    w.document.open();
+    w.document.write('<pre style="white-space:pre-wrap;word-break:break-all;background:#111;color:#fff;padding:16px;">' + escapeHtml(xml) + '</pre>');
+    w.document.close();
+  }
+
+  function escapeHtml(s){ return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+  openSitemapBtn.addEventListener('click', ()=>{
+    sitemapSection.classList.toggle('hidden');
+    if(!sitemapSection.classList.contains('hidden')) window.scrollTo({top: sitemapSection.offsetTop - 20, behavior: 'smooth'});
+  });
+
+  generateXmlBtn.addEventListener('click', ()=> generateXML(window.__pulse_sitemap || []));
+
+  // show subscribe modal after scroll 20% (once)
+  let subShown = false;
+  function onScrollShowSubscribe(){
+    const scrolled = window.scrollY || window.pageYOffset;
+    const docH = document.documentElement.scrollHeight - window.innerHeight;
+    const ratio = docH>0 ? scrolled/docH : 0;
+    if(ratio > 0.20 && !subShown){
+      subShown = true;
+      subscribeModal.classList.remove('hidden');
+      window.removeEventListener('scroll', onScrollShowSubscribe);
+    }
+  }
+  window.addEventListener('scroll', onScrollShowSubscribe);
+
+  closeSubscribe.addEventListener('click', ()=> subscribeModal.classList.add('hidden'));
+
+  // init
+  await render();
+  // refresh while open (low cost)
+  setInterval(render, 1000 * 60 * 10);
+
+  // =========================
+  // Auto-translate (hidden UI)
+  // We'll load Google Translate element and programmatically set target language to visitor language.
+  // Note: this uses Google's public translate widget.
+  window.googleTranslateElementInit = function() {
+    try {
+      new google.translate.TranslateElement({
+        pageLanguage: 'id',
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+        autoDisplay: false
+      }, 'google_translate_element');
+
+      // small delay then auto-select language matching navigator.language
+      setTimeout(()=>{
+        try {
+          const lang = (navigator.language || navigator.userLanguage || 'en').split('-')[0];
+          // find select within the iframe
+          const frame = document.querySelector('.goog-te-menu-frame');
+          if(frame){
+            // attempt to change language via queryParameter trick (best-effort)
+            // fallback: add url param to use translate.googleapis if possible
+            // Many browsers block direct interaction; we attempt select change on the widget select if present
+            const sel = document.querySelector('select.goog-te-combo');
+            if(sel){
+              sel.value = lang;
+              sel.dispatchEvent(new Event('change'));
+            }
+          } else {
+            const sel = document.querySelector('select.goog-te-combo');
+            if(sel){
+              sel.value = lang;
+              sel.dispatchEvent(new Event('change'));
+            }
+          }
+        } catch(e){/*fail silently*/ }
+      }, 900);
+    } catch(e){}
+  };
+  (function(){
+    var gt = document.createElement('script'); gt.type='text/javascript'; gt.async=true;
+    gt.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+    document.head.appendChild(gt);
+  })();
+
+  // =========================
+  // Auto dark/light mode based on visitor local time (00-06 light, 07-18 light, else dark) + prefers-color-scheme fallback
+  function applyThemeByTime(){
+    try {
+      const now = new Date();
+      const h = now.getHours();
+      // default: day 7-18 => light, else dark
+      const isLight = (h >= 7 && h <= 18);
+      if(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches){
+        // respect user preference if system set to dark
+        // but still apply time-based as primary (user preference will override if we invert)
+      }
+      if(isLight){
+        document.documentElement.classList.add('light');
+      } else {
+        document.documentElement.classList.remove('light');
+      }
+    } catch(e){}
+  }
+  applyThemeByTime();
+
+  // accessibility: respects prefers-reduced-motion already via CSS
+})();
+</script>
+
+
+"""
+# write file
+path = "/mnt/data/v8p_pulse_v8_3_pagemode.html"
+with open(path, "w", encoding="utf-8") as f:
+    f.write(html)
+
+print("File written to:", path)
+print("Download link: sandbox:" + path)</!doctype>]]></b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+  </b:widget>
+  <b:widget id='HTML4' locked='false' title='' type='HTML'>
+    <b:widget-settings>
+      <b:widget-setting name='content'><![CDATA[<style>
+.mini-subscribe {
+  position: fixed;
+  right: 20px;
+  bottom: 90px;
+  background: red;
+  color: #fff;
+  font-size: 14px;
+  padding: 6px 14px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  z-index: 9999;
+  display: inline-block !important;
+}
+</style>
+
+<a class="mini-subscribe" 
+   href="https://www.youtube.com/UCTHGlP7T12oHv2QHDuw0C3g?sub_confirmation=1" 
+   target="_blank">
+   Subscribe
+</a>]]></b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+  </b:widget>
+  <b:widget id='HTML6' locked='false' title='' type='HTML'>
+    <b:widget-settings>
+      <b:widget-setting name='content'><![CDATA[<!-- Ultra Mini Floating Playlist (Ukuran Tombol Subscribe) -->
+<div class="yt-floating-mini">
+  <iframe 
+    src="https://www.youtube.com/embed/videoseries?list=PLSBXhP3KAxsDygkrgu8roI7YsOeUEUA4w&autoplay=1&mute=1&controls=0" 
+    frameborder="0" 
+    allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+
+<style>
+.yt-floating-mini {
+  position: fixed;
+  bottom: 15px;      /* jarak dari bawah layar */
+  right: 70px;       /* jarak dari kanan layar */
+  width: 100px;      /* mirip tombol subscribe */
+  border-radius: 30px;
+  padding: 2px;
+  background: linear-gradient(90deg, red, orange, yellow, green, cyan, blue, violet, red);
+  background-size: 400% 400%;
+  animation: rainbow 6s linear infinite, glow 2s ease-in-out infinite alternate;
+  z-index: 9999;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.35);
+}
+
+.yt-floating-mini iframe {
+  width: 100%;
+  height: 40px;   /* tinggi kecil seperti tombol */
+  border: none;
+  border-radius: 30px;
+  display: block;
+}
+
+@keyframes rainbow {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+
+@keyframes glow {
+  0% {box-shadow: 0 0 4px rgba(255,255,255,0.3);}
+  100% {box-shadow: 0 0 15px rgba(255,255,255,0.9);}
+}
+</style>]]></b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+  </b:widget>
 </b:section-contents><b:section-contents id='footer-2-1'>
   <b:widget id='PageList2' locked='false' title='Halaman' type='PageList'>
     <b:widget-settings>
-      <b:widget-setting name='pageListJson'><![CDATA[{"link0":{"href":"http://aleos-tube-dayli-vlog-anak-rantau.blogspot.com/","position":0,"title":"Beranda"}}]]></b:widget-setting>
+      <b:widget-setting name='pageListJson'><![CDATA[{"link1":{"href":"https://aleos-tube-daily-vlog-anak-rantau.blogspot.com/p/aleos-tube-daily-vlog-anak-rantau.html","position":1,"title":"Youtube | Aleo's Tube"},"link0":{"href":"http://aleos-tube-daily-vlog-anak-rantau.blogspot.com/","position":0,"title":"Beranda"},"link3":{"href":"https://web.facebook.com/Aleostube/","position":3,"title":"Fb"},"link2":{"href":"https://id.pinterest.com/aleostube/","position":2,"title":"Pinterest"}}]]></b:widget-setting>
       <b:widget-setting name='homeTitle'>Beranda</b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
@@ -3260,25 +5749,59 @@ href="https://x.com/aleostube" class="btn btn-th"><i class="fab fa-x"></i> XT</a
 </b:includable>
   </b:widget>
 </b:section-contents><b:section-contents id='footer-2-2'>
-  <b:widget id='HTML7' locked='false' title='Meta pix' type='HTML'>
+  <b:widget id='HTML7' locked='false' title='' type='HTML'>
     <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<!-- Meta Pixel Code -->
+      <b:widget-setting name='content'><![CDATA[<!-- 💎 ALEO’S TUBE — YOUTUBE FEED WIDGET v3.0 -->
 <script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '570343359234570');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=570343359234570&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->]]></b:widget-setting>
+(async function(){
+  const FEED_URL = 'https://www.youtube.com/feeds/videos.xml?channel_id=UCTHGlP7T12oHv2QHDuw0C3g';
+  const PROXY = 'https://api.allorigins.win/get?url=' + encodeURIComponent(FEED_URL);
+  const container = document.getElementById('ytVideos');
+
+  try {
+    const res = await fetch(PROXY);
+    const data = await res.json();
+    const parser = new DOMParser();
+    const xml = parser.parseFromString(data.contents, 'application/xml');
+    const entries = xml.getElementsByTagName('entry');
+
+    const maxVideos = 6;
+    container.innerHTML = '';
+
+    for (let i = 0; i < Math.min(entries.length, maxVideos); i++) {
+      const entry = entries[i];
+      const title = entry.getElementsByTagName('title')[0].textContent;
+      const link = entry.getElementsByTagName('link')[0].getAttribute('href');
+      const idFull = entry.getElementsByTagName('id')[0].textContent;
+      const videoId = idFull.split(':').pop();
+      const thumb = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
+
+      const videoCard = document.createElement('div');
+      videoCard.style.cssText = `
+        border-radius:12px;
+        overflow:hidden;
+        background:#f8f9fa;
+        box-shadow:0 0 8px rgba(0,0,0,0.1);
+        transition:transform 0.3s ease, box-shadow 0.3s ease;
+      `;
+      videoCard.innerHTML = `
+        <a href="${link}" target="_blank" style="text-decoration:none;color:inherit;">
+          <img src="${thumb}" alt="${title}" style="width:100%;display:block;">
+          <div style="padding:10px;">
+            <h4 style="font-size:15px;margin:0;">${title}</h4>
+          </div>
+        </a>
+      `;
+      videoCard.onmouseover = () => videoCard.style.transform = 'scale(1.03)';
+      videoCard.onmouseout = () => videoCard.style.transform = 'scale(1)';
+      container.appendChild(videoCard);
+    }
+  } catch (err) {
+    container.innerHTML = '<p style="color:red;">Gagal memuat video 😢</p>';
+    console.error('Feed error:', err);
+  }
+})();
+</script>]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -3289,28 +5812,6 @@ src="https://www.facebook.com/tr?id=570343359234570&ev=PageView&noscript=1"
     <data:content/>
   </div>
 
-  <b:include name='quickedit'/>
-</b:includable>
-  </b:widget>
-  <b:widget id='Translate1' locked='false' title='Translate' type='Translate'>
-    <b:widget-settings>
-      <b:widget-setting name='displayMode'>SIMPLE</b:widget-setting>
-    </b:widget-settings>
-    <b:includable id='main'>
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
-  <div id='google_translate_element'/>
-  <script>
-    function googleTranslateElementInit() {
-      new google.translate.TranslateElement({
-        pageLanguage: &#39;<data:pageLanguage/>&#39;,
-        autoDisplay: &#39;true&#39;,
-        layout: google.translate.TranslateElement.InlineLayout.<data:layout/>
-      }, &#39;google_translate_element&#39;);
-    }
-  </script>
-  <script src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'/>
   <b:include name='quickedit'/>
 </b:includable>
   </b:widget>
@@ -3373,24 +5874,6 @@ src="https://www.facebook.com/tr?id=570343359234570&ev=PageView&noscript=1"
   <b:include name='quickedit'/>
 </b:includable>
   </b:widget>
-  <b:widget id='Feed1' locked='false' title='ᴬˡᵉᵒ&apos;ˢ ᵀᵘᵇᵉ' type='Feed'>
-    <b:widget-settings>
-      <b:widget-setting name='feedUrl'>https://www.youtube.com/feeds/videos.xml?channel_id=UCTHGlP7T12oHv2QHDuw0C3g</b:widget-setting>
-      <b:widget-setting name='openLinksInNewWindow'>false</b:widget-setting>
-      <b:widget-setting name='numItemsShow'>5</b:widget-setting>
-      <b:widget-setting name='showItemDate'>true</b:widget-setting>
-      <b:widget-setting name='showItemAuthor'>false</b:widget-setting>
-    </b:widget-settings>
-    <b:includable id='main'>
-    <h2><data:title/></h2>
-    <div class='widget-content' expr:id='data:widget.instanceId + &quot;_feedItemListDisplay&quot;'>
-      <span style='filter: alpha(25); opacity: 0.25;'>
-        <a expr:href='data:feedUrl'><data:loadingMsg/></a>
-      </span>
-    </div>
-    <b:include name='quickedit'/>
-  </b:includable>
-  </b:widget>
   <b:widget id='Stats1' locked='false' title='Total Tayangan Halaman' type='Stats'>
     <b:widget-settings>
       <b:widget-setting name='showGraphicalCounter'>false</b:widget-setting>
@@ -3416,4 +5899,694 @@ src="https://www.facebook.com/tr?id=570343359234570&ev=PageView&noscript=1"
   </div>
 </b:includable>
   </b:widget>
-</b:section-contents></html><img width="2048" height="1152" alt="Aleos-Tube-Dayli-Vlog-Anak-Rantau-Indonesia - _" src="https://github.com/user-attachments/assets/e9ef31f4-72f0-4846-9763-18a498b2563e" />
+</b:section-contents><b:section-contents id='footer-2-3'>
+  <b:widget id='HTML8' locked='false' title='' type='HTML'>
+    <b:widget-settings>
+      <b:widget-setting name='content'><![CDATA[<!-- Chat Bot Aleo's Tube v6 — Voice + Memory + Dark Mode + Auto-Translate + Subscribe -->
+<div id="aleo-chat-root"></div>
+
+<!-- Google Translate widget (will be loaded dynamically) -->
+<div id="google_translate_element" style="display:none;"></div>
+
+<style>
+  :root {
+    --primary-color: #2196f3;
+    --bg: #ffffff;
+    --text: #222;
+    --muted: #666;
+    --radius: 10px;
+    --shadow: 0 6px 20px rgba(33,33,33,0.08);
+    --max-width: 820px;
+  }
+
+  body.dark-mode {
+    --bg: #121212;
+    --text: #eee;
+    --muted: #bbb;
+    --shadow: 0 6px 18px rgba(0,0,0,0.4);
+  }
+
+  #aleo-chat-root {
+    max-width: var(--max-width);
+    margin: 28px auto;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+    color: var(--text);
+    position: relative;
+  }
+
+  .aleo-chat {
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    border: 1px solid rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    background: var(--bg);
+  }
+
+  .aleo-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 16px;
+    background: linear-gradient(90deg, var(--primary-color), rgba(0,0,0,0.1));
+    color: white;
+  }
+
+  .aleo-header h3 { margin:0; font-size:16px; font-weight:600; }
+
+  .aleo-header .btns { display:flex; gap:8px; align-items:center; }
+
+  .aleo-header button, .aleo-header a.subscribe {
+    background: rgba(255,255,255,0.15);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    text-decoration: none;
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+  }
+  .aleo-header button:hover, .aleo-header a.subscribe:hover { background: rgba(255,255,255,0.28); }
+
+  .aleo-body {
+    padding: 14px;
+    min-height: 140px;
+    max-height: 420px;
+    overflow-y: auto;
+    background: linear-gradient(180deg, rgba(0,0,0,0.02), transparent);
+  }
+
+  .msg { margin-bottom: 12px; display:flex; gap:8px; align-items:flex-end; }
+  .msg.user { justify-content: flex-end; }
+
+  .bubble {
+    max-width: 84%;
+    padding: 10px 12px;
+    border-radius: 12px;
+    line-height: 1.35;
+    font-size: 14px;
+    word-break: break-word;
+  }
+
+  .bubble.user {
+    background: var(--primary-color);
+    color: white;
+    border-bottom-right-radius: 6px;
+  }
+
+  .bubble.bot {
+    background: #f5f7fb;
+    color: var(--text);
+    border-bottom-left-radius: 6px;
+  }
+
+  body.dark-mode .bubble.bot {
+    background: #1e1e1e;
+    color: #eee;
+  }
+
+  .aleo-input {
+    display:flex;
+    gap:8px;
+    padding: 12px;
+    border-top: 1px solid rgba(0,0,0,0.04);
+    background: var(--bg);
+  }
+
+  .aleo-input input[type="text"]{
+    flex:1;
+    padding:10px 12px;
+    border-radius: 8px;
+    border:1px solid #e6e9ef;
+    font-size:14px;
+    background: var(--bg);
+    color: var(--text);
+  }
+
+  body.dark-mode .aleo-input input { border-color: #333; }
+
+  .aleo-input button {
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 9px 14px;
+    border-radius: 8px;
+    font-weight:600;
+    cursor: pointer;
+  }
+
+  .aleo-footer {
+    font-size:12px;
+    color: var(--muted);
+    padding: 8px 12px;
+    text-align: right;
+    background: var(--bg);
+  }
+
+  /* floating mini button (optional) */
+  .aleo-floating {
+    position: fixed;
+    right: 18px;
+    bottom: 18px;
+    z-index: 9999;
+  }
+  .aleo-toggle {
+    width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+    background:var(--primary-color);color:#fff;border:none;box-shadow:var(--shadow);cursor:pointer;font-weight:700;
+    border: 3px solid rgba(255,255,255,0.06);
+  }
+
+  /* responsive */
+  @media (max-width:600px) {
+    #aleo-chat-root { margin: 16px; }
+    .aleo-body { max-height: 320px; }
+  }
+</style>
+
+<script>
+(function(){
+  // ---------- CONFIG ----------
+  // Public channel link - converted from the studio link you gave
+  const youtubeChannel = "https://www.youtube.com/channel/UCTHGlP7T12oHv2QHDuw0C3g";
+  const youtubeSubscribeText = "Dukung Aleo's Tube di YouTube — klik Subscribe!";
+
+  // Q&A
+  const qaList = [
+    { q: ["apa itu aleo's tube","tentang aleo","siapa aleo"], a: "Aleo's Tube adalah blog vlog anak rantau Indonesia — tempat berbagi kisah, pengalaman, dan keseharian hidup di luar negeri." },
+    { q: ["siapa pemilik blog","siapa yang buat blog ini"], a: "Blog ini dikelola oleh Aleo, anak rantau Indonesia yang suka berbagi cerita dan tips hidup mandiri." },
+    { q: ["tinggal di mana","lokasi aleo"], a: "Aleo sedang merantau di luar negeri dan sering berbagi pengalaman dari sana." },
+    { q: ["jadwal upload","posting baru","kapan update"], a: "Biasanya ada posting atau vlog baru setiap minggu. Cek bagian 'Posting Terbaru' ya!" },
+    { q: ["kategori konten","isi blog"], a: "Konten blog ini mencakup vlog harian, motivasi hidup, pengalaman merantau, dan tips menarik." },
+    { q: ["komentar tidak muncul","cara komentar"], a: "Pastikan kamu login dengan akun Google sebelum berkomentar. Kadang butuh waktu untuk moderasi." },
+    { q: ["follow","subscribe","langganan"], a: "Kamu bisa berlangganan lewat tombol 'Ikuti' di sidebar atau tombol Subscribe di channel YouTube kami." },
+    { q: ["share","bagikan"], a: "Gunakan tombol share di bawah postingan untuk membagikan ke media sosial." },
+    { q: ["lemot","error","tidak bisa dibuka"], a: "Coba muat ulang halaman atau hapus cache browser kamu. Jika masih error, laporkan di halaman Kontak." },
+    { q: ["tema blog","desain"], a: "Tema blog ini berdesain minimalis, cepat, dan responsif di semua perangkat." },
+    { q: ["kerjasama","endorse","afiliasi"], a: "Untuk kerja sama, silakan kirim email ke kontak@aleostube.com (ubah dengan email kamu sendiri)." },
+    { q: ["kontak","hubungi","email"], a: "Hubungi Aleo lewat halaman Kontak di menu atas atau kirim email langsung ke kontak 👉aleostube@gmail.com." },
+    { q: ["dukungan","donasi","support"], a: "Kamu bisa dukung blog ini dengan share, komentar positif, atau subscribe ke channel YouTube kami 🙏" },
+    { q: ["motivasi hidup","semangat"], a: "Terus semangat! Hidup adalah perjalanan yang berharga, nikmati setiap langkahnya ✨" },
+    { q: ["terima kasih","makasih"], a: "Sama-sama! Terima kasih sudah mampir ke Aleo’s Tube 💙" },
+    { q: ["bye","dadah","sampai jumpa"], a: "Sampai jumpa lagi! Jangan lupa mampir ke postingan terbaru ya 👋" }
+  ];
+
+  const defaultAnswer = "Maaf, saya belum punya jawaban untuk itu 😅. Coba tanyakan hal lain atau kunjungi halaman Kontak untuk info lebih lengkap.";
+  const storageKey = "aleo_chat_history_v6";
+
+  // ---------- UTIL ----------
+  function normalize(text){ return (text||"").toLowerCase().replace(/[^\w\s']/g, "").trim(); }
+  function findAnswer(text){
+    const t = normalize(text);
+    for (const item of qaList){
+      for (const kw of item.q){
+        if (t.includes(normalize(kw))) return item.a;
+      }
+    }
+    return null;
+  }
+
+  // ---------- TTS (santai & natural) ----------
+  function speak(text){
+    if (!window.speechSynthesis) return;
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = "id-ID";
+    u.pitch = 1.05;
+    u.rate = 1.0;
+    u.volume = 1;
+    const voices = speechSynthesis.getVoices();
+    const voice = voices.find(v => v.lang && v.lang.startsWith("id")) || voices[0];
+    if (voice) u.voice = voice;
+    window.speechSynthesis.cancel();
+    window.speechSynthesis.speak(u);
+  }
+
+  // ---------- BUILD UI ----------
+  const root = document.getElementById('aleo-chat-root');
+  root.innerHTML = `
+    <div class="aleo-chat" id="aleo-chat">
+      <div class="aleo-header">
+        <h3>Aleo’s Tube — Chat Bantuan</h3>
+        <div class="btns">
+          <a class="subscribe" id="subscribeBtn" href="${youtubeChannel}" target="_blank" rel="noopener">
+            📺 Subscribe
+          </a>
+          <button id="clearChat">Hapus Chat</button>
+        </div>
+      </div>
+      <div class="aleo-body" id="chat-body" aria-live="polite"></div>
+      <div class="aleo-input">
+        <input id="chat-input" type="text" placeholder="Tanyakan sesuatu... (misal: 'Apa itu Aleo's Tube?')">
+        <button id="chat-send">Kirim</button>
+      </div>
+      <div class="aleo-footer">🎙️ Chat otomatis — suara santai • Auto-translate tersedia</div>
+    </div>
+
+    <!-- floating toggle -->
+    <div class="aleo-floating" id="aleo-floating" style="display:none;">
+      <button class="aleo-toggle" id="aleo-open">AT</button>
+    </div>
+  `;
+
+  const chatWrap = root.querySelector('#aleo-chat');
+  const bodyEl = root.querySelector('#chat-body');
+  const inputEl = root.querySelector('#chat-input');
+  const sendBtn = root.querySelector('#chat-send');
+  const clearBtn = root.querySelector('#clearChat');
+  const subscribeBtn = root.querySelector('#subscribeBtn');
+  const floating = root.querySelector('#aleo-floating');
+  const openBtn = root.querySelector('#aleo-open');
+
+  // ---------- HISTORY ----------
+  function saveHistory(){ localStorage.setItem(storageKey, bodyEl.innerHTML); }
+  function loadHistory(){
+    const saved = localStorage.getItem(storageKey);
+    if (saved) bodyEl.innerHTML = saved;
+    else {
+      appendBot("Halo 👋! Saya asisten santai Aleo’s Tube. Mau tanya apa hari ini?", true, false);
+      // after greeting, show subscribe nudge
+      setTimeout(()=> appendBot(youtubeSubscribeText + " — klik tombol Subscribe di atas.", true), 900);
+    }
+  }
+  function clearHistory(){
+    localStorage.removeItem(storageKey);
+    bodyEl.innerHTML = "";
+    appendBot("Percakapan dihapus. Yuk mulai chat baru 👋", true, false);
+  }
+
+  // ---------- MESSAGES ----------
+  function appendUser(text){
+    const wrap = document.createElement('div'); wrap.className = 'msg user';
+    const b = document.createElement('div'); b.className='bubble user'; b.innerText = text;
+    wrap.appendChild(b); bodyEl.appendChild(wrap); bodyEl.scrollTop = bodyEl.scrollHeight; saveHistory();
+  }
+  function appendBot(text, speakNow=true, save=true){
+    const wrap = document.createElement('div'); wrap.className = 'msg bot';
+    const b = document.createElement('div'); b.className='bubble bot'; b.innerText = text;
+    wrap.appendChild(b); bodyEl.appendChild(wrap); bodyEl.scrollTop = bodyEl.scrollHeight;
+    if (speakNow) speak(text);
+    if (save) saveHistory();
+  }
+
+  // ---------- SEND HANDLER ----------
+  function handleSend(){
+    const t = inputEl.value.trim();
+    if (!t) return;
+    appendUser(t);
+    inputEl.value = '';
+    // special: if user asks to subscribe or mentions youtube
+    const tl = normalize(t);
+    if (tl.includes("subscribe") || tl.includes("youtube") || tl.includes("channel")) {
+      setTimeout(()=> appendBot("Makasih! Kamu bisa subscribe di sini: " + youtubeChannel + " — terima kasih atas dukungannya! 🙏"), 400);
+      return;
+    }
+    const ans = findAnswer(t) || defaultAnswer;
+    setTimeout(()=> appendBot(ans, true), 450 + Math.random()*300);
+  }
+
+  sendBtn.addEventListener('click', handleSend);
+  inputEl.addEventListener('keydown', e => { if (e.key === 'Enter') handleSend(); });
+  clearBtn.addEventListener('click', clearHistory);
+
+  // Floating open/close
+  let collapsed = false;
+  function showFloating(){ floating.style.display = ''; chatWrap.style.display = 'none'; collapsed = true; }
+  function showChat(){ chatWrap.style.display = ''; floating.style.display = 'none'; collapsed = false; }
+  openBtn && openBtn.addEventListener('click', ()=> showChat());
+
+  // If screen small, show floating toggle
+  if (window.innerWidth <= 900) {
+    showFloating();
+  }
+
+  // ---------- AUTO TRANSLATE (Google Translate widget) ----------
+  // We'll load the Google Translate element and try to auto-select visitor language.
+  // NOTE: This uses the official Google Translate website widget (client-side).
+  function loadGoogleTranslate(){
+    if (window.google && window.google.translate) return initGTranslate();
+    const s = document.createElement('script');
+    s.src = "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
+    s.async = true;
+    document.head.appendChild(s);
+    window.googleTranslateElementInit = initGTranslate;
+  }
+
+  function initGTranslate(){
+    try {
+      new google.translate.TranslateElement({
+        pageLanguage: 'id',
+        autoDisplay: false
+      }, 'google_translate_element');
+
+      // attempt to auto-select the user's language from navigator.language
+      const userLang = (navigator.language || navigator.userLanguage || 'en').split('-')[0];
+      setTimeout(()=> trySetTranslateLang(userLang), 600);
+    } catch(e){
+      // ignore if widget blocked
+      console.warn("Google Translate init failed", e);
+    }
+  }
+
+  function trySetTranslateLang(lang){
+    // widget creates a select in iframe; try to find and set it
+    const interval = setInterval(()=>{
+      const gtFrame = document.querySelector('iframe.goog-te-menu-frame');
+      if (!gtFrame) return;
+      try {
+        const doc = gtFrame.contentDocument || gtFrame.contentWindow.document;
+        const select = doc.querySelector('select.goog-te-combo');
+        if (select) {
+          // map two-letter to available select options
+          const opt = Array.from(select.options).find(o => o.value.indexOf(lang) === 0 || o.value.indexOf(lang+'-') === 0);
+          if (opt) {
+            select.value = opt.value;
+            // dispatch change
+            const ev = doc.createEvent('HTMLEvents'); ev.initEvent('change', true, true); select.dispatchEvent(ev);
+            clearInterval(interval);
+          }
+        }
+      } catch(err){
+        // cross-origin may block until iframe loaded; ignore
+      }
+    }, 500);
+
+    // Stop trying after 8s
+    setTimeout(()=> clearInterval(interval), 8000);
+  }
+
+  // Expose a small API to toggle translate manually
+  window.AleoChatTranslate = {
+    enable: loadGoogleTranslate
+  };
+
+  // ---------- INIT ----------
+  loadHistory();
+
+  // Auto-load Google Translate (try)
+  loadGoogleTranslate();
+
+  // small helpful nudge: when chat loads, show subscribe call-to-action in UI (accessible)
+  subscribeBtn.addEventListener('click', function(){
+    // Also announce in chat
+    appendBot("Makasih! Kalau sudah subscribe, tulis 'sudah subscribe' ya — biar saya tahu kamu dukung channel ini 🙂", false);
+  });
+
+  // ensure voices list loaded for some browsers
+  if (typeof speechSynthesis !== "undefined" && speechSynthesis.onvoiceschanged !== undefined) {
+    speechSynthesis.onvoiceschanged = () => {};
+  }
+
+  // accessibility: focus input on ctrl/cmd+k
+  document.addEventListener('keydown', function(e){
+    if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
+      e.preventDefault();
+      inputEl.focus();
+    }
+  });
+
+})();
+</script>]]></b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+  </b:widget>
+  <b:widget id='HTML9' locked='false' title='' type='HTML'>
+    <b:widget-settings>
+      <b:widget-setting name='content'><![CDATA[<!-- Aleo's Tube - Widget Follow Blog Responsif + Auto Translate -->
+<style type='text/css'><![CDATA[
+.aleo-follow-widget {
+    position: fixed;
+    top: 50%;
+    right: -300px;
+    transform: translateY(-50%);
+    width: 280px;
+    max-width: 90vw;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 15px 0 0 15px;
+    box-shadow: -5px 0 25px rgba(0,0,0,0.4);
+    z-index: 99999;
+    transition: right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    font-family: Arial, sans-serif;
+    color: #fff;
+    overflow: hidden;
+}
+.aleo-follow-widget.show { right: 0; }
+.follow-header {
+    background: rgba(255,255,255,0.1);
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+    position: relative;
+}
+.follow-header h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+.follow-content {
+    padding: 20px 15px;
+    text-align: center;
+}
+.blog-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 auto 12px;
+    border: 3px solid rgba(255,255,255,0.3);
+    background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+}
+.blog-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.blog-desc {
+    font-size: 11px;
+    opacity: 0.95;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+.follow-btn {
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.follow-btn:hover {
+    background: #ff5252;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255,107,107,0.4);
+}
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.social-links a {
+    color: white;
+    font-size: 16px;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.1);
+    width: 36px; height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-links a:hover { opacity: 1; background: rgba(255,255,255,0.2);}
+.close-widget {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    background: rgba(255,255,255,0.2);
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    opacity: 0.8;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+}
+.close-widget:hover { opacity: 1; }
+.toggle-btn {
+    position: fixed;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    width: 48px; height: 48px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 100000;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 600px) {
+    .aleo-follow-widget { width: 95vw; right: -100vw; }
+}
+]]]]><![CDATA[></style>
+
+<!-- HTML Widget -->
+<div class="aleo-follow-widget" id="followWidget">
+    <button class="close-widget" onclick="closeFollowWidget()">&#215;</button>
+    <div class="follow-header">
+        <h3 id="widget-title">🌟 Ikuti Blog Ini!</h3>
+    </div>
+    <div class="follow-content">
+        <div class="blog-avatar">🌴</div>
+        <div class="blog-title" id="widget-blog-title">Aleo’s Tube Daily Vlog</div>
+        <div class="blog-desc" id="widget-desc">
+            Cerita keseharian anak rantau di perkebunan sawit &amp; petualangan seru di desa!
+        </div>
+        <a href="https://aleos-tube-daily-vlog-anak-rantau.blogspot.com/feeds/posts/default" 
+           class="follow-btn" target="_blank" id="widget-follow-btn">
+           📧Ikuti Blog
+        </a>
+        <div class="social-links">
+            <a href="https://www.youtube.com/UCTHGlP7T12oHv2QHDuw0C3g" target="_blank" title="YouTube">&#128250;</a>
+            <a href="#" target="_blank" title="Instagram">&#128247;</a>
+            <a href="#" target="_blank" title="Facebook">&#128100;</a>
+        </div>
+ <script>   
+<button class="toggle-btn" id="toggleBtn" onclick="toggleFollowWidget()">👋</button>
+</script></div></div>]]></b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+  </b:widget>
+  <b:widget id='HTML10' locked='false' title='' type='HTML'>
+    <b:widget-settings>
+      <b:widget-setting name='content'><![CDATA[<style>
+  /* Wrapper grid */
+  .aleo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  /* Card styling */
+  .aleo-card {
+    background: #11152a;
+    border-radius: 12px;
+    padding: 16px;
+    color: #f1f1f1;
+    box-shadow: 0 4px 15px rgba(0,180,255,0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .aleo-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,180,255,0.4);
+  }
+
+  .aleo-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 12px;
+  }
+
+  .aleo-card h2 {
+    font-size: 1.2rem;
+    margin: 0 0 10px 0;
+    color: #00b0ff;
+  }
+
+  .aleo-card p {
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+</style>
+
+<div class="aleo-grid" id="aleoGrid">
+  <!-- Konten akan otomatis ditempatkan di sini -->
+</div>
+
+<script>
+  // Ambil semua post-body dan title dari blog
+  const posts = document.querySelectorAll('.post');
+  const grid = document.getElementById('aleoGrid');
+
+  posts.forEach(post => {
+    const card = document.createElement('div');
+    card.className = 'aleo-card';
+
+    // Ambil judul
+    const title = post.querySelector('.post-title')?.innerHTML || '';
+    const body = post.querySelector('.post-body')?.innerHTML || '';
+
+    card.innerHTML = `
+      <h2>${title}</h2>
+      <div>${body}</div>
+    `;
+
+    grid.appendChild(card);
+  });
+
+  // Sembunyikan postingan asli supaya tidak dobel
+  posts.forEach(p => p.style.display = 'none');
+</script>]]></b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+  </b:widget>
+</b:section-contents></html>
