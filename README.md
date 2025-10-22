@@ -1,1047 +1,293 @@
+<xml version="10" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:version='2' class='v2' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
 <html b:version='2' class='v2' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
-  <head>
-    <!-- ============================================= -->
-<!-- 🌐 ALEO&#8217;S TUBE &#8212; SEO + ANALYTICS INTEGRATION -->
-<!-- ============================================= -->
+<b:if cond='data:blog'>
+<head>
+  <!-- =========================================================
+  🤖 ALEO'S TUBE — SEO MAX HEAD v10.5 (FULL READY)
+  - XML-safe for Blogger (CDATA where needed)
+  - GA4, JSON-LD, Open Graph, Twitter Card
+  - Auto Voice Welcome (multi-language incl. Tetun)
+  - Auto Translate (auto detect visitor language, hides UI)
+  - Backlink Tracker widget + Chart.js
+  - Sync added backlinks to Google Sheets via Apps Script Web App
+  ========================================================= -->
 
-<meta charset='UTF-8'/>
-<meta content='width=device-width, initial-scale=1.0' name='viewport'/>
-<meta content='Aleo’s Tube Daily Vlog Anak Rantau' name='title'/>
-<meta content='Aleo’s Tube Daily Vlog Anak Rantau — vlog keseharian anak rantau yang berbagi cerita, hiburan, dan peluang bisnis online melalui konten inspiratif dan promosi afiliasi.' name='description'/>
-<meta content='Aleo’s Tube' name='author'/>
-<meta content='Aleo’s Tube, vlog anak rantau, vlog harian, vlog Indonesia, promosi afiliasi, bisnis online, cerita perantauan, hiburan, daily vlog, blogger Indonesia' name='keywords'/>
+  <!-- Basic -->
+  <meta charset='UTF-8'/>
+  <meta name='viewport' content='width=device-width, initial-scale=1'/>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'/>
 
-<!-- 🟦 Open Graph -->
-<meta content='website' property='og:type'/>
-<meta content='Aleo’s Tube Daily Vlog Anak Rantau' property='og:title'/>
-<meta content='Berbagi kisah anak rantau, hiburan ringan, dan peluang bisnis afiliasi yang inspiratif.' property='og:description'/>
-<meta content='https://aleos-tube-daily-vlog-anak-rantau.blogspot.com/' property='og:url'/>
-<meta content='https://your-image-link.jpg' property='og:image'/> <!-- ganti dengan thumbnail -->
+  <!-- Dynamic title (Blogger variable) -->
+  <title><data:blog.pageTitle/></title>
 
-<!-- 🐦 Twitter Card -->
-<meta content='summary_large_image' name='twitter:card'/>
-<meta content='Aleo’s Tube Daily Vlog Anak Rantau' name='twitter:title'/>
-<meta content='Cerita dan hiburan anak rantau, serta peluang bisnis afiliasi online.' name='twitter:description'/>
-<meta content='https://your-image-link.jpg' name='twitter:image'/>
+  <!-- Canonical & robots -->
+  <link rel='canonical' expr:href='data:blog.canonicalUrl'/>
+  <meta name='robots' content='index,follow'/>
 
-<!-- 🔍 JSON-LD Schema -->
-<script type='application/ld+json'>
-{
-  &quot;@context&quot;: &quot;https://schema.org&quot;,
-  &quot;@type&quot;: &quot;Blog&quot;,
-  &quot;name&quot;: &quot;Aleo&#8217;s Tube Daily Vlog Anak Rantau&quot;,
-  &quot;url&quot;: &quot;https://aleos-tube-daily-vlog-anak-rantau.blogspot.com/&quot;,
-  &quot;author&quot;: {
-    &quot;@type&quot;: &quot;Person&quot;,
-    &quot;name&quot;: &quot;Aleo&#8217;s Tube&quot;
-  },
-  &quot;description&quot;: &quot;Vlog keseharian anak rantau yang berbagi cerita, hiburan, dan peluang bisnis afiliasi online.&quot;,
-  &quot;inLanguage&quot;: &quot;id-ID&quot;,
-  &quot;publisher&quot;: {
-    &quot;@type&quot;: &quot;Organization&quot;,
-    &quot;name&quot;: &quot;Aleo&#8217;s Tube&quot;,
-    &quot;logo&quot;: {
-      &quot;@type&quot;: &quot;ImageObject&quot;,
-      &quot;url&quot;: &quot;https://your-logo-link.png&quot;
-    }
-  }
-}
-</script>
+  <!-- Core SEO meta (dynamic) -->
+  <meta expr:content='data:blog.metaDescription' name='description'/>
+  <meta expr:content='data:blog.metaKeywords' name='keywords'/>
+  <meta expr:content='data:blog.author' name='author'/>
 
-<!-- ============================================= -->
-<!-- 📊 GOOGLE ANALYTICS 4 -->
-<!-- ============================================= -->
-<script async='async' src='https://www.googletagmanager.com/gtag/js?id=G-71BR09BJ1R'/>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag(&#39;js&#39;, new Date());
-  gtag(&#39;config&#39;, &#39;G-71BR09BJ1R&#39;);
-</script>
-<!-- =========================================================
-🤖 ALEO'S TUBE SEO MAX v9.9 &#8212; AUTO DYNAMIC META BOOSTER (FIXED XML)
-========================================================= -->
-<b:if cond='data:blog.pageType == &quot;index&quot;'>
-  <!-- 🏠 Homepage Meta -->
-  <title><data:blog.title/></title>
-  <meta content='Selamat datang di Aleo’s Tube — vlog inspiratif anak rantau yang penuh semangat, kisah nyata, dan motivasi hidup setiap hari.' name='description'/>
-  <meta content='Aleo’s Tube — Daily Vlog Anak Rantau &amp; Inspirasi Hidup' property='og:title'/>
-  <meta content='Kisah perjuangan dan harapan anak rantau. Saksikan vlog terbaru dari Aleo’s Tube.' property='og:description'/>
-  <meta expr:content='data:blog.url' property='og:url'/>
-  <meta content='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-your-cover-image.webp' property='og:image'/>
-  <meta content='website' property='og:type'/>
-  <meta content='summary_large_image' name='twitter:card'/>
-  <meta content='Aleo’s Tube — Daily Vlog Anak Rantau &amp; Inspirasi Hidup' name='twitter:title'/>
-  <meta content='Kisah inspiratif anak rantau, motivasi, dan perjalanan hidup.' name='twitter:description'/>
-  <meta content='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-your-cover-image.webp' name='twitter:image'/>
-</b:if>
+  <!-- Open Graph -->
+  <meta property='og:site_name' expr:content='data:blog.title'/>
+  <meta property='og:title' expr:content='data:blog.pageTitle'/>
+  <meta property='og:description' expr:content='data:blog.metaDescription'/>
+  <meta property='og:url' expr:content='data:blog.canonicalUrl'/>
+  <meta property='og:type' content='website'/>
+  <meta property='og:image' expr:content='data:blog.postImageUrl'/>
 
-<b:if cond='data:blog.pageType == &quot;item&quot;'>
-  <!-- 📄 Single Post Meta -->
-  <title><data:post.title/> &#8212; <data:blog.title/></title>
-  <meta expr:content='data:post.snippet' name='description'/>
-  <meta expr:content='data:post.author.name' name='author'/>
-  <meta content='article' property='og:type'/>
-  <meta expr:content='data:post.title' property='og:title'/>
-  <meta expr:content='data:post.snippet' property='og:description'/>
-  <meta expr:content='data:post.url' property='og:url'/>
-  <meta expr:content='data:post.featuredImage.url' property='og:image'/>
-  <meta content='summary_large_image' name='twitter:card'/>
-  <meta expr:content='data:post.title' name='twitter:title'/>
-  <meta expr:content='data:post.snippet' name='twitter:description'/>
-  <meta expr:content='data:post.featuredImage.url' name='twitter:image'/>
+  <!-- Twitter Card -->
+  <meta name='twitter:card' content='summary_large_image'/>
+  <meta name='twitter:title' expr:content='data:blog.pageTitle'/>
+  <meta name='twitter:description' expr:content='data:blog.metaDescription'/>
+  <meta name='twitter:image' expr:content='data:blog.postImageUrl'/>
 
-  <!-- 📚 Schema.org JSON-LD Auto -->
+  <!-- JSON-LD Structured Data (wrapped in CDATA to be XML-safe) -->
   <script type='application/ld+json'>
+  <![CDATA[
   {
-    &quot;@context&quot;: &quot;https://schema.org&quot;,
-    &quot;@type&quot;: &quot;BlogPosting&quot;,
-    &quot;mainEntityOfPage&quot;: {
-      &quot;@type&quot;: &quot;WebPage&quot;,
-      &quot;@id&quot;: &quot;<data:post.url/>&quot;
-    },
-    &quot;headline&quot;: &quot;<data:post.title.escaped/>&quot;,
-    &quot;description&quot;: &quot;<data:post.snippet.escaped/>&quot;,
-    &quot;image&quot;: &quot;<data:post.featuredImage.url/>&quot;,
-    &quot;author&quot;: {
-      &quot;@type&quot;: &quot;Person&quot;,
-      &quot;name&quot;: &quot;<data:post.author.name/>&quot;
-    },
-    &quot;publisher&quot;: {
-      &quot;@type&quot;: &quot;Organization&quot;,
-      &quot;name&quot;: &quot;Aleo&#8217;s Tube&quot;,
-      &quot;logo&quot;: {
-        &quot;@type&quot;: &quot;ImageObject&quot;,
-        &quot;url&quot;: &quot;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-your-logo.webp&quot;
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "name": "<data:blog.title/>",
+        "url": "<data:blog.homepageUrl/>",
+        "logo": "<data:blog.logoUrl/>",
+        "sameAs": []
+      },
+      {
+        "@type": "WebSite",
+        "url": "<data:blog.homepageUrl/>",
+        "name": "<data:blog.title/>",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "<data:blog.homepageUrl/>search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
       }
-    },
-    &quot;datePublished&quot;: &quot;<data:post.timestamp.iso8601/>&quot;,
-    &quot;dateModified&quot;: &quot;<data:post.lastUpdated.iso8601/>&quot;
+    ]
   }
+  ]]>
   </script>
-</b:if>
 
-<b:if cond='data:blog.pageType == &quot;static_page&quot;'>
-  <!-- 📜 Static Page Meta -->
-  <title><data:post.title/> &#8212; <data:blog.title/></title>
-  <meta expr:content='data:post.snippet' name='description'/>
-  <meta content='article' property='og:type'/>
-  <meta expr:content='data:post.title' property='og:title'/>
-  <meta expr:content='data:post.snippet' property='og:description'/>
-  <meta expr:content='data:post.url' property='og:url'/>
-  <meta content='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-your-cover-image.webp' property='og:image'/>
-</b:if>
-
-<b:if cond='data:blog.pageType == &quot;archive&quot;'>
-  <!-- 🗂&#65039; Archive / Label Page -->
-  <title>Arsip: <data:blog.pageTitle/> &#8212; <data:blog.title/></title>
-  <meta content='noindex,follow' name='robots'/>
-</b:if>
-
-<b:if cond='data:blog.pageType == &quot;error_page&quot;'>
-  <!-- 🚫 404 Error Page -->
-  <title>Halaman Tidak Ditemukan &#8212; <data:blog.title/></title>
-  <meta content='noindex,follow' name='robots'/>
-</b:if>
-
-<!-- =========================================================
-💡 Tips:
-- Simpan di dalam <head> sebelum </head>
-- Pastikan ganti URL logo & cover image sesuai gambar blog kamu.
-- Uji hasil di https://search.google.com/test/rich-results
-========================================================= -->
-
-<!-- ============================================= -->
-<!-- 🔵 META PIXEL CODE (SAFE FOR BLOGGER) -->
-<!-- ============================================= -->
-<b:if cond='data:blog.pageType != &quot;preview&quot;'>
-<script type='text/javascript'>
-//<![CDATA[
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '943661851197731');
-fbq('track', 'PageView');
-//]]>
-</script>
-<noscript>
-  <img height='1' src='https://www.facebook.com/tr?id=943661851197731&amp;ev=PageView&amp;noscript=1' style='display:none' width='1'/>
-</noscript>
-</b:if>
-<!-- ============================================= -->
-<!-- &#9989; END SEO + ANALYTICS INTEGRATION -->
-<!-- ============================================= -->
-
-  <meta content='Aleo&apos;s Tube adalah vlog harian anak rantau dari pedalaman Kalimantan. Berbagi keseharian, pengalaman kerja di perkebunan sawit, dan kisah inspiratif dari perantauan.' name='description'/>
-<!-- Google Tag Manager -->
-<script>
-(function(w,d,s,l,i){
-  w[l]=w[l]||[];
-  w[l].push({&#39;gtm.start&#39;: new Date().getTime(), event:&#39;gtm.js&#39;});
-  var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),
-      dl=l!=&#39;dataLayer&#39; ? &#39;&amp;l=&#39;+l : &#39;&#39;;
-  j.async=true;
-  j.src=&#39;https://www.googletagmanager.com/gtm.js?id=&#39;+i+dl;
-  f.parentNode.insertBefore(j,f);
-})(window,document,&#39;script&#39;,&#39;dataLayer&#39;,&#39;GTM-T5PTHLRB&#39;);
-</script>
-<!-- End Google Tag Manager -->
-<!-- Google Tag Manager -->
-<script>
-(function(w,d,s,l,i){
-  w[l]=w[l]||[];
-  w[l].push({&#39;gtm.start&#39;: new Date().getTime(),event:&#39;gtm.js&#39;});
-  var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!=&#39;dataLayer&#39;?&#39;&amp;l=&#39;+l:&#39;&#39;;
-  j.async=true;
-  j.src=&#39;https://www.googletagmanager.com/gtm.js?id=&#39;+i+dl+
-        &#39;&amp;env=1&amp;auth=XlVCJiNF15b9I-YIWjI4Dg&#39;;
-  f.parentNode.insertBefore(j,f);
-})(window,document,&#39;script&#39;,&#39;dataLayer&#39;,&#39;GTM-TRBCNSHZ&#39;);
-</script>
-<!-- End Google Tag Manager -->
-<b:if cond='data:blog.isMobileRequest == &quot;false&quot;'>
-  <!-- Google tag (gtag.js) -->
-  <script async='async' src='https://www.googletagmanager.com/gtag/js?id=G-2F6SD6VRNM'/>
-  <script>
+  <!-- Google Analytics (GA4) - replace ID if needed -->
+  <script async src='https://www.googletagmanager.com/gtag/js?id=G-71BR09BJ1R'></script>
+  <script type='text/javascript'>
+  <![CDATA[
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
-    gtag(&#39;js&#39;, new Date());
-
-    gtag(&#39;config&#39;, &#39;G-2F6SD6VRNM&#39;);
+    gtag('js', new Date());
+    gtag('config', 'G-71BR09BJ1R', { 'send_page_view': true });
+  ]]>
   </script>
-</b:if>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({&#39;gtm.start&#39;:
-new Date().getTime(),event:&#39;gtm.js&#39;});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!=&#39;dataLayer&#39;?&#39;&amp;l=&#39;+l:&#39;&#39;;j.async=true;j.src=
-&#39;https://www.googletagmanager.com/gtm.js?id=GTM-5M37D25X&#39;+dl;f.parentNode.insertBefore(j,f);
-})(window,document,&#39;script&#39;,&#39;dataLayer&#39;,&#39;GTM-WR546M4D&#39;);</script>
-<!-- End Google Tag Manager -->
-<script async='async' src='https://imgbb.com/upload.js'/><!-- Auto Lazy Load IMG & VIDEO for Blogger -->
-<style>
-  /* Efek blur sebelum gambar muncul */
-  img[data-src] {
-    filter: blur(8px);
-    transition: filter 0.3s ease-in-out;
-  }
-  img.lazyloaded {
-    filter: blur(0);
-  }
 
-  /* Responsive iframe (YouTube/Video) */
-  .video-container {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%; /* 16:9 */
-    height: 0;
-    overflow: hidden;
-  }
-  .video-container iframe,
-  .video-container video {
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%;
-    height: 100%;
-  }
-</style>
+  <!-- Minimal styles for ALEO widget -->
+  <style type='text/css'>
+    #aleo-tools{font-family:system-ui,Arial;font-size:13px}
+    #aleo-tools .card{background:rgba(255,255,255,0.96);border:1px solid rgba(0,0,0,0.06);padding:12px;border-radius:10px;box-shadow:0 6px 18px rgba(0,0,0,0.04)}
+    #aleo-tools.compact{position:fixed;right:12px;bottom:12px;width:320px;z-index:99999}
+    @media(max-width:720px){#aleo-tools.compact{display:none}}
+    #aleo-tools h4{margin:0 0 8px;font-size:14px}
+    #aleo-tools input,#aleo-tools button,#aleo-tools textarea{width:100%;margin:4px 0;padding:8px;border-radius:6px;border:1px solid #ddd;box-sizing:border-box}
+    #aleo-seo-health{margin-top:8px;font-size:12px}
+  </style>
 
-<script>
-document.addEventListener(&quot;DOMContentLoaded&quot;, function() {
-  // === Auto Lazy Load untuk IMG ===
-  let imgs = document.querySelectorAll(&quot;img&quot;);
-  imgs.forEach(img =&gt; {
-    if (img.hasAttribute(&quot;src&quot;)) {
-      img.setAttribute(&quot;data-src&quot;, img.getAttribute(&quot;src&quot;));
-      img.removeAttribute(&quot;src&quot;);
+  <!-- Chart.js CDN (deferred) -->
+  <script src='https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js' defer></script>
+
+  <!-- Backlink Tracker + Chart + Google Sheets sync
+       NOTE: Replace SHEET_URL value with your Apps Script Web App URL (doPost).
+  -->
+  <script type='text/javascript'>
+  <![CDATA[
+  (function(){
+    const LS_KEY = 'aleo_backlinks_v1';
+    const SHEET_URL = 'GANTI_DENGAN_URL_WEB_APP'; // <-- REPLACE this with your deployed Apps Script Web App URL
+
+    function loadLocal(){
+      try{ return JSON.parse(localStorage.getItem(LS_KEY)) || {targets:[]}; }
+      catch(e){ return {targets:[]}; }
     }
-  });
+    function saveLocal(d){
+      try{ localStorage.setItem(LS_KEY, JSON.stringify(d)); }catch(e){}
+    }
 
-  let lazyImages = [].slice.call(document.querySelectorAll(&quot;img[data-src]&quot;));
-  if (&quot;IntersectionObserver&quot; in window) {
-    let lazyImageObserver = new IntersectionObserver(function(entries, observer) {
-      entries.forEach(function(entry) {
-        if (entry.isIntersecting) {
-          let lazyImage = entry.target;
-          lazyImage.src = lazyImage.dataset.src;
-          lazyImage.classList.add(&quot;lazyloaded&quot;);
-          lazyImageObserver.unobserve(lazyImage);
+    // Public API
+    window.ALEO = {
+      get: function(){ return loadLocal(); },
+      add: async function(url, notes){
+        const store = loadLocal();
+        const entry = { url: String(url), notes: notes ? String(notes) : '', added: new Date().toISOString() };
+        store.targets.push(entry);
+        saveLocal(store);
+        // Try send to Google Sheets via Apps Script Web App (best-effort; no-cors possible)
+        try{
+          await fetch(SHEET_URL, { method: 'POST', mode: 'no-cors', body: JSON.stringify(entry) });
+        }catch(e){
+          // fail silently — local copy remains
         }
-      });
-    });
-    lazyImages.forEach(function(lazyImage) {
-      lazyImageObserver.observe(lazyImage);
-    });
-  }
-
-  // === Auto Lazy Load untuk iframe (YouTube / Video) ===
-  let iframes = document.querySelectorAll(&quot;iframe&quot;);
-  iframes.forEach(iframe =&gt; {
-    if (iframe.hasAttribute(&quot;src&quot;)) {
-      iframe.setAttribute(&quot;data-src&quot;, iframe.getAttribute(&quot;src&quot;));
-      iframe.removeAttribute(&quot;src&quot;);
-    }
-  });
-
-  const lazyIframes = document.querySelectorAll(&quot;iframe[data-src]&quot;);
-  if (&quot;IntersectionObserver&quot; in window) {
-    let iframeObserver = new IntersectionObserver(function(entries, observer) {
-      entries.forEach(function(entry) {
-        if (entry.isIntersecting) {
-          let lazyIframe = entry.target;
-          lazyIframe.src = lazyIframe.dataset.src;
-          iframeObserver.unobserve(lazyIframe);
-        }
-      });
-    });
-    lazyIframes.forEach(function(lazyIframe) {
-      iframeObserver.observe(lazyIframe);
-    });
-  }
-});
-</script>
-    <meta content='Akdxkd6UOpPuTJGNwRgYs8a-hO_77_YOJk4E46iEK9o' name='google-site-verification'/>
-    <script type='text/javascript'>
-//<![CDATA[
-   // <!-- 🌌✨ ALEO’S TUBE BLOG BOOSTER FINAL + INTERACTIVE MOUSE PARTICLES -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<style>
-html { scroll-behavior: smooth; }
-body {
-  font-family: "Poppins", sans-serif;
-  margin: 0;
-  padding: 0;
-  background: var(--bg);
-  color: var(--text);
-  transition: background 0.6s, color 0.6s;
-  overflow-x: hidden;
-}
-img, iframe { max-width: 100%; height: auto; display: block; border-radius: 10px; }
-
-/* Pesan sambutan */
-#welcome-message {
-  position: fixed;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: rgba(255,255,255,0.9);
-  backdrop-filter: blur(10px);
-  padding: 20px 40px;
-  border-radius: 20px;
-  font-size: 1.2rem;
-  font-weight: 500;
-  text-align: center;
-  color: #333;
-  opacity: 0;
-  z-index: 9999;
-  animation: fadeInOut 8s ease-in-out forwards;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
-}
-@keyframes fadeInOut {
-  0% { opacity: 0; transform: translate(-50%, -60%); }
-  15% { opacity: 1; transform: translate(-50%, -50%); }
-  85% { opacity: 1; transform: translate(-50%, -50%); }
-  100% { opacity: 0; transform: translate(-50%, -40%); }
-}
-
-/* Mode siang/malam */
-:root { --bg: #fefefe; --text: #222; }
-body.dark-mode { --bg: #080d1a; --text: #f0f0f0; }
-body.dark-mode #welcome-message { background: rgba(20,20,30,0.8); color: #fafafa; }
-
-/* Canvas bintang (di belakang) */
-#starfield { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -3; background: transparent; }
-
-/* Canvas partikel (di atas bintang, namun di bawah konten) */
-#particle-canvas { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -2; pointer-events: none; }
-
-/* Tombol Musik */
-#music-control {
-  position: fixed; right: 14px; bottom: 14px;
-  width: 48px; height: 48px; border-radius: 12px;
-  background: rgba(0,0,0,0.6); color: #fff; display: grid; place-items: center;
-  z-index: 10000; box-shadow: 0 6px 18px rgba(0,0,0,0.25); cursor: pointer;
-  backdrop-filter: blur(6px); transition: transform .15s ease, opacity .2s; opacity: .9;
-}
-#music-control:hover { transform: scale(1.06); opacity: 1; }
-#music-control[data-state="off"] { background: rgba(0,0,0,0.45); }
-#music-control svg { width: 22px; height: 22px; pointer-events: none; }
-#music-control.hidden { display: none; }
-</style>
-
-<canvas id="starfield"></canvas>
-<canvas id="particle-canvas"></canvas>
-<div id="music-control" title="Musik Latar (klik untuk hidup/mati)">
-  <svg id="music-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M5 3v18l15-9L5 3z" />
-  </svg>
-</div>
-
-<!-- Google Translate (hidden) -->
-<div id="google_translate_element" style="display:none;"></div>
-<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-<script>
-// ========== OPTIMASI KECEPATAN ==========
-document.addEventListener("DOMContentLoaded", () => {
-  document.querySelectorAll("img, iframe").forEach(el => { if(!el.loading) el.loading = "lazy"; });
-  setTimeout(() => {
-    document.querySelectorAll("script, link[rel='stylesheet']").forEach(el => {
-      if (el.src?.includes("ads") || el.href?.includes("ads") || el.href?.includes("tracking")) el.remove();
-    });
-  }, 3000);
-});
-
-// ========== GOOGLE TRANSLATE AUTO ==========
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({ pageLanguage: 'id', autoDisplay: false }, 'google_translate_element');
-}
-window.addEventListener('load', () => {
-  const userLang = (navigator.language || 'id').split('-')[0];
-  const setLang = () => {
-    const frame = document.querySelector('.goog-te-combo');
-    if (frame) { frame.value = userLang; frame.dispatchEvent(new Event('change')); }
-    else setTimeout(setLang, 500);
-  };
-  setTimeout(setLang, 1800);
-});
-
-// ========== DARK MODE OTOMATIS ==========
-(function(){ const hour = new Date().getHours(); if(hour >= 18 || hour < 6) document.body.classList.add("dark-mode"); })();
-</script>
-
-<script>
-// ========== STARFIELD (RINGAN) ==========
-const starCanvas = document.getElementById("starfield");
-const sCtx = starCanvas.getContext("2d");
-let sStars = [];
-function resizeStar() {
-  starCanvas.width = innerWidth; starCanvas.height = innerHeight;
-  const count = Math.min(140, Math.floor((innerWidth * innerHeight) / 7000)); // scale with screen
-  sStars = Array.from({length: count}, () => ({
-    x: Math.random()*starCanvas.width,
-    y: Math.random()*starCanvas.height,
-    r: Math.random()*1.8,
-    v: 0.15 + Math.random()*0.6
-  }));
-}
-function drawStarfield() {
-  sCtx.clearRect(0,0,starCanvas.width, starCanvas.height);
-  sCtx.fillStyle = "#fff";
-  sStars.forEach(s => {
-    sCtx.globalAlpha = 0.4 + Math.random()*0.6;
-    sCtx.beginPath(); sCtx.arc(s.x, s.y, s.r, 0, Math.PI*2); sCtx.fill();
-    s.y += s.v; if(s.y > starCanvas.height) s.y = 0;
-  });
-  requestAnimationFrame(drawStarfield);
-}
-resizeStar(); drawStarfield(); addEventListener("resize", resizeStar);
-</script>
-
-<script>
-// ========== INTERACTIVE PARTICLES FOLLOW MOUSE (LIGHTWEIGHT) ==========
-(function(){
-  const perf = navigator.deviceMemory ? navigator.deviceMemory : 4;
-  const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
-  // disable on low-memory or prefers-reduced-motion
-  if(perf <= 1.5 || reducedMotion) return;
-
-  const canvas = document.getElementById("particle-canvas");
-  const ctx = canvas.getContext("2d");
-  let W = canvas.width = innerWidth;
-  let H = canvas.height = innerHeight;
-  let particles = [];
-  const MAX = 60; // cap particle count
-
-  function resize() { W = canvas.width = innerWidth; H = canvas.height = innerHeight; }
-  addEventListener('resize', resize);
-
-  // particle prototype
-  function Particle(x,y){
-    this.x = x; this.y = y;
-    this.vx = (Math.random()-0.5)*0.6; this.vy = (Math.random()-0.5)*0.6;
-    this.life = 40 + Math.random()*40;
-    this.size = 0.8 + Math.random()*1.8;
-    this.hue = 200 + Math.random()*55; // bluish
-  }
-  Particle.prototype.update = function(){
-    this.x += this.vx; this.y += this.vy;
-    this.vx *= 0.98; this.vy *= 0.98;
-    this.life -= 1;
-  };
-  Particle.prototype.draw = function(){
-    ctx.beginPath();
-    ctx.globalAlpha = Math.max(0, this.life/80);
-    ctx.fillStyle = `hsla(${this.hue}, 80%, ${ (this.hue>230?65:55) }%, 1)`;
-    ctx.arc(this.x, this.y, this.size, 0, Math.PI*2);
-    ctx.fill();
-  };
-
-  // create burst near pointer
-  function spawn(x,y,amount=6){
-    for(let i=0;i<amount;i++){
-      if(particles.length >= MAX) break;
-      particles.push(new Particle(x + (Math.random()-0.5)*12, y + (Math.random()-0.5)*12));
-    }
-  }
-
-  // follow pointer with throttling
-  let last = 0;
-  addEventListener('pointermove', (e) => {
-    const now = performance.now();
-    if(now - last > 40){ // ~25fps spawn
-      spawn(e.clientX, e.clientY, 6);
-      last = now;
-    }
-  }, {passive:true});
-
-  // gentle trail on click/tap
-  addEventListener('pointerdown', (e) => spawn(e.clientX, e.clientY, 18), {passive:true});
-
-  // animation loop
-  function loop(){
-    ctx.clearRect(0,0,W,H);
-    for(let i=particles.length-1;i>=0;i--){
-      const p = particles[i];
-      p.update(); p.draw();
-      if(p.life <= 0) particles.splice(i,1);
-    }
-    // subtle connection lines (very lightweight and rare)
-    if(particles.length > 6){
-      ctx.beginPath();
-      for(let i=0;i<particles.length;i++){
-        const p = particles[i];
-        if(i % 6 === 0) ctx.moveTo(p.x, p.y);
-        else ctx.lineTo(p.x, p.y);
+        return store;
       }
-      ctx.globalAlpha = 0.02;
-      ctx.strokeStyle = "white"; ctx.stroke();
+    };
+
+    // Simple SEO health checks
+    function seoHealth(){
+      const t = document.title || '';
+      const md = document.querySelector('meta[name="description"]');
+      const len = md ? (md.getAttribute('content') || '').length : 0;
+      return [
+        {k:'title', ok: (t.length>10 && t.length<130), v: t.length},
+        {k:'description', ok: (len>50 && len<320), v: len},
+        {k:'canonical', ok: !!document.querySelector('link[rel="canonical"]'), v: location.href}
+      ];
     }
-    requestAnimationFrame(loop);
-  }
-  loop();
-})();
-</script>
 
-<script>
-// ========== WELCOME VOICE + ANIMATED TEXT ==========
-window.addEventListener('load', () => {
-  const userLang = (navigator.language || 'id').split('-')[0];
-  const messages = {
-    id: "Selamat Datang Tuan-tuan,Nyonya dan nona-nona yang baik hati, jangan lupa ikuti blog saya ya trima kasiiih!.",
-    en: "Welcome kind gentlemen and ladies, please don't forget to follow my blog.",
-    es: "Bienvenidos amables damas y caballeros, no olviden seguir mi blog.",
-    fr: "Bienvenue chers dames et messieurs, n'oubliez pas de suivre mon blog.",
-    de: "Willkommen meine Damen und Herren, vergessen Sie nicht, meinem Blog zu folgen.",
-    ja: "ご親切な皆様、私のブログをフォローするのをお忘れなく。",
-    zh: "亲爱的先生女士们，欢迎光临，请记得关注我的博客。",
-    ko: "친절한 신사 숙녀 여러분, 제 블로그를 팔로우하는 것을 잊지 마세요."
-  };
-  const greeting = messages[userLang] || messages.id;
+    // Render widget & chart
+    function renderWidget(){
+      if(document.getElementById('aleo-tools')) return;
+      const d = document.createElement('div'); d.id='aleo-tools'; d.className='compact';
+      d.innerHTML = '<div class="card"><h4>SEO & Backlink — ALEO</h4>'
+        + '<input id="a-url" placeholder="Tambah target backlink (https://...)"/>'
+        + '<input id="a-note" placeholder="Catatan (opsional)"/>'
+        + '<button id="a-add">Tambah</button>'
+        + '<div id="aleo-seo-health"><strong>SEO Health:</strong><div id="a-health"></div></div>'
+        + '<canvas id="a-chart" height="80"></canvas>'
+        + '<div style="font-size:11px;margin-top:6px">Data lokal + Google Sheets (optional).</div>'
+        + '<button id="a-exp" style="margin-top:6px">Export CSV</button>'
+        + '</div>';
+      document.body.appendChild(d);
 
-  const msgBox = document.createElement("div");
-  msgBox.id = "welcome-message";
-  msgBox.innerText = greeting;
-  document.body.appendChild(msgBox);
+      function refreshHealth(){
+        const list = seoHealth(); const box = document.getElementById('a-health'); box.innerHTML = '';
+        list.forEach(it => { const el = document.createElement('div'); el.textContent = `• ${it.k}: ${it.ok ? 'OK' : 'Periksa'} (${it.v})`; box.appendChild(el); });
+      }
+      refreshHealth();
 
-  // ding
-  try {
-    const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-    const o = audioCtx.createOscillator(), g = audioCtx.createGain();
-    o.type = "sine"; o.frequency.setValueAtTime(880, audioCtx.currentTime);
-    g.gain.setValueAtTime(0.05, audioCtx.currentTime);
-    o.connect(g); g.connect(audioCtx.destination);
-    o.start(); o.stop(audioCtx.currentTime + 0.28);
-  } catch(e){ /* ignore audio failure */ }
+      document.getElementById('a-add').addEventListener('click', async function(){
+        const url = document.getElementById('a-url').value.trim();
+        const note = document.getElementById('a-note').value.trim();
+        if(!url){ alert('Masukkan URL target backlink.'); return; }
+        await window.ALEO.add(url, note);
+        document.getElementById('a-url').value=''; document.getElementById('a-note').value='';
+        refreshHealth(); redrawChart();
+      });
 
-  // speak
-  setTimeout(() => {
-    try {
-      const synth = window.speechSynthesis;
-      const utter = new SpeechSynthesisUtterance(greeting);
-      utter.lang = userLang + "-" + userLang.toUpperCase();
-      utter.pitch = 1; utter.rate = 1; utter.volume = 1;
-      synth.speak(utter);
-    } catch(e){}
-  }, 2500);
+      document.getElementById('a-exp').addEventListener('click', function(){
+        const s = window.ALEO.get(); const rows = ['url,added,notes'];
+        s.targets.forEach(t => rows.push(`"${t.url}","${t.added}","${(t.notes||'')}"`));
+        const blob = new Blob([rows.join('\n')], {type:'text/csv'}); const u = URL.createObjectURL(blob);
+        const a = document.createElement('a'); a.href = u; a.download = 'aleo-backlinks.csv'; a.click(); URL.revokeObjectURL(u);
+      });
 
-  // remove box after animation
-  setTimeout(()=> msgBox.remove(), 8000);
-});
-</script>
+      // Chart draw
+      function drawChart(){
+        try{
+          const s = window.ALEO.get(); const counts = {};
+          s.targets.forEach(t => { const m = (new Date(t.added)).toISOString().slice(0,7); counts[m] = (counts[m]||0)+1; });
+          const labels = Object.keys(counts).sort(); const data = labels.map(l=>counts[l]);
+          const ctx = document.getElementById('a-chart').getContext('2d');
+          // Destroy existing chart if present to avoid duplicates
+          if(window.ALEO._chart){ try{ window.ALEO._chart.destroy(); }catch(e){} }
+          window.ALEO._chart = new Chart(ctx, {
+            type: 'line',
+            data: { labels: labels, datasets: [{ label: 'Backlinks', data: data, fill: true, tension: 0.3 }] },
+            options:{ plugins:{ legend:{ display:false } }, scales:{ y:{ beginAtZero:true } } }
+          });
+        }catch(e){}
+      }
 
-<script>
-// ========== LIGHT AMBIENT MUSIC (WebAudio) + CONTROL ==========
-(function(){
-  const KEY = 'aleo_music_pref';
-  const control = document.getElementById('music-control');
-  const icon = document.getElementById('music-icon');
-  let audioCtx, masterGain, oscA, oscB, lpf;
-  let playing = false;
-
-  const createAudio = () => {
-    audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-    masterGain = audioCtx.createGain(); masterGain.gain.value = 0.0001; masterGain.connect(audioCtx.destination);
-    lpf = audioCtx.createBiquadFilter(); lpf.type = 'lowpass'; lpf.frequency.value = 1200; lpf.connect(masterGain);
-    oscA = audioCtx.createOscillator(); oscB = audioCtx.createOscillator();
-    oscA.type = 'sine'; oscB.type = 'sine'; oscA.frequency.value = 220; oscB.frequency.value = 220; oscB.detune.value = 5;
-    const gA = audioCtx.createGain(), gB = audioCtx.createGain(); gA.gain.value = 0.5; gB.gain.value = 0.45;
-    oscA.connect(gA); oscB.connect(gB); gA.connect(lpf); gB.connect(lpf);
-    const lfo = audioCtx.createOscillator(), lfoGain = audioCtx.createGain();
-    lfo.type = 'sine'; lfo.frequency.value = 0.05; lfoGain.gain.value = 300;
-    lfo.connect(lfoGain); lfoGain.connect(lpf.frequency);
-    oscA.start(); oscB.start(); lfo.start();
-  };
-
-  const fadeTo = (target, time=1.8) => {
-    if(!masterGain) return;
-    const now = audioCtx.currentTime;
-    masterGain.gain.cancelScheduledValues(now);
-    masterGain.gain.setValueAtTime(masterGain.gain.value, now);
-    masterGain.gain.exponentialRampToValueAtTime(Math.max(target, 0.00001), now + time);
-  };
-
-  const setPlayIcon = (play) => {
-    icon.innerHTML = play
-      ? '<rect x="6" y="5" width="4" height="14" rx="1"></rect><rect x="14" y="5" width="4" height="14" rx="1"></rect>'
-      : '<path d="M5 3v18l15-9L5 3z" />';
-  };
-
-  const startMusic = () => {
-    if(playing) return;
-    try {
-      if(!audioCtx) createAudio();
-      audioCtx.resume().then(() => {
-        fadeTo(0.03, 2.5); playing = true; control.dataset.state = 'on'; setPlayIcon(true); localStorage.setItem(KEY,'on');
-      }).catch(()=> control.classList.remove('hidden'));
-    } catch(e){ control.classList.remove('hidden'); }
-  };
-
-  const stopMusic = () => {
-    if(!playing) return;
-    fadeTo(0.00001, 1.2);
-    setTimeout(()=> { try{ audioCtx.suspend(); }catch(e){} playing=false; control.dataset.state='off'; setPlayIcon(false); localStorage.setItem(KEY,'off'); }, 1400);
-  };
-
-  control.addEventListener('click', () => playing ? stopMusic() : startMusic());
-
-  window.addEventListener('load', () => {
-    const pref = localStorage.getItem(KEY);
-    control.classList.add('hidden');
-    if(pref === 'on' || pref === null) {
-      try {
-        createAudio();
-        audioCtx.resume().then(()=> { fadeTo(0.03,2.5); playing=true; control.classList.remove('hidden'); setPlayIcon(true); }).catch(()=> control.classList.remove('hidden'));
-      } catch(e){ control.classList.remove('hidden'); }
-    } else {
-      control.classList.remove('hidden'); setPlayIcon(false);
+      function redrawChart(){ drawChart(); }
+      drawChart();
+      window.ALEO.redrawChart = redrawChart;
     }
-  });
 
-  window.addEventListener('pagehide', ()=> { try{ audioCtx && audioCtx.close && audioCtx.close(); }catch(e){} });
-})();
-//]]>
-</script>
-    <!-- Meta Pixel Code (Safe for Blogger) -->
-<b:if cond='data:blog.pageType != &quot;preview&quot;'>
-<script type='text/javascript'>
-//<![CDATA[
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '943661851197731');
-fbq('track', 'PageView');
-//]]>
-</script>
-<noscript>
-  <img height='1' src='https://www.facebook.com/tr?id=943661851197731&amp;ev=PageView&amp;noscript=1' style='display:none' width='1'/>
-</noscript>
-</b:if>
-<!-- End Meta Pixel Code -->
-<!-- &#9989; Open Graph Meta for Facebook & Twitter (Valid XML for Blogger) -->
-<meta content='Aleo’s Tube Daily Vlog Anak Rantau' property='og:title'/>
-<meta content='Kisah dan pengalaman anak rantau setiap hari — vlog inspiratif, tips hidup mandiri, dan cerita seru dari Aleo’s Tube.' property='og:description'/>
-<meta content='https://down-tx-id.img.susercontent.com/id-11134207-81ztm-mfqec3kdf7da2d.webp' property='og:image'/>
-<meta content='https://aleos-tube-daily-vlog-anak-rantau.blogspot.com/' property='og:url'/>
-<meta content='website' property='og:type'/>
+    if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', renderWidget); else renderWidget();
 
-<meta content='summary_large_image' name='twitter:card'/>
-<meta content='Aleo’s Tube Daily Vlog Anak Rantau' name='twitter:title'/>
-<meta content='Kisah seru dan inspiratif dari anak rantau — hanya di Aleo’s Tube.' name='twitter:description'/>
-<meta content='https://down-tx-id.img.susercontent.com/id-11134207-81ztm-mfqec3kdf7da2d.webp' name='twitter:image'/>
-<meta content='e6777fd20307132b5c000f195cb92b39' name='p:domain_verify'/>
+  })();
+  ]]>
+  </script>
+
+  <!-- Voice Welcome (multi-language incl. Tetun 'tet') -->
+  <script type='text/javascript'>
+  <![CDATA[
+  (function(){
+    const phrases = {
+      en: 'Hello friend — welcome! I can read this page for you. (Aleo)',
+      id: 'Hai sobat — selamat datang! Aku bisa membacakan halaman ini. (Aleo)',
+      ms: 'Hai kawan — selamat datang! Saya boleh membaca halaman ini untuk anda. (Aleo)',
+      es: 'Hola amigo — bienvenido! Puedo leer la página para ti. (Aleo)',
+      fr: 'Bonjour — bienvenue! Je peux lire la page pour vous. (Aleo)',
+      tet: 'Olá — diak ba! Bem-vinda! (Aleo)'
+    };
+    function speak(msg){
+      try{
+        const u = new SpeechSynthesisUtterance(msg);
+        u.lang = (navigator.language || 'en-US');
+        u.volume = 0.9; u.rate = 0.95; u.pitch = 1;
+        window.speechSynthesis.cancel(); window.speechSynthesis.speak(u);
+      }catch(e){}
+    }
+    function choose(){
+      const code = (navigator.language || 'en').slice(0,2);
+      return phrases[code] || phrases['en'];
+    }
+    let fired=false;
+    function init(){ if(!fired){ speak(choose()); fired = true; } }
+    document.addEventListener('DOMContentLoaded', init);
+    ['click','touchstart','keydown'].forEach(evt => window.addEventListener(evt, init, { once:true }));
+  })();
+  ]]>
+  </script>
+
+  <!-- Auto Translate ALL languages (auto-detect visitor language) -->
+  <script type='text/javascript'>
+  <![CDATA[
+  (function(){
+    if(location.pathname.indexOf('/admin') > -1) return; // don't run on admin pages
+    window.addEventListener('load', function(){
+      try{
+        var s = document.createElement('script');
+        s.src = '//translate.google.com/translate_a/element.js?cb=__gtInit';
+        s.type = 'text/javascript';
+        s.async = true;
+        document.head.appendChild(s);
+      }catch(e){}
+    });
+
+    window.__gtInit = function(){
+      try{
+        // Initialize the widget (UI will be hidden)
+        new google.translate.TranslateElement({ pageLanguage: 'id', autoDisplay: false, layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element');
+
+        // Set cookie used by widget to auto-translate from Indonesian to visitor language
+        var lang = (navigator.language || 'id').slice(0,2);
+        document.cookie = 'googtrans=/id/' + lang + '; path=/;';
+        // Small attempt to trigger the combobox if available
+        setTimeout(function(){
+          try{
+            var el = document.querySelector('.goog-te-combo');
+            if(el){ el.value = lang; el.dispatchEvent(new Event('change')); }
+          }catch(e){}
+        }, 700);
+      }catch(e){}
+    };
+
+    // Hidden placeholder required by the widget
+    var d = document.createElement('div'); d.id = 'google_translate_element'; d.style.display = 'none';
+    document.addEventListener('DOMContentLoaded', function(){ document.body.appendChild(d); });
+  })();
+  ]]>
+  </script>
+
+  <!-- END head -->
 </head>
-<head>
-    <!-- 🔗 Open Graph / Facebook / Pinterest -->
-<meta content='article' property='og:type'/>
-<meta content='Terms of Service — Aleo’s Tube Daily Vlog Anak Rantau' property='og:title'/>
-<meta content='Baca Syarat dan Ketentuan penggunaan situs Aleo’s Tube Daily Vlog Anak Rantau sebelum menggunakan layanan kami.' property='og:description'/>
-<meta content='https://aleos-tube-daily-vlog-anak-rantau.blogspot.com/p/terms-of-service.html' property='og:url'/>
-<meta content='Aleo’s Tube Daily Vlog Anak Rantau' property='og:site_name'/>
-<meta content='https://aleos-tube-daily-vlog-anak-rantau.blogspot.com/favicon.ico' property='og:image'/>
-
-<!-- 🖼&#65039; Pinterest -->
-<meta content='true' name='pinterest-rich-pin'/>
-<meta content='https://www.pinterest.com/aleostube/' property='article:publisher'/>
-<meta content='600' property='og:image:width'/>
-<meta content='315' property='og:image:height'/>
-
-<!-- 🐦 Twitter Card -->
-<meta content='summary' name='twitter:card'/>
-<meta content='Terms of Service — Aleo’s Tube Daily Vlog Anak Rantau' name='twitter:title'/>
-<meta content='Ketahui hak dan kewajiban Anda saat menggunakan situs Aleo’s Tube Daily Vlog Anak Rantau.' name='twitter:description'/>
-<meta content='https://aleos-tube-daily-vlog-anak-rantau.blogspot.com/favicon.ico' name='twitter:image'/>
-<!-- 🔗 Open Graph / Facebook / Pinterest -->
-<meta content='article' property='og:type'/>
-<meta content='Privacy Policy — Aleo’s Tube Daily Vlog Anak Rantau' property='og:title'/>
-<meta content='Pelajari cara Aleo’s Tube mengelola data, cookie, dan kebijakan afiliasi untuk menjaga privasi pengguna.' property='og:description'/>
-<meta content='https://aleos-tube-daily-vlog-anak-rantau.blogspot.com/p/privacy-policy.html' property='og:url'/>
-<meta content='Aleo’s Tube Daily Vlog Anak Rantau' property='og:site_name'/>
-<meta content='https://aleos-tube-daily-vlog-anak-rantau.blogspot.com/favicon.ico' property='og:image'/>
-
-<!-- 🖼&#65039; Pinterest -->
-<meta content='true' name='pinterest-rich-pin'/>
-<meta content='https://www.pinterest.com/aleostube/' property='article:publisher'/>
-<meta content='600' property='og:image:width'/>
-<meta content='315' property='og:image:height'/>
-
-<!-- 🐦 Twitter Card -->
-<meta content='summary' name='twitter:card'/>
-<meta content='Privacy Policy — Aleo’s Tube Daily Vlog Anak Rantau' name='twitter:title'/>
-<meta content='Kebijakan privasi dan cookie di Aleo’s Tube Daily Vlog Anak Rantau untuk melindungi pengalaman pengguna.' name='twitter:description'/>
-<meta content='https://aleos-tube-daily-vlog-anak-rantau.blogspot.com/favicon.ico' name='twitter:image'/>
-  </head>
-  
-  <!-- Google Tag Manager -->
-<script>
-  (function(w,d,s,l,i){
-    w[l]=w[l]||[];
-    w[l].push({&#39;gtm.start&#39;: new Date().getTime(), event:&#39;gtm.js&#39;});
-    var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),
-        dl=l!=&#39;dataLayer&#39; ? &#39;&amp;l=&#39;+l : &#39;&#39;;
-    j.async=true;
-    j.src=&#39;https://www.googletagmanager.com/gtm.js?id=&#39;+i+dl+
-      &#39;&amp;gtm_auth=7_SAhutJuvX_5wv88hZpYg&amp;gtm_preview=env-10&amp;gtm_cookies_win=x&#39;;
-    f.parentNode.insertBefore(j,f);
-  })(window,document,&#39;script&#39;,&#39;dataLayer&#39;,&#39;GTM-WR546M4D&#39;);
-</script>
-<!-- End Google Tag Manager -->
-
-  <head>
-        <!-- Meta Keywords SEO 5000 kata (dibagi 5 tag) -->
-<meta content='produk digital, afiliasi, vlog inspiratif, Aleo’s Tube Store, tutorial, tips, gadget, software, e-book, kursus online, bisnis digital, internet marketing, AI tools, video inspiratif, teknologi, online shop, dropshipping, cryptocurrency, investasi, tutorial online, affiliate marketing, digital product, blog inspiratif, pemasaran online, panduan bisnis, motivasi, kesehatan digital, financial tips, aplikasi mobile, review produk, video edukasi, platform digital, strategi bisnis, SEO, blogging, penghasilan online, marketing digital, content creator, kursus digital, e-learning, webinar, tools AI gratis, software kreatif, affiliate program, review software, bisnis internet, affiliate marketing 2025, digital marketing tools, online learning, gadget terbaru, strategi affiliate, tips blogging, tips monetisasi, inspirasi harian, investasi digital, e-book gratis, video motivasi, produktivitas, teknologi terbaru, kursus online gratis, tips teknologi, aplikasi produktivitas, software terbaru, bisnis kreatif, video tips, affiliate network, alat digital, penghasilan tambahan, tutorial software, e-commerce, strategi digital, marketing online, ide bisnis, kursus kreatif, digital trend, review gadget, vlogging tips, online business, passive income, tools kreatif, affiliate tips, strategi konten, bisnis afiliasi, AI tutorial, kursus AI, belajar digital marketing, digital tools, penghasilan online cepat, review digital product, tutorial teknologi, teknologi AI, blogging tips, inspirasi bisnis, gadget AI, e-learning platform, online income, kursus kreatif gratis, marketing affiliate, vlogger inspiratif, tools AI canggih, motivasi sukses, teknologi terbaru 2025, aplikasi terbaru' name='keywords'/>
-
-<meta content='video edukasi online, kursus internet marketing, tips kreatif, bisnis online sukses, gadget kreatif, video blogging, digital entrepreneurship, tips bisnis online, affiliate marketing tips, tutorial digital, vlogging online, software kreatif gratis, content marketing, strategi bisnis online, penghasilan digital, digital trend 2025, e-learning kreatif, ide penghasilan, tutorial internet marketing, kursus motivasi, teknologi kreatif, penghasilan internet, affiliate program terbaik, tutorial vlogging, video motivasi harian, kursus AI gratis, strategi content, gadget terbaru 2025, blogging kreatif, tips penghasilan online, tools digital gratis, review internet marketing, kursus digital marketing, video edukasi kreatif, tips affiliate, tutorial bisnis online, strategi AI, kursus online inspiratif, e-book kreatif, teknologi internet, blogging sukses, digital tools terbaru, penghasilan pasif, review e-book, tutorial kreatif, bisnis internet sukses, motivasi digital, tools kreatif gratis, strategi penghasilan online, kursus blogging, tips vlogger, video edukasi AI, affiliate sukses, tutorial AI, penghasilan kreatif, teknologi digital, kursus online AI, tips penghasilan digital, marketing kreatif, digital marketing 2025, ide konten, tutorial kreatif online, review software AI, inspirasi penghasilan, bisnis kreatif online, video inspiratif harian, affiliate kreatif, strategi digital marketing, aplikasi internet marketing, tips online business, kursus kreatif AI, blogging motivasi, penghasilan internet kreatif, teknologi kreatif 2025, video edukasi internet, tutorial digital kreatif, review digital tools, bisnis afiliasi sukses, inspirasi teknologi, tutorial internet kreatif, marketing digital kreatif, kursus online motivasi, penghasilan online kreatif' name='keywords'/>
-
-<meta content='tips blogging kreatif, AI tools internet, vlogger sukses, video edukasi motivasi, kursus kreatif internet, strategi affiliate online, e-book digital kreatif, tools internet marketing, penghasilan pasif kreatif, digital entrepreneurship kreatif, tutorial vlogging AI, blogging kreatif 2025, tips teknologi kreatif, video motivasi digital, kursus AI internet, bisnis online kreatif, review tools digital, tutorial marketing kreatif, video inspiratif internet, affiliate marketing kreatif, kursus online sukses, tips bisnis digital kreatif, teknologi AI kreatif, penghasilan digital kreatif, tutorial kreatif 2025, strategi konten kreatif, blogging motivasi digital, tools AI kreatif, video edukasi digital, kursus internet kreatif, inspirasi blogging, digital marketing kreatif, penghasilan online motivasi, tutorial software kreatif, tips vlogging kreatif, affiliate program kreatif, kursus digital kreatif, video motivasi kreatif, teknologi digital kreatif, review AI tools, bisnis kreatif digital, tutorial kreatif internet, strategi marketing kreatif, kursus online digital, penghasilan kreatif online' name='keywords'/>
-
-<meta content='tutorial kreatif internet, blogging kreatif AI, tips penghasilan digital, kursus online motivasi, video edukasi digital kreatif, strategi affiliate kreatif, kursus digital AI, penghasilan kreatif online, tools kreatif gratis, video inspiratif, affiliate sukses, tutorial AI kreatif, blogging motivasi digital, tips blogging kreatif, kursus kreatif internet, teknologi digital AI, video edukasi internet, marketing digital kreatif, penghasilan online kreatif, strategi konten digital, tutorial vlogging AI, blogging kreatif 2025, tools AI kreatif, video edukasi digital, kursus internet kreatif, inspirasi blogging, digital marketing kreatif, penghasilan online motivasi, tutorial software kreatif, tips vlogging kreatif, affiliate program kreatif, kursus digital kreatif, video motivasi kreatif, teknologi digital kreatif, review AI tools, bisnis kreatif digital, tutorial kreatif internet, strategi marketing kreatif, kursus online digital, penghasilan kreatif online' name='keywords'/>
-
-<meta content='tutorial motivasi kreatif, blogging AI, tips penghasilan online, kursus digital AI, video edukasi digital kreatif, strategi affiliate online, kursus online kreatif, penghasilan pasif online, tools kreatif, video inspiratif motivasi, affiliate marketing sukses, tutorial AI internet, blogging motivasi digital, tips blogging kreatif, kursus kreatif internet, teknologi digital AI, video edukasi internet, marketing digital kreatif, penghasilan online kreatif, strategi konten digital, tutorial vlogging AI, blogging kreatif 2025, tools AI kreatif, video edukasi digital, kursus internet kreatif, inspirasi blogging, digital marketing kreatif, penghasilan online motivasi' name='keywords'/>
-<!--End meta keywords SEO 5000 kata (dibagi 5 tag)-->
-<meta content='Aleo&apos;s Tube, vlog harian, anak rantau, pedalaman Kalimantan, kehidupan di perkebunan sawit, daily vlog sederhana, cerita anak perantauan, vlog Kalimantan, keseharian di sawit, kehidupan pedalaman, inspirasi rantau, vlog Indonesia, cerita perantauan, pengalaman kerja sawit' name='keywords'/>
-<!-- &#9989; Meta dasar -->
-<meta content='Sejarah asal-usul kelapa sawit: dari Afrika Barat hingga berkembang pesat di Indonesia. Fakta, perkembangan, dan dampaknya terhadap ekonomi, lingkungan, serta masyarakat.' name='description'/>
-<meta content='sejarah kelapa sawit, asal usul kelapa sawit, kelapa sawit Indonesia, perkebunan sawit, industri sawit, minyak sawit, sejarah perkebunan, ekonomi sawit, sawit Sumatra, sawit dunia' name='keywords'/>
-<meta content='Aleo’s Tube Dayli Vlog Anak Rantau' name='author'/>
-
-<!-- &#9989; Open Graph -->
-<meta content='Sejarah Asal Usul Kelapa Sawit di Indonesia' property='og:title'/>
-<meta content='Asal usul kelapa sawit, dari Afrika hingga berkembang di Indonesia. Fakta sejarah lengkap dan detail.' property='og:description'/>
-<meta content='article' property='og:type'/>
-<meta content='https://www.namabloganda.com/sejarah-kelapa-sawit' property='og:url'/>
-
-<!-- &#9989; Twitter Card -->
-<meta content='summary_large_image' name='twitter:card'/>
-<meta content='Sejarah Asal Usul Kelapa Sawit di Indonesia' name='twitter:title'/>
-<meta content='Dari Afrika Barat hingga Indonesia: sejarah panjang kelapa sawit yang membentuk industri modern.' name='twitter:description'/>
-
-<!-- &#9989; Script auto ambil thumbnail + random fallback -->
-<b:if cond='data:blog.pageType == &quot;item&quot;'>
-  <b:if cond='data:post.firstImageUrl'>
-    <!-- Jika ada gambar pertama di postingan -->
-    <meta expr:content='data:post.firstImageUrl' property='og:image'/>
-    <meta expr:content='data:post.firstImageUrl' name='twitter:image'/>
-  <b:else/>
-    <!-- Jika tidak ada gambar &#8594; random Unsplash -->
-    <script>
-      (function() {
-        var images = [
-          &quot;https://images.unsplash.com/photo-1618477388954-5c58a3b16130?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=1200&amp;q=80&quot;,
-          &quot;https://images.unsplash.com/photo-1635771132116-9c6f5f7d98b1?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=1200&amp;q=80&quot;,
-          &quot;https://images.unsplash.com/photo-1620117799704-ecf95df8333d?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=1200&amp;q=80&quot;
-        ];
-        var chosen = images[Math.floor(Math.random() * images.length)];
-        var og = document.createElement(&quot;meta&quot;);
-        og.setAttribute(&quot;property&quot;, &quot;og:image&quot;);
-        og.setAttribute(&quot;content&quot;, chosen);
-        document.head.appendChild(og);
-
-        var tw = document.createElement(&quot;meta&quot;);
-        tw.setAttribute(&quot;name&quot;, &quot;twitter:image&quot;);
-        tw.setAttribute(&quot;content&quot;, chosen);
-        document.head.appendChild(tw);
-      })();
-    </script>
-  </b:if>
 </b:if>
-<!-- &#9989; Meta dasar -->
-<meta content='Sejarah asal-usul kelapa sawit: dari Afrika Barat hingga berkembang pesat di Indonesia. Fakta, perkembangan, dan dampaknya terhadap ekonomi, lingkungan, serta masyarakat.' name='description'/>
-  </head>
-  <!-- Google Tag Manager -->
-<script>
-(function(w,d,s,l,i){
-  w[l]=w[l]||[];
-  w[l].push({&#39;gtm.start&#39;: new Date().getTime(), event:&#39;gtm.js&#39;});
-  var f = d.getElementsByTagName(s)[0],
-      j = d.createElement(s),
-      dl = l!=&#39;dataLayer&#39; ? &#39;&amp;l=&#39;+l : &#39;&#39;;
-  j.async = true;
-  j.src = &#39;https://www.googletagmanager.com/gtm.js?id=&#39; + i + dl;
-  f.parentNode.insertBefore(j, f);
-})(window, document, &#39;script&#39;, &#39;dataLayer&#39;, &#39;GTM-MKB9TPDR&#39;);
-</script>
-<!-- End Google Tag Manager -->
-<!-- Google Tag Manager -->
-<script>
-(function(w,d,s,l,i){
-  w[l]=w[l]||[];
-  w[l].push({&#39;gtm.start&#39;: new Date().getTime(), event:&#39;gtm.js&#39;});
-  var f = d.getElementsByTagName(s)[0],
-      j = d.createElement(s),
-      dl = l!=&#39;dataLayer&#39; ? &#39;&amp;l=&#39;+l : &#39;&#39;;
-  j.async = true;
-  j.src = &#39;https://www.googletagmanager.com/gtm.js?id=&#39; + i + dl;
-  f.parentNode.insertBefore(j, f);
-})(window, document, &#39;script&#39;, &#39;dataLayer&#39;, &#39;GTM-MKB9TPDR&#39;);
-</script>
-<!-- End Google Tag Manager -->
-
-  <head>
-    <meta expr:content='data:blog.isMobile         ? &quot;width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0&quot;         : &quot;width=1100&quot;' name='viewport'/>
-    <b:include data='blog' name='all-head-content'/>
-    <title><data:blog.pageTitle/></title>
-
-    <b:skin><![CDATA[/*-----------------------------------------------
-
-Blogger Template Style
-Name:     Picture Window
-Designer: Blogger
-URL:      www.blogger.com
------------------------------------------------ */
-
-/* Variable definitions
-   ====================
-   <Variable name="keycolor" description="Main Color" type="color" default="#1a222a" value="#f57c00"/>
-   <Variable name="body.background" description="Body Background" type="background"
-       color="$(body.background.color)" default="#111111 url(//themes.googleusercontent.com/image?id=1OACCYOE0-eoTRTfsBuX1NMN9nz599ufI1Jh0CggPFA_sK80AGkIr8pLtYRpNUKPmwtEa) repeat-x fixed top center" value="#fafafa url(//themes.googleusercontent.com/image?id=1iJBX-a-hBX2tKaDdERpElPUmvb4r5MDX9lEx06AA-UtZIQCYziZg3PFbmOyt-g2sH8Jo) repeat-x fixed top center"/>
-<script>
-(function(){
-  // Bahasa utama blog (ganti 'id' kalau blog utama bukan Indonesia)
-  const siteLang = 'id';
-
-  // Deteksi bahasa browser pengunjung
-  const userLang = (navigator.language || navigator.userLanguage || 'en').split('-')[0];
-
-  // Kalau sama dengan bahasa utama, tidak usah redirect
-  if(userLang === siteLang) return;
-
-  // Biar tidak looping saat sudah di translate.google
-  if(window.location.hostname.includes("translate.google")) return;
-
-  // Redirect otomatis ke Google Translate
-  const url = encodeURIComponent(window.location.href);
-  const translateUrl = 'https://translate.google.com/translate?sl=auto&tl=' + encodeURIComponent(userLang) + '&u=' + url;
-  window.location.href = translateUrl;
-})();
-</script>
-
-   <Group description="Page Text" selector="body">
-     <Variable name="body.font" description="Font" type="font"
-         default="normal normal 15px Arial, Tahoma, Helvetica, FreeSans, sans-serif" value="normal normal 17px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
-     <Variable name="body.text.color" description="Text Color" type="color" default="#333333" value="#5f5f5f"/>
-   </Group>
-
-   <Group description="Backgrounds" selector=".body-fauxcolumns-outer">
-     <Variable name="body.background.color" description="Outer Background" type="color" default="#296695" value="#b76d32"/>
-     <Variable name="header.background.color" description="Header Background" type="color" default="transparent" value="rgba(90,90,90,0)"/>
-     <Variable name="post.background.color" description="Post Background" type="color" default="#ffffff" value="#ffffff"/>
-   </Group>
-
-   <Group description="Links" selector=".main-outer">
-     <Variable name="link.color" description="Link Color" type="color" default="#336699" value="#b67a3d"/>
-     <Variable name="link.visited.color" description="Visited Color" type="color" default="#6699cc" value="#d1a375"/>
-     <Variable name="link.hover.color" description="Hover Color" type="color" default="#33aaff" value="#ff9446"/>
-   </Group>
-
-   <Group description="Blog Title" selector=".header h1">
-     <Variable name="header.font" description="Title Font" type="font"
-         default="normal normal 36px Arial, Tahoma, Helvetica, FreeSans, sans-serif" value="normal normal 48px &#39;Times New Roman&#39;, Times, FreeSerif, serif"/>
-     <Variable name="header.text.color" description="Text Color" type="color" default="#ffffff"  value="#a3a3a3"/>
-   </Group>
-
-   <Group description="Tabs Text" selector=".tabs-inner .widget li a">
-     <Variable name="tabs.font" description="Font" type="font"
-         default="normal normal 15px Arial, Tahoma, Helvetica, FreeSans, sans-serif" value="normal normal 15px Georgia, Utopia, &#39;Palatino Linotype&#39;, Palatino, serif"/>
-     <Variable name="tabs.text.color" description="Text Color" type="color" default="#ffffff" value="#327bb7"/>
-     <Variable name="tabs.selected.text.color" description="Selected Color" type="color" default="$(link.color)" value="#ffffff"/>
-   </Group>
-
-   <Group description="Tabs Background" selector=".tabs-outer .PageList">
-     <Variable name="tabs.background.color" description="Background Color" type="color" default="transparent" value="transparent"/>
-     <Variable name="tabs.selected.background.color" description="Selected Color" type="color" default="transparent" value="rgba(90,90,90,0)"/>
-     <Variable name="tabs.separator.color" description="Separator Color" type="color" default="transparent" value="transparent"/>
-   </Group>
-
-   <Group description="Post Title" selector="h3.post-title, .comments h4">
-     <Variable name="post.title.font" description="Title Font" type="font"
-         default="normal normal 18px Arial, Tahoma, Helvetica, FreeSans, sans-serif" value="normal normal 18px Georgia, Utopia, &#39;Palatino Linotype&#39;, Palatino, serif"/>
-   </Group>
-
-   <Group description="Date Header" selector=".date-header">
-     <Variable name="date.header.color" description="Text Color" type="color" default="$(body.text.color)" value="#cccccc"/>
-   </Group>
-
-   <Group description="Post" selector=".post">
-     <Variable name="post.footer.text.color" description="Footer Text Color" type="color" default="#999999" value="#a3a3a3"/>
-     <Variable name="post.border.color" description="Border Color" type="color" default="#dddddd" value="#e2e2e2"/>
-   </Group>
-
-   <Group description="Gadgets" selector="h2">
-     <Variable name="widget.title.font" description="Title Font" type="font"
-        default="bold normal 13px Arial, Tahoma, Helvetica, FreeSans, sans-serif" value="normal normal 18px Georgia, Utopia, &#39;Palatino Linotype&#39;, Palatino, serif"/>
-     <Variable name="widget.title.text.color" description="Title Color" type="color" default="#888888" value="#949494"/>
-   </Group>
-
-   <Group description="Footer" selector=".footer-outer">
-     <Variable name="footer.text.color" description="Text Color" type="color" default="#cccccc" value="#d2d2d2"/>
-     <Variable name="footer.widget.title.text.color" description="Gadget Title Color" type="color" default="#aaaaaa" value="#b2b2b2"/>
-   </Group>
-
-   <Group description="Footer Links" selector=".footer-outer">
-     <Variable name="footer.link.color" description="Link Color" type="color" default="#99ccee" value="#f0c2a4"/>
-     <Variable name="footer.link.visited.color" description="Visited Color" type="color" default="#77aaee" value="#f0c284"/>
-     <Variable name="footer.link.hover.color" description="Hover Color" type="color" default="#33aaff" value="#ff9446"/>
-   </Group>
-
-   <Variable name="content.margin" description="Content Margin Top" type="length" default="20px" min="0" max="100px" value="0"/>
-   <Variable name="content.padding" description="Content Padding" type="length" default="0" min="0" max="100px" value="10px"/>
-   <Variable name="content.background" description="Content Background" type="background"
-       default="transparent none repeat scroll top left" value="transparent url(https://resources.blogblog.com/blogblog/data/1kt/transparent/black50.png) repeat scroll top left"/>
-   <Variable name="content.border.radius" description="Content Border Radius" type="length" default="0" min="0" max="100px" value="0"/>
-   <Variable name="content.shadow.spread" description="Content Shadow Spread" type="length" default="0" min="0" max="100px" value="3px"/>
-
-   <Variable name="header.padding" description="Header Padding" type="length" default="0" min="0" max="100px" value="30px"/>
-   <Variable name="header.background.gradient" description="Header Gradient" type="url"
-       default="none" value="none"/>
-   <Variable name="header.border.radius" description="Header Border Radius" type="length" default="0" min="0" max="100px" value="0"/>
-
-   <Variable name="main.border.radius.top" description="Main Border Radius" type="length" default="20px" min="0" max="100px" value="0"/>
-   <Variable name="footer.border.radius.top" description="Footer Border Radius Top" type="length" default="0" min="0" max="100px" value="0"/>
-   <Variable name="footer.border.radius.bottom" description="Footer Border Radius Bottom" type="length" default="20px" min="0" max="100px" value="0"/>
-   <Variable name="region.shadow.spread" description="Main and Footer Shadow Spread" type="length" default="3px" min="0" max="100px" value="0"/>
-   <Variable name="region.shadow.offset" description="Main and Footer Shadow Offset" type="length" default="1px" min="-50px" max="50px" value="0"/>
-
-   <Variable name="tabs.background.gradient" description="Tab Background Gradient" type="url" default="none" value="none"/>
-   <Variable name="tab.selected.background.gradient" description="Selected Tab Background" type="url"
-       default="url(https://resources.blogblog.com/blogblog/data/1kt/transparent/white80.png)" value="none"/>
-   <Variable name="tab.background" description="Tab Background" type="background"
-       default="transparent url(https://resources.blogblog.com/blogblog/data/1kt/transparent/black50.png) repeat scroll top left" value="transparent none no-repeat scroll top left"/>
-
-   <Variable name="tab.border.radius" description="Tab Border Radius" type="length" default="10px" min="0" max="100px" value="0"/>
-   <Variable name="tab.first.border.radius" description="First Tab Border Radius" type="length" default="10px" min="0" max="100px" value="0"/>
-   <Variable name="tabs.border.radius" description="Tabs Border Radius" type="length" default="0" min="0" max="100px" value="0"/>
-
-   <Variable name="tabs.spacing" description="Tab Spacing" type="length" default=".25em" min="0" max="10em" value="0"/>
-   <Variable name="tabs.margin.bottom" description="Tab Margin Bottom" type="length" default="0" min="0" max="100px" value="1em"/>
-   <Variable name="tabs.margin.sides" description="Tab Margin Sides" type="length" default="20px" min="0" max="100px" value="15px"/>
-
-   <Variable name="main.background" description="Main Background" type="background"
-       default="transparent url(https://resources.blogblog.com/blogblog/data/1kt/transparent/white80.png) repeat scroll top left" value="transparent none repeat scroll top center"/>
-   <Variable name="main.padding.sides" description="Main Padding Sides" type="length" default="20px" min="0" max="100px" value="20px"/>
-
-   <Variable name="footer.background" description="Footer Background" type="background"
-       default="transparent url(https://resources.blogblog.com/blogblog/data/1kt/transparent/black50.png) repeat scroll top left" value="transparent none repeat scroll top center"/>
-
-   <Variable name="post.margin.sides" description="Post Margin Sides" type="length" default="-20px" min="-50px" max="50px" value="-20px"/>
-   <Variable name="post.border.radius" description="Post Border Radius" type="length" default="5px" min="0" max="100px" value="0"/>
-   <Variable name="widget.title.text.transform" description="Widget Title Text Transform" type="string" default="uppercase" value="none"/>
-
-   <Variable name="mobile.background.overlay" description="Mobile Background Overlay" type="string"
-       default="transparent none repeat scroll top left" value="transparent none repeat scroll top left"/>
-
-   <Variable name="startSide" description="Side where text starts in blog language" type="automatic" default="left"/>
-   <Variable name="endSide" description="Side where text ends in blog language" type="automatic" default="right"/>
-*/
-
-/* Content
------------------------------------------------ */
-body {
-  font: $(body.font);
-  color: $(body.text.color);
-  background: $(body.background);
-}
-
-html body .region-inner {
-  min-width: 0;
-  max-width: 100%;
-  width: auto;
-}
-
-.content-outer {
-  font-size: 90%;
-}
-
-a:link {
-  text-decoration:none;
-  color: $(link.color);
-}
-
-a:visited {
-  text-decoration:none;
-  color: $(link.visited.color);
-}
-
-a:hover {
-  text-decoration:underline;
-  color: $(link.hover.color);
-}
-
-.content-outer {
-  background: $(content.background);
-
-  -moz-border-radius: $(content.border.radius);
-  -webkit-border-radius: $(content.border.radius);
-  -goog-ms-border-radius: $(content.border.radius);
-  border-radius: $(content.border.radius);
-
-  -moz-box-shadow: 0 0 $(content.shadow.spread) rgba(0, 0, 0, .15);
-  -webkit-box-shadow: 0 0 $(content.shadow.spread) rgba(0, 0, 0, .15);
-  -goog-ms-box-shadow: 0 0 $(content.shadow.spread) rgba(0, 0, 0, .15);
-  box-shadow: 0 0 $(content.shadow.spread) rgba(0, 0, 0, .15);
-
-  margin: $(content.margin) auto;
-}
-
-.content-inner {
-  padding: $(content.padding);
-}
-
+                          
 /* Header
 ----------------------------------------------- */
 .header-outer {
