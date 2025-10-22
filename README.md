@@ -1,21 +1,17 @@
-<xml version="10" encoding="UTF-8" ?>
-<!DOCTYPE html>
-<html b:version='2' class='v2' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
-<?xml version="1.0" encoding="UTF-8" ?>
+<xml version="10.5" encoding="UTF-8" />
 <!DOCTYPE html>
 <html b:version='2' class='v2' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
 <b:if cond='data:blog'>
 <head>
-  <!-- =========================================================
-  🤖 ALEO'S TUBE — SEO MAX HEAD v10.5 (FULL READY)
-  - XML-safe for Blogger (CDATA where needed)
-  - GA4, JSON-LD, Open Graph, Twitter Card
-  - Auto Voice Welcome (multi-language incl. Tetun)
-  - Auto Translate (auto detect visitor language, hides UI)
-  - Backlink Tracker widget + Chart.js
-  - Sync added backlinks to Google Sheets via Apps Script Web App
-  ========================================================= -->
-
+<!-- ALEO'S TUBE — SEO MAX HEAD v10.5 (FULL READY)
+🤖 Features:
+• XML-safe for Blogger (uses CDATA where needed)
+• GA4, JSON-LD, Open Graph, Twitter Card
+• Auto Voice Welcome (multi-language incl. Tetun)
+• Auto Translate (auto detect visitor language, hides UI)
+• Backlink Tracker widget + Chart.js
+• Sync added backlinks to Google Sheets via Apps Script Web App
+-->
   <!-- Basic -->
   <meta charset='UTF-8'/>
   <meta name='viewport' content='width=device-width, initial-scale=1'/>
