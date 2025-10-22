@@ -1,17 +1,23 @@
-<xml version="10.5" encoding="UTF-8" />
+          <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
 <html b:version='2' class='v2' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
 <b:if cond='data:blog'>
 <head>
-<!-- ALEO'S TUBE — SEO MAX HEAD v10.5 (FULL READY)
-🤖 Features:
-• XML-safe for Blogger (uses CDATA where needed)
-• GA4, JSON-LD, Open Graph, Twitter Card
-• Auto Voice Welcome (multi-language incl. Tetun)
-• Auto Translate (auto detect visitor language, hides UI)
-• Backlink Tracker widget + Chart.js
-• Sync added backlinks to Google Sheets via Apps Script Web App
--->
+
+  <!-- NOTE: Header info moved to a safe text block to avoid XML comment restrictions -->
+  <script type="text/plain">
+  <![CDATA[
+  ALEO'S TUBE — SEO MAX HEAD v10.5 (FULL READY)
+  Features:
+  - XML-safe for Blogger (CDATA where needed)
+  - GA4, JSON-LD, Open Graph, Twitter Card
+  - Auto Voice Welcome (multi-language incl. Tetun)
+  - Auto Translate (auto detect visitor language, hides UI)
+  - Backlink Tracker widget + Chart.js
+  - Sync added backlinks to Google Sheets via Apps Script Web App
+  ]]>
+  </script>
+
   <!-- Basic -->
   <meta charset='UTF-8'/>
   <meta name='viewport' content='width=device-width, initial-scale=1'/>
@@ -160,7 +166,7 @@
 
       function refreshHealth(){
         const list = seoHealth(); const box = document.getElementById('a-health'); box.innerHTML = '';
-        list.forEach(it => { const el = document.createElement('div'); el.textContent = `• ${it.k}: ${it.ok ? 'OK' : 'Periksa'} (${it.v})`; box.appendChild(el); });
+        list.forEach(it => { const el = document.createElement('div'); el.textContent = '• ' + it.k + ': ' + (it.ok ? 'OK' : 'Periksa') + ' (' + it.v + ')'; box.appendChild(el); });
       }
       refreshHealth();
 
@@ -175,7 +181,7 @@
 
       document.getElementById('a-exp').addEventListener('click', function(){
         const s = window.ALEO.get(); const rows = ['url,added,notes'];
-        s.targets.forEach(t => rows.push(`"${t.url}","${t.added}","${(t.notes||'')}"`));
+        s.targets.forEach(t => rows.push('"' + t.url + '","' + t.added + '","' + (t.notes||'') + '"'));
         const blob = new Blob([rows.join('\n')], {type:'text/csv'}); const u = URL.createObjectURL(blob);
         const a = document.createElement('a'); a.href = u; a.download = 'aleo-backlinks.csv'; a.click(); URL.revokeObjectURL(u);
       });
@@ -187,7 +193,6 @@
           s.targets.forEach(t => { const m = (new Date(t.added)).toISOString().slice(0,7); counts[m] = (counts[m]||0)+1; });
           const labels = Object.keys(counts).sort(); const data = labels.map(l=>counts[l]);
           const ctx = document.getElementById('a-chart').getContext('2d');
-          // Destroy existing chart if present to avoid duplicates
           if(window.ALEO._chart){ try{ window.ALEO._chart.destroy(); }catch(e){} }
           window.ALEO._chart = new Chart(ctx, {
             type: 'line',
@@ -213,12 +218,12 @@
   <![CDATA[
   (function(){
     const phrases = {
-      en: 'Hello friend — welcome! I can read this page for you. (Aleo)',
-      id: 'Hai sobat — selamat datang! Aku bisa membacakan halaman ini. (Aleo)',
-      ms: 'Hai kawan — selamat datang! Saya boleh membaca halaman ini untuk anda. (Aleo)',
-      es: 'Hola amigo — bienvenido! Puedo leer la página para ti. (Aleo)',
-      fr: 'Bonjour — bienvenue! Je peux lire la page pour vous. (Aleo)',
-      tet: 'Olá — diak ba! Bem-vinda! (Aleo)'
+      en: 'Hello friend - welcome! I can read this page for you. (Aleo)',
+      id: 'Hai sobat - selamat datang! Aku bisa membacakan halaman ini. (Aleo)',
+      ms: 'Hai kawan - selamat datang! Saya boleh membaca halaman ini untuk anda. (Aleo)',
+      es: 'Hola amigo - bienvenido! Puedo leer la página para ti. (Aleo)',
+      fr: 'Bonjour - bienvenue! Je peux lire la page pour vous. (Aleo)',
+      tet: 'Ola - diak ba! Bem-vinda! (Aleo)'
     };
     function speak(msg){
       try{
@@ -244,7 +249,7 @@
   <script type='text/javascript'>
   <![CDATA[
   (function(){
-    if(location.pathname.indexOf('/admin') > -1) return; // don't run on admin pages
+    if(location.pathname.indexOf('/admin') > -1) return;
     window.addEventListener('load', function(){
       try{
         var s = document.createElement('script');
@@ -257,13 +262,9 @@
 
     window.__gtInit = function(){
       try{
-        // Initialize the widget (UI will be hidden)
         new google.translate.TranslateElement({ pageLanguage: 'id', autoDisplay: false, layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element');
-
-        // Set cookie used by widget to auto-translate from Indonesian to visitor language
         var lang = (navigator.language || 'id').slice(0,2);
         document.cookie = 'googtrans=/id/' + lang + '; path=/;';
-        // Small attempt to trigger the combobox if available
         setTimeout(function(){
           try{
             var el = document.querySelector('.goog-te-combo');
@@ -273,7 +274,6 @@
       }catch(e){}
     };
 
-    // Hidden placeholder required by the widget
     var d = document.createElement('div'); d.id = 'google_translate_element'; d.style.display = 'none';
     document.addEventListener('DOMContentLoaded', function(){ document.body.appendChild(d); });
   })();
@@ -283,7 +283,7 @@
   <!-- END head -->
 </head>
 </b:if>
-                          
+ 
 /* Header
 ----------------------------------------------- */
 .header-outer {
