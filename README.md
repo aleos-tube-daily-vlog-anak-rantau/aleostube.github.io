@@ -1,3 +1,89 @@
+# 🔥 Aleo’s Tube Network  
+### Backlink + Affiliate Tracker v1.0  
+_Integrating Blog, YouTube & Affiliate SEO Growth_
+
+![Aleo’s Tube Network Banner](Aleo's_Tube_Network_Banner.png)
+
+---
+
+## 📊 Tentang Proyek
+**Aleo’s Tube Network Tracker** membantu kreator, blogger, dan affiliate marketer mengelola backlink, afiliasi, serta performa SEO lintas platform secara efisien.
+
+Proyek ini dibuat untuk menghubungkan seluruh aset digital — mulai dari **blog**, **YouTube channel**, hingga **link afiliasi** — dalam satu sistem pelacakan yang mudah digunakan, transparan, dan otomatis.
+
+> 💡 “Empowering creators to build influence through smart SEO & affiliate growth.”
+
+---
+
+## 🚀 Fitur Utama
+✅ Template **Google Sheets** untuk pelacakan backlink & afiliasi  
+✅ Integrasi lintas platform: Blog, YouTube, Shopee, Digistore24  
+✅ Tampilan visual profesional dengan gradasi merah–oranye khas Aleo’s Tube  
+✅ Lisensi **MIT** — bebas digunakan dan dimodifikasi  
+✅ Optimasi SEO bawaan (meta tags, rich snippet-ready)
+
+---
+
+## 📂 Struktur Proyek
+📁 Aleos-Tube-Network/
+│
+├── index.html # Landing page untuk GitHub Pages
+├── Aleo's_Tube_Network_Banner.png # Header/banner resmi
+├── LICENSE # Lisensi MIT
+└── README.md # Dokumentasi proyek (file ini)
+
+---
+
+## 🔗 Akses Cepat
+
+| 🔧 Aksi | 🌍 Link |
+|:--|:--|
+| 📊 **Buka Template Google Sheets** | [Klik di sini](https://docs.google.com/spreadsheets/d/1-EXAMPLE-TEMPLATE-ID/edit?usp=sharing) |
+| 💾 **Lihat di GitHub Pages** | [aleostube.github.io/backlink-tracker](https://aleostube.github.io/backlink-tracker) |
+| 🧠 **Baca Dokumentasi** | [README.md](README.md) |
+
+---
+
+## 🌐 Jejaring & Afiliasi
+
+| 🌍 Platform | 🔗 Link |
+|:--|:--|
+| 🎥 YouTube | [@Daily_vlog_anak_rantau](https://www.youtube.com/@Daily_vlog_anak_rantau) |
+| 📘 Facebook | [Aleostube Page](https://web.facebook.com/Aleostube/) |
+| 🐦 X (Twitter) | [@aleostube](https://x.com/aleostube) |
+| 📌 Pinterest | [Aleostube on Pinterest](https://id.pinterest.com/aleostube) |
+| 🛒 Shopee Affiliate | [Produk Pilihan Shopee](https://s.shopee.co.id/2qMAn4T7k8) |
+| 💰 Digistore24 Affiliate | [Affiliate Hub](https://www.digistore24-app.com/app/en/affiliate/Aleostube) |
+
+---
+
+## 🛠️ Teknologi & Tools
+- HTML5 + CSS3
+- Google Sheets Integration
+- GitHub Pages Deployment
+- MIT Open Source License
+
+---
+
+## ⚖️ Lisensi
+Proyek ini dilindungi oleh **[MIT License](LICENSE)**.  
+Silakan gunakan, modifikasi, dan distribusikan — dengan tetap mencantumkan kredit kepada **Aleo’s Tube Network**.
+
+---
+
+## 💬 Tentang Penulis
+👤 **Aleo’s Tube**  
+📺 Kreator konten & penulis digital  
+🌏 Membagikan pengetahuan, pengalaman, dan inspirasi dari kehidupan perantauan  
+📧 Hubungi: **aleostube@gmail.com**
+
+> 🌠 “Belajar, berbagi, dan tumbuh bersama — satu backlink dan satu ide setiap hari.”
+
+---
+
+⭐ _Jika proyek ini bermanfaat, jangan lupa kasih bintang di repo GitHub kamu!_  
+#AleoTube #SEO #AffiliateMarketing #BacklinkTracker #CreatorTools
+
           <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
 <html b:version='2' class='v2' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
